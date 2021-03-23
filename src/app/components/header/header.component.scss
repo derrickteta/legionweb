@@ -1,11 +1,11 @@
 #nav-bar{
     position: sticky;
     top:0;
-    z-index: 10;
+    z-index: 40;
 }
 
 .navbar{
-    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    background-image: linear-gradient(to right, #FFF, #F8F8FF);
     padding : 0 !important;
 } 
 
@@ -17,14 +17,14 @@
     padding: 0 10px;
 }
 .navbar-nav li a {
-    color:#fff !important;
+    color:#010206 !important;
     font-weight:600;
     float: right;
     text-align:left;
 
 } 
 .fa-bars{
-    color:#fff;
+    color:#010206;
     font-size: 30px !important;
 }
 .navbar-toggler{
