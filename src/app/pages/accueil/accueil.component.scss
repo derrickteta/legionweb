@@ -31,12 +31,25 @@
     color: black;
 }
 .service-img{
-    width: 100px;
+    max-width: 30px;
+    max-height: 3S0px;
     margin-top: 20px;
-
+}
+.cont-services{
+   display: inline-block;
+    max-width: 15%;
+    max-height:15%;
+    background-color:#f2f2f2;
+    margin:5px;
+    word-wrap: break-word;
 }
 .services{
-    padding:20px;
+    height:80%;
+    overflow:hidden;
+    margin:auto;
+    padding:10px;
+    border-style: outset;
+    text-align: justify;
 }
 .services h4{
     padding:5px;

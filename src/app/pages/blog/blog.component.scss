@@ -1,0 +1,72 @@
+/*---------Banner Section---------*/
+#banner{
+    background-image: linear-gradient(to right, #FFF,#f8f8f8);
+    color:#000;
+    padding-top:5%;
+}
+.title1{
+    font-size: 40px;
+    font-weight: 600px;
+    margin-top:100px;
+}
+.play-btn{
+    width:45px;
+    margin: 20px;
+}
+#banner a{
+    color: #000;
+    text-decoration: none;
+}
+.bottom-img{
+    width: 100%;
+}
+.imgbanner{
+    display: flex;
+    align-self: end;
+}
+
+
+
+/**articles*/
+.avantart{
+    display: flex;
+    justify-content: space-between ;
+
+}
+.listeart{
+    flex:1;
+}
+h6{
+    display: flex;
+    align-self: center;
+    font-size: 80%;
+}
+.auteurart{
+    display: flex;
+}
+.article{
+     display: flex;
+     justify-content: space-between ;
+     margin:10px;   
+     border-bottom: 1px gainsboro solid;
+     padding:60px;
+}
+.articleimg{
+     height: 50px;
+     width: 50px;
+     border-radius: 50%;
+     margin-left: 5%;
+}
+.arttexte{
+    margin-left: 5%;
+}
+.article h3{
+    display:block;
+    width: 90%;
+    margin:auto;
+}
+.article p {
+    width: 90%;
+    margin:auto;
+    text-align: justify;
+}

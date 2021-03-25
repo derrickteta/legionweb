@@ -7,6 +7,7 @@ import { ServicesComponent } from './pages/services/services.component';
 import { EquipeComponent } from './pages/equipe/equipe.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { ClientsComponent } from './pages/clients/clients.component';
+import { BlogComponent } from './pages/blog/blog.component';
 
 const routes: Routes = [
   {
@@ -23,7 +24,18 @@ const routes: Routes = [
   },
   {
     path:"clients", component:ClientsComponent
+  },
+  {
+    path:"blog", component:BlogComponent
+  },
+  { 
+    path: '',   redirectTo: '/first-component', pathMatch: 'full' 
+  },
+  { 
+    path: '**', component:AccueilComponent
   }
+
+
 ];
 
 @NgModule({
