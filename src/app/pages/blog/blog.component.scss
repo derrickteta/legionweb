@@ -13,7 +13,7 @@
     width:45px;
     margin: 20px;
 }
-#banner a{
+#banner a{  
     color: #000;
     text-decoration: none;
 }
@@ -31,42 +31,89 @@
 .avantart{
     display: flex;
     justify-content: space-between ;
-
+    margin-top:20%;
+}
+.avantart ul{
+    list-style: none;
+    margin-top: 5%;
+    width: 100%;
 }
 .listeart{
     flex:1;
+    padding-left :3%;
 }
+.artli {
+    display: flex;
+    align-self: center;
+    font-size: 1.5em;
+    margin:10% 0 10% 0;
+    border-top: 2px gainsboro solid;
+    padding:10% 0 10% 0;
+}
+
+.firstart{
+    display:flex;
+    flex-direction: column;
+    align-self: center;
+    flex:2;
+    border-right: 2px gainsboro solid;
+    padding-right:3%
+}
+/**css de la barre de recherce*/
+.rechercher{
+    display:flex;
+    width: 100%;
+    height: 7%;
+    margin-bottom:10%;
+}
+
+/*fin barre de recherche*/
+.firstart h3,p{
+    display: flex;
+    align-self: center;
+    text-align:center;
+}
+.listeart h3{
+    display:block;
+    width:100%;
+    height:10%;
+    padding:10% 0 10% 0;
+}
+
 h6{
     display: flex;
     align-self: center;
     font-size: 80%;
+    margin-left:3%;
 }
 .auteurart{
     display: flex;
+    margin-top:5%;
 }
 .article{
      display: flex;
-     justify-content: space-between ;
-     margin:10px;   
-     border-bottom: 1px gainsboro solid;
-     padding:60px;
+     justify-content: space-between ;  
+     border-bottom: 2px gainsboro solid;
+     padding:10% 0 10% 0;
 }
 .articleimg{
      height: 50px;
      width: 50px;
      border-radius: 50%;
-     margin-left: 5%;
 }
 .arttexte{
-    margin-left: 5%;
+    margin-left: 10%;
+    padding-top:0;
 }
 .article h3{
     display:block;
+    padding-top:0;
     width: 90%;
-    margin:auto;
+    margin-left:0;
 }
 .article p {
+    padding-top:0;
     width: 90%;
-    margin:auto;
+    margin-left:0;
     text-align: justify;
 }
