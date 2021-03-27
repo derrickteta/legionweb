@@ -7,7 +7,7 @@
 .title1{
     font-size: 40px;
     font-weight: 600px;
-    margin-top:100px;
+    margin-top:5%;
 }
 .play-btn{
     width:45px;
@@ -26,36 +26,47 @@
 }
 /*---------Services---------*/
 #services{
-    padding:80px 0;
     background-color: #FFF;
     color: black;
+    margin:5%;
 }
-.service-img{
-    max-width: 30px;
-    max-height: 3S0px;
-    margin-top: 20px;
-}
-.cont-services{
-   display: inline-block;
-    max-width: 15%;
-    max-height:15%;
-    background-color:#f2f2f2;
-    margin:5px;
-    word-wrap: break-word;
-}
-.services{
-    height:80%;
-    overflow:hidden;
-    margin:auto;
-    padding:10px;
+.colservices{
+    min-height:350px;
+    
+    min-width: 200px;
     border-style: outset;
+    margin:2% 15px 0 0;
+    padding:0;
+    
+}
+
+.colservices img{
+    display:flex;
+    width: 90%;
+    height: 40%;
+    margin:auto;
+}
+.colservices p{
+    display:flex;
+    align-self:start;
+    width:90%;
+    margin:auto;
+    text-align: center;
+}
+.colservices h4{
+    margin:5%;
+    text-align: center;
+} 
+.services{
+    height:90%;
+    margin:auto;
+    padding:20px;
     text-align: justify;
 }
-.services h4{
-    padding:5px;
-    margin-top:25px;
-    text-transform: uppercase;
-} 
+.title{
+    display: block;
+    margin-bottom:6%;
+}
 .title::before{
     content:'';
     background:#868686;
