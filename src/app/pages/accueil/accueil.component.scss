@@ -92,9 +92,16 @@
 
 }
 #services .btn-primary{
+    margin-top:5%;
     box-shadow: none;
     padding:8px 25px;
     border:none;
     border-radius: 20px;
     background-image: linear-gradient(to right, #1b2c19,#113D0F);
 } 
+.afterservices{
+    width:80%;
+    margin:auto;
+    align-self: center;
+    margin-top:5%;
+}
