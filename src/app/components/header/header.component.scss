@@ -2,12 +2,16 @@
     font-family: "Buckey_Free";
     src: url("../../../assets/polices/titre/Buckey_Free.ttf") format("truetype");
 }
+@font-face {
+    font-family: "Louis George Cafe Bold";
+    src: url("../../../assets/polices/corps/Louis George Cafe Bold.ttf") format("truetype");
+    font-size:normal;
+}
 #nav-bar{
     position: sticky;
     top:0;
     z-index: 40;
 }
-
 .navbar{
     background-image: linear-gradient(to right, #000F44, #000F44);
     padding : 0 !important;
@@ -26,22 +30,27 @@
     height: 85px;
     padding-left: 20px;
 }
-.navbar-nav li {
+.navbarli{
     font-family:"Buckey_Free", Arial, Helvetica, sans-serif;
     font-size:1.2em;
     padding: 0 10px;
 }
-.navbar-nav li a {
+.navbarli a {
     color:#FFF !important;
-    font-weight:600;
+    font-weight:normal;
     float: right;
     text-align:left;
-
 } 
 .fa-bars{
     color:#FFF;
     font-size: 30px !important;
 }
-.navbar-toggler{
+/*.navbar-toggler{
     outline: none !important;
-}   
+} */  
+.deroulerservice{
+    display:flex;
+    font-family: "Louis George Cafe Bold", Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #000F44, #000F44);
+    color:black !important;
+}

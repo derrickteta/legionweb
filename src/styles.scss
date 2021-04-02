@@ -1,22 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
-@font-face {
-    font-family: "Buckey_Free";
-    src: url("assets/polices/titre/Buckey_Free.ttf") format("truetype");
-}
-@font-face {
-    font-family: "Louis George Cafe Bold";
-    src: url("assets/polices/corps/Louis George Cafe Bold.ttf") format("truetype");
-    font-size:normal;
-    background-image: linear-gradient(to bottom,  #F5F5F5,#F5F5F5);
-}
 body
 {
     margin:0;
     padding:0;
     font-size:1.3em;
     background-image: linear-gradient(to bottom,#F5F5F5,#F5F5F5);
-    font-family: "Louis George Cafe Bold", Arial, Helvetica, sans-serif;
-    filter:brightness(99%);
 }
 
 
