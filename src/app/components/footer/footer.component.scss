@@ -1,12 +1,24 @@
+@font-face {
+    font-family: "Buckey_Free";
+    src: url("../../../assets/polices/titre/Buckey_Free.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Louis George Cafe Bold";
+    src: url("../../../assets/polices/corps/Louis George Cafe Bold.ttf") format("truetype");
+    font-size:normal;
+}
+
+
 footer{
-    background-image: linear-gradient(to right,#EE271B,#F79C1B);
-    color: #fff;
-    border:none;
-    border-bottom: #fff;
+    background-image: linear-gradient(to bottom,#fbfbfb, #000F44);
+    color: #000;
+    border-top:solid 1px #000F44;
     border-radius:100px 100px 0 0;
-    margin-bottom: 0;
+    margin:0;
     padding-top:50px;
+    padding-bottom:5px;
     width: 100%;
+    font-family: "Louis George Cafe Bold", Arial, Helvetica, sans-serif;
     
 }
 .footer-img{
@@ -19,12 +31,13 @@ footer{
 .footer-box .fa {
   margin-right: 8px;
   font-size: 15px;
+  color: #f5f5f5;
   height: 20px;
   width: 20px;
   text-align:center;
   padding-top:3px;
   border-radius: 2px;
-  background-image: linear-gradient(to right,  #EE271B,#F79C1B);
+  background-image: linear-gradient(to bottom,#475DE6, #000F44);
     
 }
 .footer-box .form-control{
@@ -39,8 +52,8 @@ footer{
     border:none;
     border-radius: 0;
     margin-top: 30px;
-    background-image: linear-gradient(to right,  #1b2c19,#113D0F);
-   
+    background-image: linear-gradient(to bottom,#475DE6, #000F44);
+    font-family:"Buckey_Free", Arial, Helvetica, sans-serif;
 }
 hr{
     background-color:#fff;
@@ -49,9 +62,10 @@ hr{
     margin-bottom: 0;
     width: 100%;
     padding-bottom: 1px;
-    border-top: black 1px;
-    color: black;
+    border-top: #f2f2f2 1px;
+    color: #f2f2f2;
     text-align: center;
+    font-family:"Buckey_Free", Arial, Helvetica, sans-serif;
 }
 a{
     color :white;
