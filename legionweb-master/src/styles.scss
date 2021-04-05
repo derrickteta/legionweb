@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+body
+{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    padding:0;
+    margin:0;
+    font-size:1.3em;
+    background-image: linear-gradient(to bottom,#F5F5F5,#F5F5F5);
+    min-width: 100vh;
+}
+
+
