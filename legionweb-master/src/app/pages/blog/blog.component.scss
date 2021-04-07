@@ -1,12 +1,3 @@
-@font-face {
-    font-family: "Buckey_Free";
-    src: url("../../../assets/polices/titre/Buckey_Free.ttf") format("truetype");
-}
-@font-face {
-    font-family: "Louis George Cafe Bold";
-    src: url("../../../assets/polices/corps/Louis George Cafe Bold.ttf") format("truetype");
-    font-size:normal;
-}
 
 /*---------Banner Section---------*/
 #banner{
@@ -15,16 +6,13 @@
     padding-top:5%;
     background:url(../../../assets/image/banner3.jpg) no-repeat top center scroll;
     height: 5%;
-    font-family: "Louis George Cafe Bold", Arial, Helvetica, sans-serif;
-    min-height: 640px;
-    min-width: 110vh;
+    min-height: 430px;
     margin:0;
 }
 #banner h1{
     color:white;
     font-size: 2em;
     text-align: center;
-    font-family:"Buckey_Free", Arial, Helvetica, sans-serif;
 }
 /*contenu du blog*/
 .contenublog{
@@ -70,7 +58,7 @@
   .search input[type=text]{
     background-color:none;
     color:#0c0456; 
-    width:300px;
+    width:120%;
     height:60px;
     border: 2px gainsboro solid;
 
@@ -79,7 +67,6 @@
     display:flex;
     align-self: center;
     position:relative;
-    //padding-left: 5%;
 }
 .search button{
     background-image: linear-gradient(to bottom,  #fff,#f5f5f5);

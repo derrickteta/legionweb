@@ -1,22 +1,33 @@
-@font-face {
-    font-family: "Buckey_Free";
-    src: url("../../../assets/polices/titre/Buckey_Free.ttf") format("truetype");
-}
-@font-face {
-    font-family: "Louis George Cafe Bold";
-    src: url("../../../assets/polices/corps/Louis George Cafe Bold.ttf") format("truetype");
-    font-size:normal;
-}
 #nav-bar{
+    background-image: linear-gradient(to right, #000F44, #000F44);
+    //background-image: linear-gradient(to right, #FE6F5F, #FFF4D8);
+    padding:0;
     position: sticky;
     top:0;
     z-index: 40;
-    min-width: 110vh;
+}
+.navcont{
+    height:100%;
+    margin:0 !important;
+    padding:0 !important;
 }
 .navbar{
+    height: 100%;
+    margin:0 7% 0 0 !important;
     background-image: linear-gradient(to right, #000F44, #000F44);
+    //background-image: linear-gradient(to right, #FE6F5F, #FFF4D8);
     padding : 0 !important;
 } 
+.navbar ul{
+    height:100%;
+    margin:0;
+    padding:0;
+}
+#navbarNav{
+    height:100;
+    margin:0;
+    padding:0;
+}
 
 .navbar img{
     display:flex;
@@ -32,18 +43,24 @@
     padding-left: 20px;
 }
 .navbarli{
-    font-family:"Buckey_Free", Arial, Helvetica, sans-serif;
+    height: 100%;
+    margin-top:0;
     font-size:1.2em;
     padding: 0 10px;
 }
+.navbarli :hover{
+    background-image: linear-gradient(to right,#0069D9, #0069D9);
+}
 .navbarli a {
     color:#FFF !important;
+    //color:#0069D9;
     font-weight:normal;
     float: right;
     text-align:left;
 } 
 .fa-bars{
     color:#FFF;
+    //color:#0069D9;
     font-size: 30px !important;
 }
 /*.navbar-toggler{
@@ -51,7 +68,18 @@
 } */  
 .deroulerservice{
     display:flex;
-    font-family: "Louis George Cafe Bold", Arial, Helvetica, sans-serif;
     background-image: linear-gradient(to right, #000F44, #000F44);
     color:black !important;
 }
+.btnprimary{
+    position:relative;
+    bottom:10px;
+    color:white;
+    margin-top:2%;
+    box-shadow: none;
+    padding:8px 25px;
+    border:none;
+    border-radius: 20px;
+    background-image:none;
+    background-color: none;
+} 
