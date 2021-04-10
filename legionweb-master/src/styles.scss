@@ -12,9 +12,14 @@ body
     margin:0;
     font-size:16px;
     font-weight:400;
-    background-image: linear-gradient(to bottom,  #fff,#f5f5f5);
+    color:#000;
+    //background-image: linear-gradient(to bottom,  #fff,#f5f5f5);
+     background-image: linear-gradient(to bottom,  #FAF7F2,#FAF7F2);
     min-width: 100vh;
     font-family: "Open Sans Regular",Helvetica, sans-serif !important;
+}
+p{
+    font-size:17px;
 }
 
 

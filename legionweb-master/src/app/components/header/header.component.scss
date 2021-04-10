@@ -1,6 +1,7 @@
 #nav-bar{
-    background-image: linear-gradient(to right, #000F44, #000F44);
-    //background-image: linear-gradient(to right, #FE6F5F, #FFF4D8);
+    //background-image: linear-gradient(to right, #000F44, #000F44);
+    //background-image: linear-gradient(to right, #D8A24A, #D8A24A);
+    background-image: linear-gradient(to right, #0A1F5E, #0A1F5E);
     padding:0;
     position: sticky;
     top:0;
@@ -14,8 +15,9 @@
 .navbar{
     height: 100%;
     margin:0 7% 0 0 !important;
-    background-image: linear-gradient(to right, #000F44, #000F44);
-    //background-image: linear-gradient(to right, #FE6F5F, #FFF4D8);
+    //background-image: linear-gradient(to right, #000F44, #000F44);
+    //background-image: linear-gradient(to right, #D8A24A, #D8A24A);
+    background-image: linear-gradient(to right, #0A1F5E, #0A1F5E);
     padding : 0 !important;
 } 
 .navbar ul{
@@ -49,18 +51,21 @@
     padding: 0 10px;
 }
 .navbarli :hover{
-    background-image: linear-gradient(to right,#0069D9, #0069D9);
+
+    text-decoration: underline;
+    text-decoration-color:#D8A24A;
+    text-decoration-thickness:3px;
 }
 .navbarli a {
-    color:#FFF !important;
-    //color:#0069D9;
+    color:#fff !important;
+    //color:#0A1F5E;
     font-weight:normal;
     float: right;
     text-align:left;
 } 
 .fa-bars{
-    color:#FFF;
-    //color:#0069D9;
+    color:#fff;
+    //color:#0A1F5E;
     font-size: 30px !important;
 }
 /*.navbar-toggler{
