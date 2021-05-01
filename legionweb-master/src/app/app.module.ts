@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -13,6 +14,8 @@ import { ServicesComponent } from './pages/services/services.component';
 import { BlogComponent } from './pages/blog/blog.component';
 import { ArticlesComponent } from './components/articles/articles.component';
 import { BannerComponent } from './components/banner/banner.component';
+
+
 
 @NgModule({
   declarations: [
@@ -30,7 +33,8 @@ import { BannerComponent } from './components/banner/banner.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
