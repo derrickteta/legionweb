@@ -14,6 +14,10 @@ import { ServicesComponent } from './pages/services/services.component';
 import { BlogComponent } from './pages/blog/blog.component';
 import { ArticlesComponent } from './components/articles/articles.component';
 import { BannerComponent } from './components/banner/banner.component';
+import { PlandevolComponent } from './pages/plandevol/plandevol.component';
+import { EntonnoirComponent } from './pages/entonnoir/entonnoir.component';
+import { AcquisitionComponent } from './pages/acquisition/acquisition.component';
+import { PilotageComponent } from './pages/pilotage/pilotage.component';
 
 
 
@@ -29,7 +33,11 @@ import { BannerComponent } from './components/banner/banner.component';
     ServicesComponent,
     BlogComponent,
     ArticlesComponent,
-    BannerComponent
+    BannerComponent,
+    PlandevolComponent,
+    EntonnoirComponent,
+    AcquisitionComponent,
+    PilotageComponent
   ],
   imports: [
     BrowserModule,

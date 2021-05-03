@@ -8,6 +8,10 @@ import { EquipeComponent } from './pages/equipe/equipe.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { ClientsComponent } from './pages/clients/clients.component';
 import { BlogComponent } from './pages/blog/blog.component';
+import { PlandevolComponent } from './pages/plandevol/plandevol.component';
+import { EntonnoirComponent } from './pages/entonnoir/entonnoir.component';
+import { AcquisitionComponent } from './pages/acquisition/acquisition.component';
+import { PilotageComponent } from './pages/pilotage/pilotage.component';
 
 const routes: Routes = [
   {
@@ -20,7 +24,16 @@ const routes: Routes = [
     path:"equipe", component: EquipeComponent
   },
   {
-    path:"services", component:ServicesComponent
+    path:"plandevol", component:PlandevolComponent
+  },
+  {
+    path:"entonnoir", component:EntonnoirComponent
+  },
+  {
+    path:"acquisition", component:AcquisitionComponent
+  },
+  {
+    path:"pilotage", component:PilotageComponent
   },
   {
     path:"clients", component:ClientsComponent
