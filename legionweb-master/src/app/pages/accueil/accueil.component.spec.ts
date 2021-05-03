@@ -5,7 +5,7 @@ import { AccueilComponent } from './accueil.component';
 describe('AccueilComponent', () => {
   let component: AccueilComponent;
   let fixture: ComponentFixture<AccueilComponent>;
-
+  
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       declarations: [ AccueilComponent ]
