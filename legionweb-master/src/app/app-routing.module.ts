@@ -18,22 +18,25 @@ const routes: Routes = [
     path:"", component: AccueilComponent
   },
   {
+    path:"home", component: AccueilComponent
+  },
+  {
     path:"contact" , component: ContactComponent
   },
   {
     path:"equipe", component: EquipeComponent
   },
   {
-    path:"plandevol", component:PlandevolComponent
+    path:"service/plandevol", component:PlandevolComponent
   },
   {
-    path:"entonnoir", component:EntonnoirComponent
+    path:"service/entonnoir", component:EntonnoirComponent
   },
   {
-    path:"acquisition", component:AcquisitionComponent
+    path:"service/acquisition", component:AcquisitionComponent
   },
   {
-    path:"pilotage", component:PilotageComponent
+    path:"service/pilotage", component:PilotageComponent
   },
   {
     path:"clients", component:ClientsComponent

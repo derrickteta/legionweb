@@ -1,133 +1,160 @@
-
 /*---------Banner Section---------*/
-#banner{
-    color:#f2f2f2;
-    background-color:#0c0456;
-    padding-top:5%;
-    background:url(../../../assets/image/banner12.png) no-repeat top center scroll;
+
+#banner {
+    color: #f2f2f2;
+    background-color: #0c0456;
+    padding-top: 5%;
+    background: url(../../../assets/image/banner12.png) no-repeat top center scroll;
     height: 5%;
-    min-height: 430px;
-    margin:0;
+    min-height: 360px;
+    margin: 0;
 }
-#banner h1{
-    color:white;
+
+#banner h1 {
+    display: block;
+    margin-left: 40%;
+    font-weight: bold;
+    color: #0c0456;
     font-size: 2em;
     text-align: center;
 }
+
+
 /*contenu du blog*/
-.contenublog{
-    background-image: linear-gradient(to bottom,  #fff,#f5f5f5);
-    color:#0c0456;
-    margin:0 6% 4% 6%;
+
+.contenublog {
+    background-image: linear-gradient(to bottom, #fff, #f5f5f5);
+    color: #0c0456;
+    margin: 0 6% 4% 6%;
 }
+
 //articles
-.avantart{
+.avantart {
     display: flex;
-    justify-content: space-between ;
+    justify-content: space-between;
 }
-.avantart ul, h3 {
+
+.avantart ul,
+h3 {
     list-style: none;
-    display:flex;
+    display: flex;
     flex-direction: column;
-    align-items:center;
+    align-items: center;
     text-align: left;
 }
-.listeart{
+
+.listeart {
     display: flex;
     flex-direction: column;
-    flex:1;
-    padding:0 2% 0 2%
+    flex: 1;
+    padding: 0 2% 0 2%
 }
+
 .artli {
     display: flex;
     align-self: center;
     font-size: 1.5em;
     border-top: 2px gainsboro solid;
-    padding:10% 0 10% 0;
+    padding: 10% 0 10% 0;
 }
 
-.firstart{
-    display:flex;
+.firstart {
+    display: flex;
     flex-direction: column;
     align-self: center;
-    flex:2;
+    flex: 2;
     border-right: 2px gainsboro solid;
-    padding-right:3%;
-    max-height:20%;
+    padding-right: 3%;
+    max-height: 20%;
 }
-.firstart h3,p{
+
+.firstart h3,
+p {
     display: flex;
     align-self: center;
-    text-align:center;
+    text-align: center;
 }
-  /* styling search bar */
-  .search input[type=text]{
-    background-color:none;
-    color:#0c0456; 
-    width:120%;
-    height:60px;
-    border: 2px gainsboro solid;
 
+
+/* styling search bar */
+
+.search input[type=text] {
+    background-color: none;
+    color: #0c0456;
+    width: 120%;
+    height: 60px;
+    border: 2px gainsboro solid;
 }
-.search{
-    display:flex;
+
+.search {
+    display: flex;
     align-self: center;
-    position:relative;
+    position: relative;
 }
-.search button{
-    background-image: linear-gradient(to bottom,  #fff,#f5f5f5);
-    color:#0c0456;
-    position:absolute;
-    bottom:15px;
-    right:1px;
+
+.search button {
+    background-image: linear-gradient(to bottom, #fff, #f5f5f5);
+    color: #0c0456;
+    position: absolute;
+    bottom: 15px;
+    right: 1px;
     padding: 5px 10px;
     margin-right: 16px;
     font-size: 12px;
     border: none;
     cursor: pointer;
 }
+
+
 /*fin barre de recherche*/
-.listeart h3{
-    display:block;
-    width:100%;
-    height:10%;
-    padding:10% 0 10% 0;
+
+.listeart h3 {
+    display: block;
+    width: 100%;
+    height: 10%;
+    padding: 10% 0 10% 0;
 }
 
-h6{
+h6 {
     display: flex;
     align-self: center;
     font-size: 80%;
-    margin-left:3%;
+    margin-left: 3%;
 }
-.auteurart{
+
+.auteurart {
     display: flex;
-    margin-top:5%;
+    margin-top: 5%;
 }
-.article{
-     display: flex;
-     justify-content: space-between ;  
-     border-bottom: 2px gainsboro solid;
-     padding:10% 0 10% 0;
+
+.article {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px gainsboro solid;
+    padding: 10% 0 10% 0;
 }
-.articleimg{
-     height: 50px;
-     width: 50px;
-     border-radius: 50%;
+
+.articleimg {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
 }
-.arttexte{
+
+.arttexte {
     margin-left: 10%;
-    padding-top:0;
+    padding-top: 0;
 }
-.article h3{
-    display:block;
-    padding-top:0;
+
+.article h3 {
+    display: block;
+    padding-top: 0;
     width: 90%;
-    margin-left:0;
+    margin-left: 0;
 }
+
 .article p {
-    padding-top:0;
+    padding-top: 0;
     width: 90%;
-    margin-left:0;
+    margin-left: 0;
     text-align: justify;
 }

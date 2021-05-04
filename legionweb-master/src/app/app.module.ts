@@ -18,6 +18,13 @@ import { PlandevolComponent } from './pages/plandevol/plandevol.component';
 import { EntonnoirComponent } from './pages/entonnoir/entonnoir.component';
 import { AcquisitionComponent } from './pages/acquisition/acquisition.component';
 import { PilotageComponent } from './pages/pilotage/pilotage.component';
+import { SuccesComponent } from './components/succes/succes.component';
+import { ClientComponent } from './components/client/client.component';
+import { ParlentdenousComponent } from './components/parlentdenous/parlentdenous.component';
+import { DiscuterComponent } from './components/discuter/discuter.component';
+import { EquipesComponent } from './components/equipes/equipes.component';
+import { RetourexpComponent } from './components/retourexp/retourexp.component';
+import { NewsletterComponent } from './components/newsletter/newsletter.component';
 
 
 
@@ -37,7 +44,14 @@ import { PilotageComponent } from './pages/pilotage/pilotage.component';
     PlandevolComponent,
     EntonnoirComponent,
     AcquisitionComponent,
-    PilotageComponent
+    PilotageComponent,
+    SuccesComponent,
+    ClientComponent,
+    ParlentdenousComponent,
+    DiscuterComponent,
+    EquipesComponent,
+    RetourexpComponent,
+    NewsletterComponent
   ],
   imports: [
     BrowserModule,
