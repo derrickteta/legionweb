@@ -23,6 +23,10 @@
     text-align: center;
 }
 
+#banner p {
+    font-weight: bold;
+}
+
 #banner li {
     color: white;
     font-size: 0.9em;
@@ -56,7 +60,7 @@
     transform: translateY(16px);
     width: 33px;
     height: 4px;
-    background: #0A1F5E;
+    background: #D8A24A;
     margin-right: 1px;
     //border-radius: 50px;
 }
@@ -158,8 +162,14 @@ h1 {
     margin-top: 1%;
     box-shadow: none;
     padding: 8px 25px;
+    background-color: #0A1F5E;
+    font-weight: bold;
     //border:none;
     //border-radius: 20px;
+}
+
+.btn-primary:hover {
+    background-color: #4D9AD5;
 }
 
 .afterservices {
