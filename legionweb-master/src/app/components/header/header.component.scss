@@ -1,6 +1,6 @@
 #nav-bar {
-    //background-image: linear-gradient(to right, #000F44, #000F44);
-    background-image: linear-gradient(to right, #4D9AD5, #4D9AD5);
+    background-image: linear-gradient(to right, #f2f2f2, #f2f2f2);
+    //background-image: linear-gradient(to right, #4D9AD5, #4D9AD5);
     //background-image: linear-gradient(to right, #0A1F5E, #0A1F5E);
     padding: 0;
     position: sticky;
@@ -16,9 +16,9 @@
 
 .navbar {
     height: 100%;
-    margin: 0 7% 0 0 !important;
-    //background-image: linear-gradient(to right, #000F44, #000F44);
-    background-image: linear-gradient(to right, #4D9AD5, #4D9AD5);
+    //margin: 0 10% 0 0 !important;
+    background-image: linear-gradient(to right, #f2f2f2, #f2f2f2);
+    //background-image: linear-gradient(to right, #4D9AD5, #4D9AD5);
     //background-image: linear-gradient(to right, #0A1F5E, #0A1F5E);
     padding: 0 !important;
 }
@@ -38,46 +38,44 @@
 .navbar img {
     display: flex;
     height: 75%;
-    align-self: start;
+    align-self: center;
     padding: 0;
-    margin-top: 0;
+    margin: 0 100px 0 0;
 }
 
 .navbar-brand {
     height: 85px;
-    padding-left: 20px;
 }
 
 .navbarli {
     height: 100%;
-    margin-top: 0;
     font-size: 1.2em;
-    padding: 0 10px;
+    margin: 0 7% 0 0;
 }
 
 .navbarli :hover {
     text-decoration: underline;
-    text-decoration-color: #D8A24A;
+    text-decoration-color: #4D9AD5;
     text-decoration-thickness: 3px;
 }
 
 .active {
     text-decoration: underline;
-    text-decoration-color: #D8A24A;
+    text-decoration-color: #4D9AD5;
     text-decoration-thickness: 3px;
 }
 
 .navbarli a {
-    color: #fff !important;
+    color: #0A1F5E !important;
     //color:#0A1F5E;
-    font-weight: normal;
+    font-weight: bold;
     float: right;
     text-align: left;
 }
 
 .fa-bars {
-    color: #fff;
-    //color:#0A1F5E;
+    //color: #CAA64D;
+    color: #0A1F5E;
     font-size: 30px !important;
 }
 
