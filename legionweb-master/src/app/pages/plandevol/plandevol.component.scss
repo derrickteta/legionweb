@@ -1,5 +1,8 @@
 /* @font-face kit by Fonts2u (https://fonts2u.com)
-*/ /* @font-face {font-family:"Open Sans";
+*/
+
+
+/* @font-face {font-family:"Open Sans";
 	src:url("assets/polices/OpenSans-Regular.eot?") format("eot"),
 	url("assets/polices/OpenSans-Regular.woff") format("woff"),
 	url("assets/polices/OpenSans-Regular.ttf") format("truetype"),
@@ -107,6 +110,7 @@
         z-index: 9;
         transition: all .2s;
     }*/
+<<<<<<< HEAD
     #section2a
     {
         background: #FAFAFD;
@@ -209,3 +213,99 @@
         display: inline-block;
         vertical-align: top;
     }
+=======
+
+#section2a {
+    background: #FAFAFD;
+    padding: 180px 0px 80px 50px;
+}
+
+#section2a .imgvol {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#section2a .vol {
+    display: inline-block;
+    margin-left: 230px;
+    line-height: 30px;
+    color: #040e47;
+}
+
+.lexique_entenoir {
+    font-weight: bold;
+}
+
+h2 {
+    display: inline-block;
+    padding-left: 30px;
+    margin-bottom: 40px;
+    color: #040e47;
+    font-family: 'LatoBlack', sans-serif !important;
+    font-size: 30px !important;
+    vertical-align: top;
+    font-weight: bold;
+}
+
+#section3a {
+    padding: 80px 0px 80px 50px;
+}
+
+#section3a .vol3 {
+    display: inline-block;
+    line-height: 30px;
+}
+
+#section3a .imgvol3 {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 200px;
+}
+
+#section4a {
+    padding: 80px 0px 80px 50px;
+    background: #FAFAFD;
+}
+
+#section4a .vol4 {
+    display: inline-block;
+    line-height: 30px;
+    margin-left: 200px;
+}
+
+#section4a .imgvol4 {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#section5a {
+    padding: 80px 0px 80px 50px;
+}
+
+#section5a .vol5 {
+    display: inline-block;
+    line-height: 30px;
+}
+
+#section5a .imgvol5 {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 200px;
+}
+
+#section6a {
+    padding: 80px 0px 80px 100px;
+    background: #FAFAFD;
+}
+
+#section6a .vol6 {
+    display: inline-block;
+    line-height: 30px;
+    margin-left: 200px;
+}
+
+#section6a .imgvol6 {
+    display: inline-block;
+    vertical-align: top;
+}
+>>>>>>> 9e14761e003cd8869fcfa965faf692743eae110f

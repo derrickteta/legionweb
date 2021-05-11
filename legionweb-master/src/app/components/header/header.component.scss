@@ -1,106 +1,72 @@
-#nav-bar {
-    //background-image: linear-gradient(to right, #000F44, #000F44);
-    background-image: linear-gradient(to right, #4D9AD5, #4D9AD5);
-    //background-image: linear-gradient(to right, #0A1F5E, #0A1F5E);
+#Navbar {
+    background-image: linear-gradient(to right, #F9F7F2, #F9F7F2);
     padding: 0;
-    position: sticky;
+    margin: 0;
+    width: 100%;
+    height: 90px;
+    position: fixed;
     top: 0;
-    z-index: 40;
-}
-
-.navcont {
-    height: 100%;
-    margin: 0 !important;
-    padding: 0 !important;
-}
-
-.navbar {
-    height: 100%;
-    margin: 0 7% 0 0 !important;
-    //background-image: linear-gradient(to right, #000F44, #000F44);
-    background-image: linear-gradient(to right, #4D9AD5, #4D9AD5);
-    //background-image: linear-gradient(to right, #0A1F5E, #0A1F5E);
-    padding: 0 !important;
-}
-
-.navbar ul {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-#navbarNav {
-    height: 100;
-    margin: 0;
-    padding: 0;
+    z-index: 9999999;
 }
 
 .navbar img {
+    position: relative;
+    top: 2px;
     display: flex;
-    height: 75%;
-    align-self: start;
+    height: 85%;
+    align-self: center;
     padding: 0;
-    margin-top: 0;
+    margin: 0 100px 0 0;
 }
 
 .navbar-brand {
-    height: 85px;
-    padding-left: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    height: 73px;
+}
+
+#navbarNav {
+    height: 82px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .navbarli {
-    height: 100%;
-    margin-top: 0;
-    font-size: 1.2em;
-    padding: 0 10px;
-}
-
-.navbarli :hover {
-    text-decoration: underline;
-    text-decoration-color: #D8A24A;
-    text-decoration-thickness: 3px;
-}
-
-.active {
-    text-decoration: underline;
-    text-decoration-color: #D8A24A;
-    text-decoration-thickness: 3px;
+    display: flex;
+    align-self: center;
+    padding: 0;
+    height: 82px;
+    font-size: 1.1em;
+    margin: 0 10% 0 0;
 }
 
 .navbarli a {
-    color: #fff !important;
-    //color:#0A1F5E;
-    font-weight: normal;
-    float: right;
-    text-align: left;
+    display: block;
+    padding-top: 30px;
+    height: 100%;
+    width: 100%;
+    color: #0A1F5E;
+    font-weight: bold;
 }
 
 .fa-bars {
-    color: #fff;
-    //color:#0A1F5E;
-    font-size: 30px !important;
+    color: #0A1F5E;
+    font-size: 30px;
 }
-
-
-/*.navbar-toggler{
-    outline: none !important;
-} */
 
 .deroulerservice {
     display: flex;
-    background-image: linear-gradient(to right, #000F44, #000F44);
-    color: black !important;
+    height: 70%;
+    background-image: linear-gradient(to right, #F9F7F2, #F9F7F2);
+    color: #0A1F5E;
 }
 
-.btnprimary {
-    position: relative;
-    bottom: 10px;
-    color: white;
-    margin-top: 2%;
-    box-shadow: none;
-    padding: 8px 25px;
-    border: none;
-    border-radius: 20px;
-    background-image: none;
-    background-color: none;
+.active {
+    border-bottom: solid #4D9AD5 3px;
+}
+
+.navbarli :hover {
+    background-image: linear-gradient(to bottom, #F7C270, #CAA64D);
 }

@@ -1,59 +1,55 @@
-<div id="nav-bar">
+<div id="Navbar">
     <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid navcont">
-            <a class="navbar-brand" href="#"><img src="assets/image/logo4.png"></a>
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="assets/image/logo.png"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                  <i class="fa fa-bars"></i>
              </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
+                <ul class="navbar-nav md-auto">
                     <li class="nav-item navbarli">
                         <a class="nav-link " aria-current="page" routerLink="home" [routerLinkActive]="['active']">HOME</a>
                     </li>
-                    <li class="nav-item navbarli">
-                        <a class="nav-link" routerLinkActive="active" [routerLinkActive]="['active']">
-                            <div class="dropdown">
-                                <button class="btn btnprimary" type="button" data-bs-toggle="dropdown">
+                    <li class="nav-item dropdown navbarli">
+                        <a class="nav-link" data-bs-toggle="dropdown">
                                   SERVICES
-                              </button>
-                                <ul class="dropdown-menu">
-                                    <li class="deroulerservice">
-                                        <img src="assets/image/logo4.png">
-                                        <a class="dropdown-item" routerLink="service/plandevol" [routerLinkActive]="['service']">Plan de Vol<br><br>Persona - Storytelling - Cycle de vie<br>
-                                          Client - Process internes - Objectifs <br> SMART
-                                      </a>
-                                    </li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li class="deroulerservice">
-                                        <img src="assets/image/logo4.png">
-                                        <a class="dropdown-item deroulerservice" routerLink="service/entonnoir" [routerLinkActive]="['service']">Etonnoir de conversation<br><br>
-                                           inbound Marketing - Site Web -<br> Landing pages - Marketing <br>Automation 
-                                           - Sales Enablement
-                                      </a>
-                                    </li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li class="deroulerservice">
-                                        <img src="assets/image/logo4.png">
-                                        <a class="dropdown-item deroulerservice" routerLink="service/acquisition" [routerLinkActive]="['service']">Acquisition <br><br> SEO - SEA - Content Marketing - Social <br>
-                                           Media & Ads - eMailing - Growth hacking<br>
-                                      </a>
-                                    </li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li class="deroulerservice">
-                                        <img src="assets/image/logo4.png">
-                                        <a class="dropdown-item deroulerservice" routerLink="service/pilotage" [routerLinkActive]="['service']">Pilotage <br><br> CRM - Tableau de bord - BI -<br> 
-                                           Recrutement - Marque employeur
-                                    </a>
-                                    </li>
-                                </ul>
-                            </div>
                         </a>
+                        <div class="dropdown-menu">
+                            <div class="deroulerservice">
+                                <img src="assets/image/logo4.png">
+                                <a class="dropdown-item" routerLink="service/plandevol" [routerLinkActive]="['active']">Plan de Vol<br><br>Persona - Storytelling - Cycle de vie<br>
+                                      Client - Process internes - Objectifs <br> SMART
+                                </a>
+                            </div>
+                            <div>
+                                <hr class="dropdown-divider">
+                            </div>
+                            <div class="deroulerservice">
+                                <img src="assets/image/logo4.png">
+                                <a class="dropdown-item deroulerservice" routerLink="service/entonnoir" [routerLinkActive]="['service']">Etonnoir de conversation<br><br>
+                                       inbound Marketing - Site Web -<br> Landing pages - Marketing <br>Automation 
+                                       - Sales Enablement
+                                  </a>
+                            </div>
+                            <div>
+                                <hr class="dropdown-divider">
+                            </div>
+                            <div class="deroulerservice">
+                                <img src="assets/image/logo4.png">
+                                <a class="dropdown-item deroulerservice" routerLink="service/acquisition" [routerLinkActive]="['service']">Acquisition <br><br> SEO - SEA - Content Marketing - Social <br>
+                                       Media & Ads - eMailing - Growth hacking<br>
+                                  </a>
+                            </div>
+                            <div>
+                                <hr class="dropdown-divider">
+                            </div>
+                            <div class="deroulerservice">
+                                <img src="assets/image/logo4.png">
+                                <a class="dropdown-item deroulerservice" routerLink="service/pilotage" [routerLinkActive]="['service']">Pilotage <br><br> CRM - Tableau de bord - BI -<br> 
+                                       Recrutement - Marque employeur
+                                </a>
+                            </div>
+                        </div>
                     </li>
                     <li class="nav-item navbarli">
                         <a class="nav-link" routerLink="clients" [routerLinkActive]="['active']">CLIENTS</a>
@@ -68,6 +64,7 @@
                         <a class="nav-link" routerLink="contact" [routerLinkActive]="['active']">CONTACTS</a>
                     </li>
                 </ul>
+
             </div>
         </div>
     </nav>
