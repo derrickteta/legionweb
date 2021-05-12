@@ -1,0 +1,19 @@
+img {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-self: center;
+}
+
+.imgcont {
+    margin-bottom: 2%;
+}
+
+img:hover {
+    //background-color: black;
+    transform: scale(1.1);
+    border-bottom: solid 1px #D8A24A;
+    border-right: solid 1px #D8A24A;
+    border-style: outset;
+    //transform: rotate(0deg) translateZ(100px);
+}

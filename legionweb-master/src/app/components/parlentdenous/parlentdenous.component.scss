@@ -1,0 +1,37 @@
+.parlentdenous {
+    margin: 4%;
+    padding-right: 4%;
+}
+
+.imgcont {
+    margin-top: 2%;
+}
+
+img {
+    display: flex;
+    width: 50%;
+    height: 80%;
+    margin: auto;
+}
+
+p {
+    margin-right: 4%;
+}
+
+h6 {
+    text-align: right;
+    padding-right: 10%;
+}
+
+.avis {
+    background-color: #E8D5A6;
+}
+
+.avis:hover {
+    transform: scale(1.1);
+}
+
+.avis p {
+    margin: 0;
+    padding: 5%;
+}

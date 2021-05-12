@@ -1,12 +1,11 @@
 #Navbar {
     background-image: linear-gradient(to right, #F9F7F2, #F9F7F2);
+    //background: url(../../../assets/image/imagehead.jpg) repeat-x top center scroll;
     padding: 0;
     margin: 0;
     width: 100%;
-    height: 90px;
-    position: fixed;
+    height: 80px;
     top: 0;
-    z-index: 9999999;
 }
 
 .navbar img {
@@ -37,14 +36,14 @@
     display: flex;
     align-self: center;
     padding: 0;
-    height: 82px;
+    height: 61px;
     font-size: 1.1em;
     margin: 0 10% 0 0;
 }
 
 .navbarli a {
     display: block;
-    padding-top: 30px;
+    padding-top: 15px;
     height: 100%;
     width: 100%;
     color: #0A1F5E;

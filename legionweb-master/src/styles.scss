@@ -15,7 +15,6 @@ body {
     font-size: 16px;
     font-weight: 400;
     overflow-x: hidden;
-    padding-top: 90px;
     color: #0c0456;
     //background-image: linear-gradient(to bottom,  #fff,#f5f5f5);
     background-image: linear-gradient(to bottom, #FAF7F2, #FAF7F2);
@@ -30,8 +29,44 @@ p {
 .btn-primary {
     background-color: #0A1F5E;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 .btn-primary:hover {
     background-color: #4D9AD5;
+    border: solid 3px #F2C270;
+}
+
+.trait1 {
+    display: flex;
+    align-self: start;
+    transform: translateY(16px);
+    width: 33px;
+    height: 4px;
+    background: #D8A24A;
+    margin-right: 1px;
+    //border-radius: 50px;
+}
+
+.triangle {
+    display: flex;
+    align-self: center;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 70px solid #E8D5A6;
+    transform: rotate(-90deg);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
 }
