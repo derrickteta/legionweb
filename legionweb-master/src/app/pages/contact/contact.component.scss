@@ -1,17 +1,41 @@
-/*-------------social-media section*/
-#social-media{
-    background: #f8f9fa;
-    padding:100px 0;
-}
-#social-media p{
-    font-size:36px;
-    font-weight: 600;
-    margin-bottom:30px;
-}
-.social-icons img{
-    width:60px;
-    transition:0.5s;
-}
-.social-icons a:hover img{
-    transform:translateY(-10px);
-}
+  .container-fluid
+  {
+    background-color: white;
+  }
+  .col-md-6 .form-group 
+  {
+    position: relative;
+  }
+  .col-md-6 .form-group input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #040e47;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    background: transparent;
+  }
+  .col-md-6 .form-group label {
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #040e47;
+    pointer-events: none;
+    transition: .5s;
+  }
+  .col-md-6 .form-group input:focus ~ label,
+  .col-md-6 .form-group input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #03e9f4;
+    font-size: 12px;
+  }
+  #message 
+  {
+    padding-top: 80px;
+  }
+  

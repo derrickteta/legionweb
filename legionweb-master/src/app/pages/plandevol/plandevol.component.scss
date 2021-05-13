@@ -37,7 +37,11 @@
     {
         display: inline-block;
         vertical-align: top;
-        margin-left: 230px;
+        margin-left: 80px;
+    }
+    #imgvol1 img
+    {
+        width: 500px;
     }
     #vol1 h1
     {
@@ -110,7 +114,6 @@
         z-index: 9;
         transition: all .2s;
     }*/
-<<<<<<< HEAD
     #section2a
     {
         background: #FAFAFD;
@@ -121,10 +124,14 @@
         display: inline-block;  
         vertical-align: top;  
     }
+    #section2a .imgvol img
+    {
+        width: 400px;
+    }
     #section2a .vol
     {
         display: inline-block;
-        margin-left: 230px;
+        margin-left: 150px;
         line-height: 30px;
         color: #040e47;
     }
@@ -164,7 +171,11 @@
     {
         display: inline-block;
         vertical-align: top;
-        margin-left: 200px;
+        margin-left: 150px;
+    }
+    #section3a .imgvol3 img
+    {
+        width: 400px;
     }
     #section4a
     {
@@ -175,12 +186,16 @@
     {
         display: inline-block;
         line-height: 30px;
-        margin-left: 200px;
+        margin-left: 150px;
     }
     #section4a .imgvol4
     {
         display: inline-block;
         vertical-align: top;
+    }
+    #section4a .imgvol4 img
+    {
+        width: 400px;
     }
     #section5a
     {
@@ -195,7 +210,11 @@
     {
         display: inline-block;
         vertical-align: top;
-        margin-left: 200px;
+        margin-left: 150px;
+    }
+    #section5a .imgvol5 img
+    {
+        width: 400px;
     }
     #section6a
     {
@@ -213,99 +232,7 @@
         display: inline-block;
         vertical-align: top;
     }
-=======
-
-#section2a {
-    background: #FAFAFD;
-    padding: 180px 0px 80px 50px;
-}
-
-#section2a .imgvol {
-    display: inline-block;
-    vertical-align: top;
-}
-
-#section2a .vol {
-    display: inline-block;
-    margin-left: 230px;
-    line-height: 30px;
-    color: #040e47;
-}
-
-.lexique_entenoir {
-    font-weight: bold;
-}
-
-h2 {
-    display: inline-block;
-    padding-left: 30px;
-    margin-bottom: 40px;
-    color: #040e47;
-    font-family: 'LatoBlack', sans-serif !important;
-    font-size: 30px !important;
-    vertical-align: top;
-    font-weight: bold;
-}
-
-#section3a {
-    padding: 80px 0px 80px 50px;
-}
-
-#section3a .vol3 {
-    display: inline-block;
-    line-height: 30px;
-}
-
-#section3a .imgvol3 {
-    display: inline-block;
-    vertical-align: top;
-    margin-left: 200px;
-}
-
-#section4a {
-    padding: 80px 0px 80px 50px;
-    background: #FAFAFD;
-}
-
-#section4a .vol4 {
-    display: inline-block;
-    line-height: 30px;
-    margin-left: 200px;
-}
-
-#section4a .imgvol4 {
-    display: inline-block;
-    vertical-align: top;
-}
-
-#section5a {
-    padding: 80px 0px 80px 50px;
-}
-
-#section5a .vol5 {
-    display: inline-block;
-    line-height: 30px;
-}
-
-#section5a .imgvol5 {
-    display: inline-block;
-    vertical-align: top;
-    margin-left: 200px;
-}
-
-#section6a {
-    padding: 80px 0px 80px 100px;
-    background: #FAFAFD;
-}
-
-#section6a .vol6 {
-    display: inline-block;
-    line-height: 30px;
-    margin-left: 200px;
-}
-
-#section6a .imgvol6 {
-    display: inline-block;
-    vertical-align: top;
-}
->>>>>>> 9e14761e003cd8869fcfa965faf692743eae110f
+    #section6a .imgvol6 img
+    {
+        width: 400px;
+    }
