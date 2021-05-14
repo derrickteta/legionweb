@@ -1,49 +1,58 @@
 <!--------Social Media Section-->
 <section class="container-fluid">
   <div class="row">
-    <div class="col-md-6">
+    <div class="col-md-6 img_contact">
         <img src="assets/image/Droomvlucht-logo-small.jpg">
     </div>
     <div class="col-md-6">
-      <form (ngSubmit)="onSubmit()">
-          <div class="form-group">
+      <form>
+          <h1 class="title_form">Prenons rendez-vous</h1>
+          <div class="form-group">     
+              <input type="text" name="prenom" required="prenom">
               <label for="prenom">Prénom</label>
-              <input type="text" id="prenom" class="form-control" name="prenom" ngModel>
           </div>
-          <div class="form-group">
+          <div class="form-group">       
+              <input type="text" name="nom" required="">
               <label for="nom">Nom</label>
-              <input type="text" id="nom" class="form-control" name="nom" ngModel>
           </div>
           <div class="form-group">
+              <input type="text" name="email" required="">
               <label for="email">E-mail</label>
-              <input type="text" id="email" class="form-control" name="email" ngModel>
           </div>
-          <div class="form-group">
+          <div class="form-group">  
+              <input type="text" name="phonenumber" required="">
               <label for="phonenumber">Numéro de téléphone</label>
-              <input type="text" id="phonenumber" class="form-control" name="phonenumber" ngModel>
           </div>
           <div class="form-group">
+              <input type="text" name="entreprise" required="">
               <label for="entreprise">Entreprise</label>
-              <input type="text" id="entreprise" class="form-control" name="entreprise" ngModel>
           </div>
           <div class="form-group">
+              <input type="text" name="activitysector" required="">
               <label for="activitysector">Secteur d'activité</label>
-              <input type="text" id="activitysector" class="form-control" name="activitysector" ngModel>
           </div>
           <div class="form-group">
+              <input type="text" name="siteurl" required="">
               <label for="siteurl">URL de votre site</label>
-              <input type="text" id="siteurl" class="form-control" name="siteurl" ngModel>
+          </div>
+          <div>
+            <p class="interesse">Intéressé par</p>
+            <select id="type">
+                <option value="veuillez sélectionner"><span>Veuillez sélectionner</span></option>
+                <option value="type d'événement"><span>Acquisition</span></option>
+                <option value="type d'événement"><span>Inbound Marketing</span></option>
+                <option value="type d'événement"><span>Sales & CRM</span></option>
+                <option value="type d'événement"><span>Services</span></option>
+                <option value="type d'événement"><span>Web & CMS</span></option>
+                <option value="type d'événement"><span>Inbound Recruiting</span></option>
+            </select>
           </div>
           <div class="form-group">
-            <label for="message">Message</label>
-            <input type="text" id="message" class="form-control" name="message" ngModel>
-        </div>
-         <div class="row">
-            <button class="btn btn-success" type="submit">
-                  Envoyer
-            </button>
+            <input type="text" id="message" name="message" required="">
+            <p id="mes">Message</p>
           </div>
       </form>
+      <div class="textform">
       <p>
         LegionWeb s'engage à protéger et à respecter 
         votre vie privée. Nous n'utiliserons vos données personnelles 
@@ -54,17 +63,27 @@
         veuillez nous indiquer votre moyen de communication préféré en cochant la case
         correspondante ci-après :
       </p>
-      <br>
+      <div class="groupe">
+            <input type="checkbox" id="case" name="" value=""/>
+            <label for=""> J'accepte de recevoir d'autres communications de DigitaWeb.</label>
+        </div>
       <p>
-        J'accepte de recevoir d'autres communications de DigitaWeb.
         Vous pouvez vous désabonner de ces communications à tout moment.
         Consultez notre Politique de confidentialité pour en savoir plus
         sur nos modalités de désabonnement, nos politiques de confidentialité
         et sur notre engagement vis-à-vis de la protection et du respect de la vie privée.
+        </p>
+        <p>
         En cliquant sur « Envoyer » ci-dessous, vous autorisez l’entreprise DigitaWeb
         à stocker et traiter les données personnelles soumises ci-dessus afin qu’elle
         vous fournisse le contenu demandé.
       </p>
+      </div>
+      <div class="row button_submit">
+         <button class="btn btn-send" type="submit">
+            Envoyer
+         </button>
+      </div>
     </div>
   </div>
 </section>

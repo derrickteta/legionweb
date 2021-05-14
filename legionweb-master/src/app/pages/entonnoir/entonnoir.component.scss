@@ -1,0 +1,184 @@
+    .container
+    {
+		max-width: 1200px;
+        padding: 0 15px;
+        margin: 0 auto;
+        font-size: initial !important;
+    }
+    #section1b
+    {
+        padding: 150px 0px 150px 0px;
+        background: #F5F6FC;
+    }
+    #entonoir1
+    {
+		display: inline-block;
+    }
+    #imgentonoir1
+    {
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 100px;
+    }
+    #imgentonoir1 img
+    {
+        width: 500px;
+    }
+    #entonoir1 h1
+    {
+        font-family: 'LatoBlack',sans-serif !important;
+        font-size: 40px !important; 
+        color: #040e47;
+        margin-bottom: 30px;
+        font-weight: bold;
+    }
+    .trait2
+    {
+        display: inline-block;
+        width: 45px;
+        height: 3px;
+        background: #3b4654;
+        border-radius: 50px;
+    }
+    .text_trait
+    {
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 30px;
+        line-height: 30px;
+    }
+    .objet
+    {
+        font-weight: bold;
+        color: #3b4654;
+        font-size: 18px;
+    }
+    .paraobjet
+    {
+        color: #3b4654;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .button_com
+    {
+        font-family: 'OpenSansLight',sans-serif !important;
+        background-color: #ff6c4a;
+        padding: 15px 26px;
+    }
+    .button_com:hover
+    {
+        
+    }
+    #entonoir1 button
+    {
+        font-family: 'OpenSansLight',sans-serif !important;
+        color: white;
+        font-size: 16px;
+        text-transform: uppercase;
+        border: #ff6c4a;
+        margin-top: 30px;
+    }
+    #section2b, #section2b .row:last-of-type 
+    {
+        background: #FAFAFD;
+    }
+    .setting_sect
+    {
+        padding: 50px 0;
+    }
+    #section2b .text_intro 
+    {
+        max-width: 650px;
+        margin-bottom: 100px;
+    }
+    h2.titre
+    {
+        padding-left: 55px;
+        margin-bottom: 40px;
+        font-weight: bold;
+    }
+    h2, h2 span {
+        color: #040e47;
+        font-family: 'LatoBlack',sans-serif !important;
+        line-height: 36px;
+        position: relative;
+    }
+    h2.titre:before 
+    {
+        content: "";
+        position: absolute;
+        left: 0px;
+        width: 45px;
+        height: 3px;
+        background: #040e47;
+        top: 20px;
+        border-radius: 50px;
+    }
+    #section2b .text_intro 
+    {
+        max-width: 650px;
+        margin-bottom: 100px;
+    }
+    #section2b .lexique_ento 
+    {
+        font-weight: bold;
+    }
+    #section2b .content_sect
+    {
+        position: relative;
+    }
+    #section2b .content_sect:before 
+    {
+        content: '';
+        position: absolute;
+        background-size: 77%;
+        border-right: 3px dashed #8796aa;
+        top: 20px;
+        bottom: 40px;
+        right: 49.7%;
+        width: 2px;
+        animation: translateY 2s linear infinite;
+    }
+    #section2b .row.right 
+    {
+        flex-direction: row-reverse;
+    }
+    #section2b .row 
+    {
+        position: relative;
+        padding-bottom: 135px;
+    }
+    #section2b .row.right .col_sect 
+    {
+        padding-left: 85px;
+    }
+    #section2b .row.right .icon 
+    {
+        position: absolute;
+        left: -66px;
+        z-index: 9;
+    }
+    h3, h3 span 
+    {
+        font-family: 'LatoBlack',sans-serif !important;
+        font-weight: bold;
+    }
+    #section2b .row 
+    {
+        position: relative;
+        padding-bottom: 135px;
+    }
+    #section2b .row.left .col_sect 
+    {
+        padding-right: 85px;
+    }
+    #section2b .row.left .icon 
+    {
+        position: absolute;
+        right: -66px;
+        z-index: 9;
+    }
+    #section2b .row.left .text 
+    {
+        text-align: right;
+    }
