@@ -10,8 +10,6 @@ html {
 }
 
 body {
-    display: flex;
-    flex-direction: column;
     font-size: 16px;
     font-weight: 400;
     overflow-x: hidden;
@@ -27,7 +25,8 @@ p {
 }
 
 .btn-primary {
-    background-color: #0A1F5E;
+    height: 15%;
+    background-image: linear-gradient(to right, #0A1F5E, #4D9AD5);
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -69,4 +68,17 @@ h4,
 h5,
 h6 {
     font-weight: bold;
+}
+
+.avis {
+    background-color: #E8D5A6;
+}
+
+.avis:hover {
+    transform: scale(1.1);
+}
+
+.avis p {
+    margin: 0;
+    padding: 5%;
 }
