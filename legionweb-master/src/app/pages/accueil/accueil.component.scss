@@ -73,24 +73,20 @@ h1 {
     color: #0c0456;
 }
 
-.colservices {
-    min-height: 450px;
-    max-width: 300px;
-    min-width: 200px;
-    border: solid #D8A24A 3px;
-    border-style: outset;
-    margin: 0;
-    padding: 0;
-}
-
 .contservice {
     display: flex;
     align-items: center;
-    justify-content: center;
-    //background-color: black;
-    margin-right: 0;
-    margin-bottom: 20px;
-    padding-right: 0;
+    justify-content: space-evenly;
+}
+
+.colservices {
+    min-height: 350px;
+    max-width: 225px;
+    min-width: 200px;
+    border: solid #D8A24A 3px;
+    border-style: outset;
+    margin: 2% 15px 0 0;
+    padding: 0;
 }
 
 .colservices img {
