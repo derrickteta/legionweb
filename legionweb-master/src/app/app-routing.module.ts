@@ -12,6 +12,7 @@ import { PlandevolComponent } from './pages/plandevol/plandevol.component';
 import { EntonnoirComponent } from './pages/entonnoir/entonnoir.component';
 import { AcquisitionComponent } from './pages/acquisition/acquisition.component';
 import { PilotageComponent } from './pages/pilotage/pilotage.component';
+import { DiscuterComponent } from './components/discuter/discuter.component';
 
 const routes: Routes = [
   {
@@ -49,6 +50,9 @@ const routes: Routes = [
   },
   { 
     path: '**', component:AccueilComponent
+  },
+  { 
+    path: 'home/discuter', component:DiscuterComponent
   }
 
 
