@@ -31,7 +31,8 @@
     }
     #vol1
     {
-		display: inline-block;
+        display: inline-block;
+        margin-left: -100px;
     }
     #imgvol1
     {
@@ -41,7 +42,8 @@
     }
     #imgvol1 img
     {
-        width: 500px;
+        width: 600px;
+        margin-top: -100px;
     }
     #vol1 h1
     {
@@ -78,23 +80,11 @@
         font-size: 18px;
         line-height: 30px;
     }
-    .button_com
-    {
-        background-color: #ff6c4a;
-        padding: 15px 26px;
-    }
-    .button_com:hover
-    {
-        
-    }
     #vol1 button
     {
         font-family: 'OpenSansLight',sans-serif !important;
-        color: white;
-        font-size: 16px;
-        text-transform: uppercase;
-        border: #ff6c4a;
         margin-top: 30px;
+        padding: 15px 26px;
     }/*
     #trait_m
     {

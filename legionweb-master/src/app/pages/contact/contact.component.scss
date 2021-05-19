@@ -1,11 +1,12 @@
     .container-fluid
     {
         background-color: white;
-    }
+    }/*
     .row .img_contact
     {
-        //background-image: url("assets/image/imgcontact.jpg");
-    }
+        background: url(../../../assets/image/imgcontact.jpg) center center no-repeat;
+        background-size: cover;
+    }*/
     .col-md-6 .title_form
     {
         color: #040e47;
@@ -122,4 +123,3 @@
         margin-bottom: 40px;
         margin-left: 200px;
     }
-    
