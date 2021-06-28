@@ -15,7 +15,6 @@
     height: 85%;
     align-self: center;
     padding: 0;
-    
 }
 
 .navbar-brand {
@@ -42,7 +41,7 @@
     margin: 0 10% 0 0;
 }
 
-.navbarli a {
+.navbarli .nav-link {
     display: block;
     padding-top: 15px;
     height: 100%;
@@ -59,14 +58,38 @@
 .deroulerservice {
     display: flex;
     height: 70%;
-    background-image: linear-gradient(to right, #F9F7F2, #F9F7F2);
-    color: #0A1F5E;
+    background: white;
+    color: #2c344b;
+}
+
+.deroulerservice:hover {
+    background: #E9ECEF;
+}
+
+.deroulerservice img {
+    display: flex;
+    height: 100px;
+    width: 100px;
 }
 
 .active {
     border-bottom: solid #4D9AD5 3px;
 }
 
-.navbarli :hover {
+.arr:hover {
     background-image: linear-gradient(to bottom, #F7C270, #CAA64D);
+}
+
+.dropdown:hover {
+    cursor: pointer;
+    background-image: linear-gradient(to bottom, #F7C270, #CAA64D);
+}
+
+.dropdown-menu {
+    z-index: 99999;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; // remove the gap so it doesn't close
 }

@@ -5,7 +5,7 @@
     min-height: 460px;
     min-width: 100px;
     max-width: 350px;
-    //border: solid #D8A24A 3px;
+    border: solid #D8A24A 3px;
     border-style: outset;
     margin: 2% 0px 0 0;
     padding: 0;
@@ -14,7 +14,7 @@
 .allnew {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .btn-primary {

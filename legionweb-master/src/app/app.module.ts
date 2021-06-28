@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule } from '@angular/forms';
+import { FormsModule} from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -25,6 +26,8 @@ import { DiscuterComponent } from './components/discuter/discuter.component';
 import { EquipesComponent } from './components/equipes/equipes.component';
 import { RetourexpComponent } from './components/retourexp/retourexp.component';
 import { NewsletterComponent } from './components/newsletter/newsletter.component';
+import { RegisterService } from './services/register.service';
+import { RenderarticlesComponent } from './pages/renderarticles/renderarticles.component';
 
 
 
@@ -51,12 +54,14 @@ import { NewsletterComponent } from './components/newsletter/newsletter.componen
     DiscuterComponent,
     EquipesComponent,
     RetourexpComponent,
-    NewsletterComponent
+    NewsletterComponent,
+    RenderarticlesComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -17,7 +17,7 @@ body {
     overflow-x: hidden;
     color: #0c0456;
     //background-image: linear-gradient(to bottom,  #fff,#f5f5f5);
-    background-image: linear-gradient(to bottom, #FAF7F2, #FAF7F2);
+    background-image: linear-gradient(to bottom, white, #FAF7F2);
     min-width: 100vh;
     font-family: "Open Sans Regular", Helvetica, sans-serif !important;
 }
@@ -27,6 +27,7 @@ p {
 }
 
 .btn-primary {
+    margin-top: 5%;
     height: 15%;
     background-image: linear-gradient(to right, #0A1F5E, #4D9AD5);
     font-weight: bold;

@@ -1,88 +1,90 @@
 <!--------Social Media Section-->
-<section class="container-fluid">
-  <div class="row">
-    <div class="col-md-6 img_contact">
-    </div>
-    <div class="col-md-6">
-      <form>
-          <h1 class="title_form">Prenons rendez-vous</h1>
-          <div class="form-group">     
-              <input type="text" name="prenom" required>
-              <label for="prenom">Prénom*</label>
-          </div>
-          <div class="form-group">       
-              <input type="text" name="nom" required>
-              <label for="nom">Nom*</label>
-          </div>
-          <div class="form-group">
-              <input type="text" name="email" required>
-              <label for="email">E-mail*</label>
-          </div>
-          <div class="form-group">  
-              <input type="text" name="phonenumber" required>
-              <label for="phonenumber">Numéro de téléphone*</label>
-          </div>
-          <div class="form-group">
-              <input type="text" name="entreprise" required>
-              <label for="entreprise">Entreprise*</label>
-          </div>
-          <div class="form-group">
-              <input type="text" name="activitysector" required>
-              <label for="activitysector">Secteur d'activité</label>
-          </div>
-          <div class="form-group">
-              <input type="text" name="siteurl" required>
-              <label for="siteurl">URL de votre site</label>
-          </div>
-          <div>
-            <p class="interesse">Intéressé par</p>
-            <select id="type">
-                <option value="veuillez sélectionner"><span>Veuillez sélectionner</span></option>
-                <option value="type d'événement"><span>Acquisition</span></option>
-                <option value="type d'événement"><span>Inbound Marketing</span></option>
-                <option value="type d'événement"><span>Sales & CRM</span></option>
-                <option value="type d'événement"><span>Services</span></option>
-                <option value="type d'événement"><span>Web & CMS</span></option>
-                <option value="type d'événement"><span>Inbound Recruiting</span></option>
-            </select>
-          </div>
-          <div class="form-group">
-            <input type="text" id="message" name="message" required="">
-            <p id="mes">Message</p>
-          </div>
-      </form>
-      <div class="textform">
-      <p>
-        LegionWeb s'engage à protéger et à respecter 
-        votre vie privée. Nous n'utiliserons vos données personnelles 
-        que pour administrer votre compte et vous fournir les produits
-        et services demandés. Nous aimerions vous contacter ponctuellement 
-        au sujet de nos produits et services, ainsi que d'autres contenus susceptibles
-        de vous intéresser. Si vous consentez à ce que nous vous contactions à cette fin,
-        veuillez nous indiquer votre moyen de communication préféré en cochant la case
-        correspondante ci-après :
-      </p>
-      <div class="groupe">
-            <input type="checkbox" id="case" name="" value=""/>
-            <label for=""> J'accepte de recevoir d'autres communications de DigitaWeb.</label>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-6 img_contact">
         </div>
-      <p>
-        Vous pouvez vous désabonner de ces communications à tout moment.
-        Consultez notre Politique de confidentialité pour en savoir plus
-        sur nos modalités de désabonnement, nos politiques de confidentialité
-        et sur notre engagement vis-à-vis de la protection et du respect de la vie privée.
-        </p>
-        <p>
-        En cliquant sur « Envoyer » ci-dessous, vous autorisez l’entreprise DigitaWeb
-        à stocker et traiter les données personnelles soumises ci-dessus afin qu’elle
-        vous fournisse le contenu demandé.
-      </p>
-      </div>
-      <div class="row button_submit">
-         <button class="btn btn-primary" type="submit">
-            Envoyer
-         </button>
-      </div>
+        <div class="col-md-6">
+            <form (ngSubmit)="onSubmit(f)" #f="ngForm" class="was-validated">
+                <h1 class="title_form">Prenons rendez-vous</h1>
+                <div class="form-group">
+                    <input type="text" name="prenom" id="prenom" class="form-control" ngModel required>
+                    <label for="prenom">Prénom*</label>
+                    <div class="valid-feedback">Valid.</div>
+                    <div class="invalid-feedback">S'il vous plaît remplir ce champ.</div>
+                </div>
+                <div class="form-group">
+                    <input type="text" name="nom" id="nom" class="form-control" ngModel required>
+                    <label for="nom">Nom*</label>
+                    <div class="valid-feedback">Valid.</div>
+                    <div class="invalid-feedback">S'il vous plaît remplir ce champ.</div>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" id="email" class="form-control" ngModel required>
+                    <label for="email">E-mail*</label>
+                    <div class="valid-feedback">Valid.</div>
+                    <div class="invalid-feedback">S'il vous plaît remplir ce champ.</div>
+                </div>
+                <div class="form-group">
+                    <input type="number" name="phone" id="phone" class="form-control" ngModel required>
+                    <label for="phone">Numéro de téléphone*</label>
+                    <div class="valid-feedback">Valid.</div>
+                    <div class="invalid-feedback">S'il vous plaît remplir ce champ.</div>
+                </div>
+                <div class="form-group">
+                    <input type="text" name="entreprise" id="entreprise" class="form-control" ngModel required>
+                    <label for="entreprise">Entreprise*</label>
+                    <div class="valid-feedback">Valid.</div>
+                    <div class="invalid-feedback">S'il vous plaît remplir ce champ.</div>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="secteuractivite" class="form-control" name="secteuractivite" ngModel>
+                    <label for="secteuractivite">Secteur d'activité</label>
+                </div>
+                <div class="form-group">
+                    <input type="text" name="urlsite" id="urlsite" class="form-control" ngModel>
+                    <label for="urlsite">URL de votre site</label>
+                </div>
+                <div class="form-group">
+                    <div class="interesse">Intéressé par</div>
+                    <select type="text" id="interet" name="interet" class="form-control" ngModel>
+                        <option value="" disabled selected><span>Veuillez sélectionner</span></option>
+                        <option value="Acquisition"><span>Acquisition</span></option>
+                        <option value="Inbound Marketing"><span>Inbound Marketing</span></option>
+                        <option value="Sales & CRM"><span>Sales & CRM</span></option>
+                        <option value="Services"><span>Services</span></option>
+                        <option value="Web & CMS"><span>Web & CMS</span></option>
+                        <option value="Inbound Recruiting"><span>Inbound Recruiting</span></option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="message" name="message" class="form-control" ngModel>
+                    <label for="message">Message</label>
+                </div>
+                <div class="textform">
+                    <p>
+                        LegionWeb s'engage à protéger et à respecter votre vie privée. Nous n'utiliserons vos données personnelles que pour administrer votre compte et vous fournir les produits et services demandés. Nous aimerions vous contacter ponctuellement au sujet de nos
+                        produits et services, ainsi que d'autres contenus susceptibles de vous intéresser. Si vous consentez à ce que nous vous contactions à cette fin, veuillez nous indiquer votre moyen de communication préféré en cochant la case correspondante
+                        ci-après :
+                    </p>
+                    <div class="groupe">
+                        <input type="checkbox" id="case" name="pub" value="oui" ngModel/>
+                        <label for="case"> J'accepte de recevoir d'autres communications de DigitaWeb.</label>
+                    </div>
+                    <p>
+                        Vous pouvez vous désabonner de ces communications à tout moment. Consultez notre Politique de confidentialité pour en savoir plus sur nos modalités de désabonnement, nos politiques de confidentialité et sur notre engagement vis-à-vis de la protection
+                        et du respect de la vie privée.
+                    </p>
+                    <p>
+                        En cliquant sur « Envoyer » ci-dessous, vous autorisez l’entreprise LegionWeb à stocker et traiter les données personnelles soumises ci-dessus afin qu’elle vous fournisse le contenu demandé.
+                    </p>
+                </div>
+
+                <div class="row button_submit">
+                    <button class="btn btn-primary" type="submit" [disabled]="f.invalid">
+                            Envoyer
+                    </button>
+                </div>
+            </form>
+        </div>
     </div>
-  </div>
-</section>
+</div>

@@ -3,9 +3,9 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-8 container-fluid">
-                <h1 class="container">
+                <!--<h1 class="container">
                     <b>AMELIOREZ VOS <br>PERFORMANCES <br>DIGITALES</b>
-                </h1>
+                </h1>-->
                 <br><br><br><br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
 
                 <div style="display:flex;">
@@ -18,7 +18,7 @@
                 </div>
                 <br><br>
 
-                <button type="button" class="nav-link" routerLink="home/discuter" style="margin-left:5%;" class="btn btn-primary"> Commencez maintenant</button>
+                <button type="button" (click)="scrol('discuter')" class="nav-link" routerLink="home/discuter" style="margin-left:5%;" class="btn btn-primary"> Commencez maintenant</button>
 
             </div>
             <div class="col-md-4 container" text-center>
@@ -37,21 +37,21 @@
         </p>
 
         <div class="row ">
-            <div class=" col-md-3 col-sm-6 contservice">
+            <div (click)="redirect('service/plandevol')" class=" col-md-3 col-sm-6 contservice">
                 <div class="colservices">
                     <div class="services">
-                        <img src="assets/image/Droomvlucht-logo-small.jpg">
-                        <h4>Strategi</h4>
+                        <img src="assets/image/strategy.jpg">
+                        <h4>Strategy</h4>
                         <p>
                             Personna- Storytelling - Customer lifecycle - Internal processes -SMART goals
                         </p>
                     </div>
                 </div>
             </div>
-            <div class=" col-md-3 col-sm-6 contservice">
+            <div (click)="redirect('service/entonnoir')" class=" col-md-3 col-sm-6 contservice">
                 <div class="colservices">
                     <div class="services">
-                        <img src="assets/image/service2.jpg">
+                        <img src="assets/image/conversion.jpg">
                         <h4>Conversion Funnel</h4>
                         <p>
                             Inbound Marketing- Sites Web - Landing pages - Marketing Automation - Sales Enablement
@@ -61,10 +61,10 @@
             </div>
 
 
-            <div class="col-md-3 col-sm-6 contservice">
+            <div (click)="redirect('service/acquisition')" class="col-md-3 col-sm-6 contservice">
                 <div class="colservices">
                     <div class="services">
-                        <img src="assets/image/Droomvlucht-logo-small.jpg">
+                        <img src="assets/image/lead.jpg">
                         <h4>Lead Acquisition</h4>
                         <p>
                             SEO - SEA - Content Marketing - Social Media & Ads - Mailing Growth hacking
@@ -72,10 +72,10 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6 ">
+            <div (click)="redirect('service/pilotage')" class="col-md-3 col-sm-6 ">
                 <div class="colservices">
                     <div class="services">
-                        <img src="assets/image/Droomvlucht-logo-small.jpg">
+                        <img src="assets/image/piloting.jpg">
                         <h4>Piloting</h4>
                         <p>
                             CRM - Dashboard -Business Intelligence - Recruitement - Employer brand
@@ -89,7 +89,7 @@
         <p class=" col-6 afterservices">
             Nous aidons les entreprises à améliorer leur visibilité par le digital à générer des vues et des opportunités d'affaires.
         </p>
-        <button type="button" class="btn btn-primary"> On peut vous aider ?</button>
+        <button type="button" (click)="scrol('discuter')" class="btn btn-primary"> On peut vous aider ?</button>
     </div>
     <div class="client">
 
@@ -114,6 +114,6 @@
         <br>
         <app-newsletter></app-newsletter>
     </div>
-    <div class="discuter">
+    <div class="discuter" id="discuter">
         <app-discuter></app-discuter>
     </div>
