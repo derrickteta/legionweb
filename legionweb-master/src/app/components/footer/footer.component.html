@@ -5,7 +5,7 @@
         <div class="row">
             <div class="col-sm-3 footer-box">
                 <img src="assets/image/logf.png" class="img-fluid img-responsive footer-img" />
-                <button type="button" class="btn btn-primary"> Contactez nous</button>
+                <button (click)="redirect('contact')" type="button" class="btn btn-primary"> Contactez nous</button>
             </div>
             <div class="col-sm-3 footer-box">
 
@@ -20,17 +20,17 @@
             </div>
             <div class="col-sm-3 footer-box">
                 <h6><b>OUTILS</b></h6>
-                <p><i class="fa fa-map-marker"></i>World Trade Centre, Bel leville</p>
-                <p><i class="fa fafone"></i>+132415634646</p>
-                <p><i class="fa fa-envelope-o"></i>derricteta1@gmail.com</p>
+                <p>Démo Cagid</p>
+                <p>ChatBot</p>
+                <p>Marketing Tool Box</p>
 
             </div>
             <div class="col-sm-3 footer-box">
                 <h6><b>A Propos de nous</b></h6>
                 <ul>
-                    <li>Equipe</li>
+                    <li><button (click)="redirect('equipe')">Equipe</button></li>
                     <li>Cas Clients</li>
-                    <li>Blog</li>
+                    <li><button (click)="redirect('blog')">Blog</button></li>
                     <li>Ressources</li>
                 </ul>
             </div>

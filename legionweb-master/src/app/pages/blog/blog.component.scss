@@ -51,7 +51,7 @@
     
     .artli {
         display: flex;
-        align-self: center;
+        align-self: start;
         font-size: 1.5em;
         color: #D8A24A;
         border-top: solid 2px #D8A24A;
@@ -166,6 +166,7 @@
     }
     
     .article p {
+        display: block;
         padding-top: 0;
         width: 90%;
         margin-left: 0;

@@ -89,9 +89,16 @@ hr {
 }
 
 a {
-    color: #0c0456;
+    color: #04030f;
 }
 
 a:hover {
     color: #0069D9;
+}
+
+li button {
+    padding: 0;
+    background-image: linear-gradient(to bottom, #EAF9F9, #EAF9F9);
+    color: #0c0456;
+    border: none;
 }
