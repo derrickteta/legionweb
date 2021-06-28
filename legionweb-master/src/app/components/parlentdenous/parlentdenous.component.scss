@@ -5,6 +5,13 @@
 
 .imgcont {
     margin-top: 2%;
+    img {
+        background-color: linear-gradient(to bottom, #FFFCF3, #E8D5A6);
+        padding: 3%;
+        border: #E8D5A6 solid 1px;
+        border-radius: 40px 100px 10px/ 50px 70px;
+        width: 70%;
+    }
 }
 
 img {
