@@ -87,6 +87,9 @@
 
 .dropdown-menu {
     z-index: 99999;
+    position: relative;
+    font-size: 0.8em;
+    left: -100px;
 }
 
 .dropdown:hover .dropdown-menu {

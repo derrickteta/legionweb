@@ -21,10 +21,11 @@
     /*contenu du blog*/
     
     .contenublog {
-        border-top: solid 2px #D8A24A;
-        background-image: linear-gradient(to bottom, white, #FAF7F2);
+        //border-top: solid 1px #D8A24A;
+        background-image: linear-gradient(to bottom, #F9F7F3, #FAFAFD);
         color: #0c0456;
-        margin: 0 6% 4% 2%;
+        //margin: 0 6% 4% 2%;
+        margin: 4% 9% 9% 9%;
     }
     
     //articles
@@ -52,10 +53,12 @@
     .artli {
         display: flex;
         align-self: start;
-        font-size: 1.5em;
+        font-weight: bold;
+        font-size: 1em;
         color: #D8A24A;
-        border-top: solid 2px #D8A24A;
-        padding: 6% 0 6% 0;
+        border-top: solid 1px #D8A24A;
+        padding: 10% 0 10% 0;
+        width: 100%;
     }
     
     .artli a {
@@ -67,8 +70,8 @@
         flex-direction: column;
         align-self: center;
         flex: 2;
-        border-right: solid 2px #D8A24A;
-        padding-right: 1%;
+        border-right: solid 1px #D8A24A;
+        padding-right: 2%;
         max-height: 20%;
     }
     
@@ -82,23 +85,27 @@
     .firstart h3,
     p {
         display: flex;
+        width: 80%;
         align-self: center;
         text-align: center;
     }
     /* styling search bar */
     
     .search input[type=text] {
-        background-color: none;
+        background-color: #F5F6FC;
         color: #0c0456;
         width: 120%;
         height: 60px;
-        border: solid 2px #D8A24A;
+        border: solid 1px #0c0456;
     }
     
     .search {
         display: flex;
+        height: 100%;
         align-self: center;
         position: relative;
+        margin-left: 18%;
+        background-color: #F5F6FC;
     }
     
     .search button {
@@ -138,7 +145,7 @@
     .article {
         display: flex;
         justify-content: space-between;
-        border-bottom: solid 2px #D8A24A;
+        border-bottom: solid 1px #D8A24A;
         padding: 5% 0 5% 0;
     }
     
@@ -163,6 +170,8 @@
         padding-top: 0;
         width: 90%;
         margin-left: 0;
+        font-size: 1.3em;
+        font-weight: bold;
     }
     
     .article p {
@@ -177,7 +186,7 @@
         position: relative;
         height: 4px;
         background-color: #0c0456;
-        top: -40px;
+        top: -70px;
         z-index: 1000;
         margin: 0;
         padding: 0;
@@ -187,7 +196,7 @@
         position: relative;
         height: 3px;
         background-color: #0c0456;
-        top: -35px;
+        top: -65px;
         z-index: 1000;
         margin: 0;
         padding: 0;
@@ -197,7 +206,7 @@
         position: relative;
         height: 2px;
         background-color: #0c0456;
-        top: -30px;
+        top: -60px;
         z-index: 1000;
         margin: 0;
         padding: 0;

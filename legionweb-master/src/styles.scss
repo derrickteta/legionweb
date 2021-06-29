@@ -17,7 +17,7 @@ body {
     overflow-x: hidden;
     color: #0c0456;
     //background-image: linear-gradient(to bottom,  #fff,#f5f5f5);
-    background-image: linear-gradient(to bottom, white, #FAF7F2);
+    background-image: linear-gradient(to bottom, #F9F7F3, #FAFAFD);
     min-width: 100vh;
     font-family: "Open Sans Regular", Helvetica, sans-serif !important;
 }
@@ -77,6 +77,7 @@ h6 {
 
 .avis {
     background-color: #E8D5A6;
+    box-shadow: 0px 3px 6px #dbe3ea;
 }
 
 .avis:hover {
