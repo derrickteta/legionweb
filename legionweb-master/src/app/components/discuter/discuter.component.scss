@@ -15,16 +15,12 @@
     width: 10%;
 }
 
-.contimgclaude {
-    border: black solid 1px;
-    border-radius: 50% 30% 70% 50%;
-    background-color: #D6D9EA;
-}
-
 .imgclaude {
     display: flex;
+    position: relative;
+    top: 100px;
     //width: 50%;
-    //height: 80%;
+    height: 50%;
     //border: black 1px solid;
     border-radius: 50% 30% 70% 50%;
     margin: auto;
