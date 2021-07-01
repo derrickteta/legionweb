@@ -33,8 +33,8 @@ onSubmit(form:NgForm) {
   contact.interet = form.value['interet'];
   contact.message = form.value['message'];
   contact.pub = form.value['pub'];
-  console.log("avant l'envoi");
-  console.log(contact);
+  //console.log("avant l'envoi");
+  //console.log(contact);
   this.register.createNewAddress(contact).then(
     () => {
       console.log("apres l'envoi");

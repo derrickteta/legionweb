@@ -8,8 +8,32 @@
                 <img src="assets/image/newsim1.jpg" class="img-fluid img-responsive imgbanner" />
                 <p>
                     Recevez les éclairages de notre Leader team et gardez un temps d'avance sur vos concurrents.
+                    <br>
+                    <br>
                 </p>
-                <button type="button" class="btn btn-primary"> S'ABONNER</button>
+                <div *ngIf="vision">
+                    <form (ngSubmit)="onSubmit(f)" #f="ngForm" class="was-validated">
+                        <div class="form-group">
+                            <input type="email" name="email" id="email" class="form-control" ngModel required>
+                            <label for="email">Votre adresse email*</label>
+                            <div style="margin:0;" class="valid-feedback">Valid.</div>
+                            <div style="margin:0;" class="invalid-feedback">veuillez remplir ce champ.</div>
+                        </div>
+                        <p style="font-size:0.7em; text-align: justify;">
+                            La protection des données nous tient à coeur. LegionWeb utilise les informations que vous fournissez afin de vous proposer les informations et du contenu pertinent sur nos services. Vous pouvez vous désinscrire.pour plus d'informations, consulter notre
+                            <a>politique de 
+                                confidentialité.</a>
+                        </p>
+                        <div class="row">
+                            <button class="btn btn-primary" id="vision" type="submit" [disabled]="f.invalid">
+                                    Soumettre
+                            </button>
+
+                        </div>
+                        <br>
+                    </form>
+                </div>
+                <button type="button" *ngIf="!vision" (click)="afficher_vision()" class="btn btn-primary"> S'ABONNER</button>
 
             </div>
         </div>
@@ -21,8 +45,32 @@
                 <img src="assets/image/newsim2.jpg" class="img-fluid img-responsive imgbanner" />
                 <p>
                     Des conseils pratiques, tutoriels et outils pour mieux réaliser vos campagnes marketing.
+                    <br>
+                    <br>
                 </p>
-                <button type="button" class="btn btn-primary"> S'ABONNER</button>
+                <div *ngIf="tips">
+                    <form (ngSubmit)="onSubmit(f)" #f="ngForm" class="was-validated">
+                        <div class="form-group">
+                            <input type="email" name="email" id="email" class="form-control" ngModel required>
+                            <label for="email">Votre adresse email*</label>
+                            <div style="margin:0;" class="valid-feedback">Valid.</div>
+                            <div style="margin:0;" class="invalid-feedback">veuillez remplir ce champ.</div>
+                        </div>
+                        <p style="font-size:0.7em; text-align: justify;">
+                            La protection des données nous tient à coeur. LegionWeb utilise les informations que vous fournissez afin de vous proposer les informations et du contenu pertinent sur nos services. Vous pouvez vous désinscrire.pour plus d'informations, consulter notre
+                            <a>politique de 
+                                confidentialité.</a>
+                        </p>
+                        <div class="row">
+                            <button class="btn btn-primary" type="submit" [disabled]="f.invalid">
+                                    Soumettre
+                            </button>
+                        </div>
+                        <br>
+                    </form>
+                </div>
+                <button type="button" *ngIf="!tips" (click)="afficher_tips()" class="btn btn-primary"> S'ABONNER</button>
+
             </div>
         </div>
         <div class="col-12 col-md-4  col-lg-4">
@@ -34,7 +82,28 @@
                 <p>
                     Nos articles incontournables sur la stratégie et l'exécution. Affinez vos campagnes et atteignez vos objectifs.
                 </p>
-                <button type="button" class="btn btn-primary"> S'ABONNER</button>
+                <div *ngIf="strategie">
+                    <form (ngSubmit)="onSubmit(f)" #f="ngForm" class="was-validated">
+                        <div class="form-group">
+                            <input type="email" name="email" id="email" class="form-control" ngModel required>
+                            <label for="email">Votre adresse email*</label>
+                            <div style="margin:0;" class="valid-feedback">Valid.</div>
+                            <div style="margin:0;" class="invalid-feedback">veuillez remplir ce champ.</div>
+                        </div>
+                        <p style="font-size:0.7em; text-align: justify;">
+                            La protection des données nous tient à coeur. LegionWeb utilise les informations que vous fournissez afin de vous proposer les informations et du contenu pertinent sur nos services. Vous pouvez vous désinscrire.pour plus d'informations, consulter notre
+                            <a>politique de 
+                                confidentialité.</a>
+                        </p>
+                        <div class="row">
+                            <button class="btn btn-primary" type="submit" [disabled]="f.invalid">
+                                    Soumettre
+                            </button>
+                        </div>
+                        <br>
+                    </form>
+                </div>
+                <button type="button" *ngIf="!strategie" (click)="afficher_strategie()" class="btn btn-primary"> S'ABONNER</button>
             </div>
         </div>
 

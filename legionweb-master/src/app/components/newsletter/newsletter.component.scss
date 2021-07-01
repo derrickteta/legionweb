@@ -2,13 +2,13 @@
     height: 100%;
     width: 90%;
     text-align: center;
-    min-height: 460px;
+    min-height: 480px;
     min-width: 100px;
     max-width: 350px;
     //border: solid #D8A24A 3px;
     //border-style: outset;
     box-shadow: 0px 3px 6px #dbe3ea;
-    margin: 2% 0px 0 0;
+    //margin-top: 5vh;
     padding: 0;
 }
 
@@ -16,6 +16,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 3vh;
 }
 
 .btn-primary {
@@ -24,6 +25,75 @@
 }
 
 p {
+    margin: 0;
     text-align: center;
     padding: 10px;
+}
+
+
+/**souscription**/
+
+.form-group {
+    position: relative;
+}
+
+.form-group input {
+    width: 97%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #040e47;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    background: transparent;
+}
+
+.form-group label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #040e47;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.form-group input:focus~label,
+.form-group input:valid~label {
+    top: -20px;
+    left: 0;
+    color: #040e47;
+    font-size: 12px;
+}
+
+.interesse {
+    padding-bottom: 10px;
+}
+
+#type {
+    padding-right: 75%;
+    color: #040e47;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    background: transparent;
+}
+
+#case {
+    margin-right: 15px;
+}
+
+.groupe label {
+    font-size: 14px;
+}
+
+img {
+    display: flex;
+    height: 200px;
+    width: 200px;
+    align-self: center;
+    margin: auto;
 }
