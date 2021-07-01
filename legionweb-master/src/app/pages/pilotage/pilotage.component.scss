@@ -7,22 +7,20 @@
     }
     #section1d
     {
-        padding: 150px 0px 150px 0px;
+        padding: 100px 0px 150px 100px;
         background: #F5F6FC;
     }
-    #pilot
+    #section1d .pilot 
     {
-        display: inline-block;
+        margin-top: 30px;
     }
-    #img_pilot
+    .img_pilot 
     {
-        display: inline-block;
-        vertical-align: top;
-        margin-left: 100px;
+        margin-top: -60px;
     }
-    #img_pilot img
+    .img_pilot img
     {
-        width: 500px;
+        width: 450px;
     }
     #pilot h1
     {
@@ -59,37 +57,14 @@
         font-size: 18px;
         line-height: 30px;
     }
-    .button_com
-    {
-        background-color: #ff6c4a;
-        padding: 15px 26px;
-    }
-    #pilot button
-    {
-        font-family: 'OpenSansLight',sans-serif !important;
-        color: white;
-        font-size: 16px;
-        text-transform: uppercase;
-        border: #ff6c4a;
-        margin-top: 30px;
-    }
     #section2d
     {
         background: #FAFAFD;
-        padding-bottom: 40px;
-        padding-top: 60px;
+        padding: 60px 40px 40px 80px;
     }
-    #section2d .imgpilot1
+    #section2d .imgpilot1 img
     {
-        display: inline-block;  
-        vertical-align: top;  
-    }
-    #section2d .pilotage1
-    {
-        display: inline-block;
-        margin-left: 230px;
-        line-height: 30px;
-        color: #040e47;
+        width: 600px;
     }
     .trait4d
     {
@@ -116,34 +91,18 @@
     #section3d
     {
         background-color: white;
-        padding-top: 80px;
-        padding-bottom: 60px;
+        padding: 60px 40px 40px 80px;
     }
-    #section3d .pilotage2
+    #section3d .imgpilot2 img
     {
-        display: inline-block;
-        line-height: 30px;
-    }
-    #section3d .imgpilot2
-    {
-        display: inline-block;
-        vertical-align: top;
-        margin-left: 200px;
+        width: 600px;
     }
     #section4d
     {
         background: #FAFAFD;
-        padding-top: 80px;
-        padding-bottom: 150px;
+        padding: 80px 40px 150px 80px;
     }
-    #section4d .pilotage3
+    #section4d .imgpilot3 img
     {
-        display: inline-block;
-        line-height: 30px;
-        margin-left: 155px;
-    }
-    #section4d .imgpilot3
-    {
-        display: inline-block;
-        vertical-align: top;
+        width: 600px;
     }

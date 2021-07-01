@@ -7,25 +7,19 @@
     }
     #section1b
     {
-        padding: 150px 0px 150px 0px;
+        padding: 120px 0px 50px 100px;
         background: #F5F6FC;
     }
-    #entonoir1
-    {
-		display: inline-block;
-    }
-    #imgentonoir1
-    {
-        display: inline-block;
-        vertical-align: top;
-        margin-left: 200px;
-    }
-    #imgentonoir1 img
+    #section1b .img_ento img
     {
         width: 400px;
-        margin-top: -100px;
+        margin-top: -50px;
     }
-    #entonoir1 h1
+    #section1b .img_ento
+    {
+        right: -80px;
+    }
+    #section1b .text_ento h1
     {
         font-family: 'LatoBlack',sans-serif !important;
         font-size: 40px !important; 
@@ -59,25 +53,6 @@
         color: #3b4654;
         font-size: 18px;
         line-height: 30px;
-    }
-    .button_com
-    {
-        font-family: 'OpenSansLight',sans-serif !important;
-        background-color: #ff6c4a;
-        padding: 15px 26px;
-    }
-    .button_com:hover
-    {
-        
-    }
-    #entonoir1 button
-    {
-        font-family: 'OpenSansLight',sans-serif !important;
-        color: white;
-        font-size: 16px;
-        text-transform: uppercase;
-        border: #ff6c4a;
-        margin-top: 30px;
     }
     #section2b, #section2b .row:last-of-type 
     {
