@@ -1,25 +1,34 @@
-    #sect1 {
+    #sect1 
+    {
         background: #F5F6FC;
         padding: 4%;
     }
     
-    #sect1 .text_cont .trait_text {
+    #sect1 .trait_text 
+    {
         margin-top: 50px;
     }
-    
-    #sect1 .text_cont .text_digi {
+    #sect1 .text_equi 
+    {
+        padding-top: 70px;
+    }
+    #sect1 .text_digi 
+    {
         display: inline-block;
         vertical-align: top;
-        max-width: 500px;
+        max-width: 450px;
         line-height: 30px;
     }
-    
+    #sect1 .team_img 
+    {
+        right: -130px;
+    }
     .trait_equi {
         display: inline-block;
         width: 45px;
         height: 3px;
         background: #3b4654;
-        margin-right: 30px;
+        margin-right: 25px;
     }
     
     .div_equipe img {
@@ -64,7 +73,7 @@
     
     #digi_team .name {
         float: left;
-        font-size: 23px;
+        font-size: 20px;
         color: #040e47;
         font-family: 'LatoBlack', sans-serif;
         font-weight: bold;
@@ -78,15 +87,15 @@
         width: 25px;
         height: 25px;
     }
-    
-    .row .img_wi img {
-        height: 87%;
+    .row .img_wi img 
+    {
+        height: 84%;
     }
-    
-    .row .fonction {
+    .row .fonction 
+    {
         display: none;
         position: absolute;
-        width: 93%;
+        width: 91.2%;
         height: 15%;
         text-align: center;
         font-size: 18px;
@@ -94,22 +103,23 @@
         color: white;
         background-color: #040e47;
         opacity: 0.9;
-        top: 422px;
-        padding-top: 33px;
+        top: 329px;
+        padding-top: 25px;
     }
-    
-    .row .col-md-3 {
+    .row .col-md-3 
+    {
         position: relative;
     }
-    
-    #sect2 .col-md-3:hover .fonction {
+    #sect2 .col-md-3:hover .fonction 
+    {
         display: block;
     }
     
-    .row .fonction1 {
+    .row .fonction1 
+    {
         display: none;
         position: absolute;
-        width: 93%;
+        width: 91.2%;
         height: 15%;
         text-align: center;
         font-size: 18px;
@@ -117,16 +127,10 @@
         color: white;
         background-color: #040e47;
         opacity: 0.9;
-        top: 434px;
-        padding-top: 33px;
+        top: 338px;
+        padding-top: 25px;
     }
     
     #sect2 .col-md-3:hover .fonction1 {
         display: block;
-    }
-    
-    .equipe {
-        display: flex;
-        width: 100%;
-        height: 100%;
     }
