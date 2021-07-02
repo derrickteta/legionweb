@@ -28,6 +28,7 @@ import { RetourexpComponent } from './components/retourexp/retourexp.component';
 import { NewsletterComponent } from './components/newsletter/newsletter.component';
 import { RegisterService } from './services/register.service';
 import { RenderarticlesComponent } from './pages/renderarticles/renderarticles.component';
+import { DashboardComponent } from './pages/dashboard/dashboard.component';
 
 
 
@@ -56,6 +57,7 @@ import { RenderarticlesComponent } from './pages/renderarticles/renderarticles.c
     RetourexpComponent,
     NewsletterComponent,
     RenderarticlesComponent,
+    DashboardComponent,
   ],
   imports: [
     BrowserModule,
