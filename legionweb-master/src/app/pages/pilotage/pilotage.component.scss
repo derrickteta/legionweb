@@ -66,6 +66,23 @@
     {
         width: 600px;
     }
+    #section2d .imgpilot1
+    {
+        position: relative;
+    }
+    #section2d .hoverimgpilot1
+    {
+        position: absolute;
+        width: 95.4%;
+        height: 100%;
+        background-color: #040e47;
+        opacity: 0.6;
+        top: 0px;
+    }
+    #section2d .imgpilot1:hover .hoverimgpilot1
+    {
+        display: block;
+    }
     .trait4d
     {
         display: inline-block;
@@ -97,6 +114,23 @@
     {
         width: 600px;
     }
+    #section3d .imgpilot2
+    {
+        position: relative;
+    }
+    #section3d .hoverimgpilot2
+    {
+        position: absolute;
+        width: 95.4%;
+        height: 94%;
+        background-color: #040e47;
+        opacity: 0.6;
+        top: 0px;
+    }
+    #section3d .imgpilot2:hover .hoverimgpilot2
+    {
+        display: block;
+    }
     #section4d
     {
         background: #FAFAFD;
@@ -105,4 +139,21 @@
     #section4d .imgpilot3 img
     {
         width: 600px;
+    }
+    #section4d .imgpilot3
+    {
+        position: relative;
+    }
+    #section4d .hoverimgpilot3
+    {
+        position: absolute;
+        width: 95.4%;
+        height: 73.5%;
+        background-color: #040e47;
+        opacity: 0.6;
+        top: 0px;
+    }
+    #section4d .imgpilot3:hover .hoverimgpilot3
+    {
+        display: block;
     }
