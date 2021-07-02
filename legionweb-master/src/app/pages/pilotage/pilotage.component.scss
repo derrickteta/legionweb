@@ -12,17 +12,18 @@
     }
     #section1d .pilot 
     {
-        margin-top: 30px;
+        margin-top: -30px;
     }
     .img_pilot 
     {
-        margin-top: -60px;
+        margin-top: -80px;
+        right: -30px;
     }
     .img_pilot img
     {
-        width: 450px;
+        width: 470px;
     }
-    #pilot h1
+    .pilot h1
     {
         font-family: 'LatoBlack',sans-serif !important;
         font-size: 40px !important; 
@@ -43,7 +44,6 @@
         display: inline-block;
         vertical-align: top;
         margin-left: 30px;
-        line-height: 30px;
     }
     .objet_pilot
     {
@@ -55,7 +55,11 @@
     {
         color: #3b4654;
         font-size: 18px;
-        line-height: 30px;
+        line-height: 35px;
+    }
+    .liste_pilot
+    {
+        line-height: 35px;
     }
     #section2d
     {
