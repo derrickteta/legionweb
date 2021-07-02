@@ -32,6 +32,12 @@ body {
 {
     margin-top: 10px;
 }
+.imgvol1
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .imgvol1 img 
 {
     width: 600px;
@@ -76,26 +82,27 @@ body {
     background: #FAFAFD;
     padding: 50px 0px 80px 50px;
 }
-#section2a .imgvol2 img 
-{
-    width: 500px;
-}
 #section2a .imgvol2
 {
     margin-top: -30px;
-}
-#section2a .imgvol2
-{
+    display: flex;
+    align-items: center;
     position: relative;
+    justify-content: center;
+}
+#section2a .imgvol2 img 
+{
+    width: 100%;
+    display: flex;
+    align-self: center;
 }
 #section2a .hovervol2
 {
     position: absolute;
-    width: 82%;
-    height: 93%;
+    width: 95%;
+    height: 100%;
     background-color: #040e47;
     opacity: 0.6;
-    top: 0px;
 }
 #section2a .imgvol2:hover .hovervol2 
 {
@@ -128,26 +135,27 @@ h2
 {
     padding: 50px 0px 80px 50px;
 }
-#section3a .imgvol3 img 
-{
-    width: 500px;
-}
 #section3a .imgvol3
 {
     margin-top: -70px;
-}
-#section3a .imgvol3
-{
+    display: flex;
+    align-items: center;
     position: relative;
+    justify-content: center;
+}
+#section3a .imgvol3 img 
+{
+    width: 100%;
+    display: flex;
+    align-self: center;
 }
 #section3a .hovervol3
 {
     position: absolute;
-    width: 82%;
+    width: 95%;
     height: 100%;
     background-color: #040e47;
     opacity: 0.6;
-    top: 0px;
 }
 #section3a .imgvol3:hover .hovervol3
 {
@@ -161,23 +169,24 @@ h2
 #section4a .imgvol4
 {
     margin-top: -70px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
 }
 #section4a .imgvol4 img 
 {
-    width: 500px;
-}
-#section4a .imgvol4
-{
-    position: relative;
+    width: 100%;
+    display: flex;
+    align-self: center;
 }
 #section4a .hovervol4
 {
     position: absolute;
-    width: 82%;
+    width: 95%;
     height: 100%;
     background-color: #040e47;
     opacity: 0.6;
-    top: 0px;
 }
 #section4a .imgvol4:hover .hovervol4 
 {
@@ -190,23 +199,24 @@ h2
 #section5a .imgvol5 
 {
     margin-top: -70px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
 }
 #section5a .imgvol5 img 
 {
-    width: 500px;
-}
-#section5a .imgvol5
-{
-    position: relative;
+    width: 100%;
+    display: flex;
+    align-self: center;
 }
 #section5a .hovervol5
 {
     position: absolute;
-    width: 82%;
+    width: 95%;
     height: 100%;
     background-color: #040e47;
     opacity: 0.6;
-    top: 0px;
 }
 #section5a .imgvol5:hover .hovervol5 
 {
@@ -220,23 +230,24 @@ h2
 #section6a .imgvol6 
 {
     margin-top: -100px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
 }
 #section6a .imgvol6 img 
 {
-    width: 400px;
-}
-#section6a .imgvol6
-{
-    position: relative;
+    width: 100%;
+    display: flex;
+    align-self: center;
 }
 #section6a .hovervol6
 {
     position: absolute;
-    width: 65.6%;
+    width: 95%;
     height: 100%;
     background-color: #040e47;
     opacity: 0.6;
-    top: 0px;
 }
 #section6a .imgvol6:hover .hovervol6 
 {

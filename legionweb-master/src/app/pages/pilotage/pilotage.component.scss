@@ -66,22 +66,27 @@
         background: #FAFAFD;
         padding: 60px 40px 40px 80px;
     }
-    #section2d .imgpilot1 img
-    {
-        width: 600px;
-    }
     #section2d .imgpilot1
     {
+        margin-top: -30px;
+        display: flex;
+        align-items: center;
         position: relative;
+        justify-content: center;
+    }
+    #section2d .imgpilot1 img
+    {
+        width: 100%;
+        display: flex;
+        align-self: center;
     }
     #section2d .hoverimgpilot1
     {
         position: absolute;
-        width: 95.4%;
-        height: 100%;
+        width: 95%;
+        height: 94%;
         background-color: #040e47;
         opacity: 0.6;
-        top: 0px;
     }
     #section2d .imgpilot1:hover .hoverimgpilot1
     {
@@ -114,22 +119,26 @@
         background-color: white;
         padding: 60px 40px 40px 80px;
     }
-    #section3d .imgpilot2 img
-    {
-        width: 600px;
-    }
     #section3d .imgpilot2
     {
+        display: flex;
+        align-items: center;
         position: relative;
+        justify-content: center;
+    }
+    #section3d .imgpilot2 img
+    {
+        width: 100%;
+        display: flex;
+        align-self: center;
     }
     #section3d .hoverimgpilot2
     {
         position: absolute;
-        width: 95.4%;
+        width: 95%;
         height: 94%;
         background-color: #040e47;
         opacity: 0.6;
-        top: 0px;
     }
     #section3d .imgpilot2:hover .hoverimgpilot2
     {
@@ -140,22 +149,26 @@
         background: #FAFAFD;
         padding: 80px 40px 150px 80px;
     }
-    #section4d .imgpilot3 img
-    {
-        width: 600px;
-    }
     #section4d .imgpilot3
     {
+        display: flex;
+        align-items: center;
         position: relative;
+        justify-content: center;
+    }
+    #section4d .imgpilot3 img
+    {
+        width: 100%;
+        display: flex;
+        align-self: center;
     }
     #section4d .hoverimgpilot3
     {
         position: absolute;
-        width: 95.4%;
-        height: 73.5%;
+        width: 95%;
+        height: 74%;
         background-color: #040e47;
         opacity: 0.6;
-        top: 0px;
     }
     #section4d .imgpilot3:hover .hoverimgpilot3
     {

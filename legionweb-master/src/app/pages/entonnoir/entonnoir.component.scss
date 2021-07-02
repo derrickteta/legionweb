@@ -14,9 +14,14 @@
     {
         width: 500px;
         margin-top: -90px;
+        display: flex;
+        justify-content: start;
     }
     #section1b .img_ento
     {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         right: -20px;
     }
     #section1b .text_ento h1
