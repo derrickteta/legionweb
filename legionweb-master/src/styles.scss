@@ -76,9 +76,21 @@ h6 {
     font-weight: bold;
 }
 
+@media (max-width: 767px) {
+    /* CSS mobile ici */
+    .mobile {
+        position: relative;
+        top: -80px;
+    }
+    .centrer {
+        position: relative;
+        right: -20%;
+    }
+}
+
 .avis {
     background-color: #E8D5A6;
-    box-shadow: 0px 3px 6px #dbe3ea;
+    box-shadow: 0px 3px 6px #a3cff5;
 }
 
 .avis:hover {

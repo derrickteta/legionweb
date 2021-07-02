@@ -8,7 +8,34 @@
     <div class="row">
         <div class="col-md-6 contimgclaude">
             <br><br>
-            <img src="assets/image/imgclauded.jpeg" class="img-fluid img-responsive imgclaude" />
+            <div class="container-fluid d-md-none">
+                <div class="row flex-column">
+                    <div class="col-6">
+                        <img src="assets/image/imgclauded.jpeg" class="img-fluid img-responsive imgclaude" />
+                    </div>
+                    <div class="col-6">
+                        <!--<div class="triangle"></div>-->
+                        <div class="avis">
+                            <p>
+                                <q>
+                                    <em>
+                                        En tant que fondateur de LegionWeb,
+                                        j'ai aidé des entreprises en forte
+                                        croissance à identifier et saisir
+                                        les opportunités de leur marché...
+                                        <br>
+                                        <br>
+                                        <b>Et j'adore partager mon Expérience!</b>
+                                    </em>
+                                </q>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-none d-md-block">
+                <img src="assets/image/imgclauded.jpeg" class="img-fluid img-responsive imgclaude" />
+            </div>
         </div>
         <div class="col-md-6">
             <h4>Prenons rendez-vous dès maintenant</h4>
@@ -22,12 +49,12 @@
                         <br> Prenez rendez-vous directement dans l'agenda en cliquant sur le bouton ci-dessous.
                     </p>
                     <br>
-                    <button (click)="redirect('contact')" type="button" class="btn btn-primary"> DISCUTER AVEC CLAUDE </button>
+                    <button (click)="redirect('contact')" type="button" class="centrer btn btn-primary"> DISCUTER AVEC CLAUDE </button>
                 </div>
             </div>
             <br>
             <br>
-            <div style="display:flex; padding:30px; justify-content: space-around;">
+            <div class="d-none d-sm-block " style="display:flex; padding:30px; justify-content: space-around;">
                 <div class="triangle"></div>
                 <div class="avis">
                     <p>
