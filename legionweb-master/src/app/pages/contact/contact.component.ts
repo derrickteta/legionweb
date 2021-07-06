@@ -12,16 +12,18 @@ export class ContactComponent implements OnInit {
   public contact: Contact | undefined;
   public errorMessage: string | undefined;
   public loading = false;
-
+  public feedback=false;
+  public success=1;
 
   constructor(private register:RegisterService) {}
  
   ngOnInit():void{
+
 };
 
 
 onSubmit(form:NgForm) {
-  this.loading = false;
+  this.loading = true;
   const contact = new Contact();
   contact.prenom = form.value['prenom'];
   contact.nom = form.value['nom'];
@@ -33,20 +35,26 @@ onSubmit(form:NgForm) {
   contact.interet = form.value['interet'];
   contact.message = form.value['message'];
   contact.pub = form.value['pub'];
-  //console.log("avant l'envoi");
-  //console.log(contact);
+  console.log("avant l'envoi");
+  console.log(contact);
   this.register.createNewAddress(contact).then(
     () => {
-      console.log("apres l'envoi");
-      console.log(contact);
       this.loading = false;
+      this.feedback=true;
+      this.success=2;
     }
   ).catch(
     (error) => {
       this.errorMessage = error.message;
+      this.feedback=true;
+      this.success=3;
     }
   );
+  setTimeout(() => {
+    this.feedback=false;
+  },5000);
 }
+
 
 }
 

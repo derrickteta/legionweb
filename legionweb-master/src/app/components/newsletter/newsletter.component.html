@@ -25,13 +25,18 @@
                                 confidentialité.</a>
                         </p>
                         <div class="row">
-                            <button class="btn btn-primary" id="vision" type="submit" [disabled]="f.invalid">
+                            <mat-spinner style="widht:50%; margin:auto;" *ngIf="loading"></mat-spinner>
+                            <button class="btn btn-primary" *ngIf="!loading" id="vision" (click)="affecter_vision()" type="submit" [disabled]="f.invalid">
                                     Soumettre
                             </button>
 
                         </div>
                         <br>
                     </form>
+                </div>
+                <div style="width:60%; margin:auto;" *ngIf="feedbackvision" id="feedback">
+                    <p *ngIf="success===2" style="color:green;font-style:italic;font-weight:bold;">Abonnement VISION effectué avec succès</p>
+                    <p *ngIf="success===3" style="color:red;font-style:italic;font-weight:bold;">Echec d'Abonnement veuillez réessayer</p>
                 </div>
                 <button type="button" *ngIf="!vision" (click)="afficher_vision()" class="btn btn-primary"> S'ABONNER</button>
 
@@ -62,12 +67,17 @@
                                 confidentialité.</a>
                         </p>
                         <div class="row">
-                            <button class="btn btn-primary" type="submit" [disabled]="f.invalid">
+                            <mat-spinner style="widht:50%; margin:auto;" *ngIf="loading"></mat-spinner>
+                            <button class="btn btn-primary" *ngIf="!loading" (click)="affecter_tips()" type="submit" [disabled]="f.invalid">
                                     Soumettre
                             </button>
                         </div>
                         <br>
                     </form>
+                </div>
+                <div style="width:60%; margin:auto;" *ngIf="feedbacktips" id="feedback">
+                    <p *ngIf="success===2" style="color:green;font-style:italic;font-weight:bold;">Abonnement TIPS effectué avec succès</p>
+                    <p *ngIf="success===3" style="color:red;font-style:italic;font-weight:bold;">Echec d'Abonnement veuillez réessayer</p>
                 </div>
                 <button type="button" *ngIf="!tips" (click)="afficher_tips()" class="btn btn-primary"> S'ABONNER</button>
 
@@ -96,12 +106,17 @@
                                 confidentialité.</a>
                         </p>
                         <div class="row">
-                            <button class="btn btn-primary" type="submit" [disabled]="f.invalid">
+                            <mat-spinner style="widht:50%; margin:auto;" *ngIf="loading"></mat-spinner>
+                            <button class="btn btn-primary" *ngIf="!loading" (click)="affecter_strategie()" type="submit" [disabled]="f.invalid">
                                     Soumettre
                             </button>
                         </div>
                         <br>
                     </form>
+                </div>
+                <div style="width:60%; margin:auto;" *ngIf="feedbackstrategie" id="feedback">
+                    <p *ngIf="success===2" style="color:green;font-style:italic;font-weight:bold;">Abonnement STRATEGIE effectué avec succès</p>
+                    <p *ngIf="success===3" style="color:red;font-style:italic;font-weight:bold;">Echec d'Abonnement veuillez réessayer</p>
                 </div>
                 <button type="button" *ngIf="!strategie" (click)="afficher_strategie()" class="btn btn-primary"> S'ABONNER</button>
             </div>

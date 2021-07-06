@@ -83,7 +83,7 @@ h1 {
 .colservices {
     height: 100%;
     min-height: 350px;
-    max-width: 300px;
+    max-width: 225px;
     min-width: 200px;
     //border: solid #D8A24A 3px;
     //border-style: outset;
@@ -132,11 +132,11 @@ h1 {
     content: '';
     background-image: linear-gradient(to right, #F2C270, #F2C270);
     height: 5px;
-    width: 200px;
+    width: 150px;
     margin-left: auto;
     margin-right: auto;
     display: block;
-    transform: translateY(63px);
+    transform: translateY(64px);
 }
 
 .title::after {

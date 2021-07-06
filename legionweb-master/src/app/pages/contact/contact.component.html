@@ -80,11 +80,16 @@
                 </div>
 
                 <div class="row button_submit">
-                    <button class="btn btn-primary" type="submit" [disabled]="f.invalid">
+                    <mat-spinner *ngIf="loading"></mat-spinner>
+                    <button class="btn btn-primary" *ngIf="!loading" type="submit" [disabled]="f.invalid">
                             Envoyer
                     </button>
                 </div>
             </form>
+            <div style="width:60%; margin:auto;" *ngIf="feedback" id="feedback">
+                <p *ngIf="success===2" style="color:green;font-style:italic;font-weight:bold;">Contact enregistré avec succès</p>
+                <p *ngIf="success===3" style="color:red;font-style:italic;font-weight:bold;">Echec d'enregistrement veuillez réessayer</p>
+            </div>
         </div>
     </div>
 </div>

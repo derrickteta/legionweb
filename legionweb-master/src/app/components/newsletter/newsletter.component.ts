@@ -14,7 +14,12 @@ export class NewsletterComponent implements OnInit {
   public loading = false;
   public vision = false;
   public tips=false;
-  public strategie=false;   
+  public strategie=false;
+  public feedbackvision=false;
+  public feedbacktips=false;
+  public feedbackstrategie=false;
+  public success=1;
+
   public type:string | undefined;
   constructor(private sousc:SouscriptionService) { }
 
@@ -23,44 +28,61 @@ export class NewsletterComponent implements OnInit {
   }
 afficher_vision(){
     this.vision = true;
-    this.type="vision"
+}
+affecter_vision(){
+  this.type="vision"
 }
 afficher_tips(){
   this.tips = true;
-  this.type="tips"
 }
+  affecter_tips(){
+  this.type="tips"
+  }
+
 afficher_strategie(){
   this.strategie = true;
+}
+affecter_strategie(){
   this.type="strategie";
 }
   
 onSubmit(form:NgForm) {
-  this.loading = false;
+  this.loading = true;
   const souscription = new Souscription();
   souscription.type = this.type;
   souscription.email = form.value['email'];
   souscription.actif="true";
   this.sousc.createNewSouscription(souscription).then(
     () => {
-      console.log("apres l'envoi");
-      console.log(souscription);
-     if(this.type="vision"){
+     if(this.type=="vision"){
        this.vision=false;
+       this.feedbackvision=true;
      }
-     if(this.type="tips"){
+     if(this.type=="tips"){
       this.tips=false;
+      this.feedbacktips=true;
     }
-    if(this.type="vision"){
+    if(this.type=="strategie"){
       this.strategie=false;
+      this.feedbackstrategie=true;
     }
 
       this.loading = false;
+      this.success=2;
+    
     }
   ).catch(
     (error) => {
+      this.success=3;
       this.errorMessage = error.message;
     }
   );
+  setTimeout(() => {
+    this.feedbackvision=false;
+    this.feedbacktips=false;
+    this.feedbackstrategie=false;
+  },8000);
+
 }
 
 }

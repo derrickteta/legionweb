@@ -1,176 +1,192 @@
-.container
-    {
-		max-width: 1200px;
-        padding: 0 15px;
-        margin: 0 auto;
-        font-size: initial !important;
-    }
-    #section1d
-    {
-        padding: 100px 0px 150px 100px;
-        background: #F5F6FC;
-    }
-    #section1d .pilot 
-    {
-        margin-top: -30px;
-    }
-    .img_pilot 
-    {
-        margin-top: -80px;
-        right: -30px;
-    }
-    .img_pilot img
-    {
-        width: 470px;
-    }
-    .pilot h1
-    {
-        font-family: 'LatoBlack',sans-serif !important;
-        font-size: 40px !important; 
-        color: #040e47;
-        margin-bottom: 30px;
-        font-weight: bold;
-    }
-    .trait4
-    {
-        display: inline-block;
-        width: 40px;
-        height: 3px;
-        background: #3b4654;
-        border-radius: 50px;
-    }
-    #text_pilot
-    {
-        display: inline-block;
-        vertical-align: top;
-        margin-left: 30px;
-    }
-    .objet_pilot
-    {
-        font-weight: bold;
-        color: #3b4654;
-        font-size: 18px;
-    }
-    .para_pilot
-    {
-        color: #3b4654;
-        font-size: 18px;
-        line-height: 35px;
-    }
-    .liste_pilot
-    {
-        line-height: 35px;
-    }
-    #section2d
-    {
-        background: #FAFAFD;
-        padding: 60px 40px 40px 80px;
-    }
-    #section2d .imgpilot1
-    {
-        margin-top: -30px;
-        display: flex;
-        align-items: center;
-        position: relative;
-        justify-content: center;
-    }
-    #section2d .imgpilot1 img
-    {
-        width: 100%;
-        display: flex;
-        align-self: center;
-    }
-    #section2d .hoverimgpilot1
-    {
-        position: absolute;
-        width: 95%;
-        height: 94%;
-        background-color: #040e47;
-        opacity: 0.6;
-    }
-    #section2d .imgpilot1:hover .hoverimgpilot1
-    {
-        display: block;
-    }
-    .trait4d
-    {
-        display: inline-block;
-        width: 40px;
-        height: 2px;
-        background: #3b4654;
-    }
-    .lexique_pilot
-    {
-        font-weight: bold;
-        font-size: 20px;
-    }
-    h2
-    {
-        display: inline-block; 
-        padding-left: 10px;
-        margin-bottom: 40px; 
-        color: #040e47;
-        font-family: 'LatoBlack',sans-serif !important;
-        vertical-align: top;
-        font-weight: bold;
-    }
-    #section3d
-    {
-        background-color: white;
-        padding: 60px 40px 40px 80px;
-    }
-    #section3d .imgpilot2
-    {
-        display: flex;
-        align-items: center;
-        position: relative;
-        justify-content: center;
-    }
-    #section3d .imgpilot2 img
-    {
-        width: 100%;
-        display: flex;
-        align-self: center;
-    }
-    #section3d .hoverimgpilot2
-    {
-        position: absolute;
-        width: 95%;
-        height: 94%;
-        background-color: #040e47;
-        opacity: 0.6;
-    }
-    #section3d .imgpilot2:hover .hoverimgpilot2
-    {
-        display: block;
-    }
-    #section4d
-    {
-        background: #FAFAFD;
-        padding: 80px 40px 150px 80px;
-    }
-    #section4d .imgpilot3
-    {
-        display: flex;
-        align-items: center;
-        position: relative;
-        justify-content: center;
-    }
-    #section4d .imgpilot3 img
-    {
-        width: 100%;
-        display: flex;
-        align-self: center;
-    }
-    #section4d .hoverimgpilot3
-    {
-        position: absolute;
-        width: 95%;
-        height: 74%;
-        background-color: #040e47;
-        opacity: 0.6;
-    }
-    #section4d .imgpilot3:hover .hoverimgpilot3
-    {
-        display: block;
-    }
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+    font-size: initial !important;
+}
+
+#section1d {
+    padding: 100px 0px 150px 100px;
+    background: #F5F6FC;
+}
+
+#section1d .pilot {
+    margin-top: -30px;
+}
+
+.img_pilot {
+    margin-top: -80px;
+    right: -30px;
+}
+
+.img_pilot img {
+    width: 470px;
+}
+
+.pilot h1 {
+    font-family: 'LatoBlack', sans-serif !important;
+    font-size: 40px !important;
+    color: #040e47;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.trait4 {
+    display: inline-block;
+    width: 40px;
+    height: 3px;
+    background: #3b4654;
+    border-radius: 50px;
+}
+
+#text_pilot {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 30px;
+}
+
+.objet_pilot {
+    font-weight: bold;
+    color: #3b4654;
+    font-size: 18px;
+}
+
+.para_pilot {
+    color: #3b4654;
+    font-size: 18px;
+    line-height: 35px;
+}
+
+.liste_pilot {
+    line-height: 35px;
+}
+
+#section2d {
+    background: #FAFAFD;
+    padding: 60px 40px 40px 80px;
+}
+
+#section2d .imgpilot1 {
+    margin-top: -30px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+}
+
+#section2d .imgpilot1 img {
+    width: 100%;
+    display: flex;
+    align-self: center;
+}
+
+#section2d .hoverimgpilot1 {
+    position: absolute;
+    width: 95%;
+    height: 94%;
+    background-color: #040e47;
+    opacity: 0.6;
+}
+
+#section2d .imgpilot1:hover .hoverimgpilot1 {
+    display: block;
+}
+
+.trait4d {
+    display: inline-block;
+    width: 40px;
+    height: 2px;
+    background: #3b4654;
+}
+
+.lexique_pilot {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+h2 {
+    display: inline-block;
+    padding-left: 10px;
+    margin-bottom: 40px;
+    color: #040e47;
+    font-family: 'LatoBlack', sans-serif !important;
+    vertical-align: top;
+    font-weight: bold;
+}
+
+#section3d {
+    background-color: white;
+    padding: 60px 40px 40px 80px;
+}
+
+#section3d .imgpilot2 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+}
+
+#section3d .imgpilot2 img {
+    width: 100%;
+    display: flex;
+    align-self: center;
+}
+
+#section3d .hoverimgpilot2 {
+    position: absolute;
+    width: 95%;
+    height: 94%;
+    background-color: #040e47;
+    opacity: 0.6;
+}
+
+#section3d .imgpilot2:hover .hoverimgpilot2 {
+    display: block;
+}
+
+#section4d {
+    background: #FAFAFD;
+    padding: 80px 40px 150px 80px;
+}
+
+#section4d .imgpilot3 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+}
+
+#section4d .imgpilot3 img {
+    width: 100%;
+    display: flex;
+    align-self: center;
+}
+
+#section4d .hoverimgpilot3 {
+    position: absolute;
+    width: 95%;
+    height: 74%;
+    background-color: #040e47;
+    opacity: 0.6;
+}
+
+#section4d .imgpilot3:hover .hoverimgpilot3 {
+    display: block;
+}
+
+.client,
+.newsletter,
+.parlent,
+.discuter {
+    margin: 10% 5% 10% 5%;
+}
+
+
+/*.newsletter,
+.client {
+    background-color: #FFFF;
+}
+
+.parlent {
+    background-color: #FAFAFD;
+}*/

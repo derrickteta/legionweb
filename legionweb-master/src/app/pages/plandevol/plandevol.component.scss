@@ -17,42 +17,42 @@ body {
     margin: 0;
     padding: 0;
 }
-.row 
-{
+
+.row {
     margin: 5% 3% 0 3%;
 }
-.container 
-{
+
+.container {
     max-width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
     font-size: initial !important;
 }
-.textvol1
-{
+
+.textvol1 {
     margin-top: 10px;
 }
-.imgvol1
-{
+
+.imgvol1 {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.imgvol1 img 
-{
+
+.imgvol1 img {
     width: 600px;
     margin-top: -50px;
 }
-#img_text h1 
-{
+
+#img_text h1 {
     font-family: 'LatoBlack', sans-serif !important;
     font-size: 40px !important;
     color: #040e47;
     margin-bottom: 30px;
     font-weight: bold;
 }
-#img_text .trait1 
-{
+
+#img_text .trait1 {
     width: 45px;
     height: 3px;
     background: #3b4654;
@@ -60,60 +60,60 @@ body {
     align-self: start;
     transform: translateY(16px);
 }
-.text_trait 
-{
+
+.text_trait {
     margin-left: 60px;
     line-height: 30px;
 }
-.objet 
-{
+
+.objet {
     font-weight: bold;
     color: #3b4654;
     font-size: 18px;
 }
-.paraobjet 
-{
+
+.paraobjet {
     color: #3b4654;
     font-size: 18px;
     line-height: 35px;
 }
-#section2a 
-{
+
+#section2a {
     background: #FAFAFD;
     padding: 50px 0px 80px 50px;
 }
-#section2a .imgvol2
-{
+
+#section2a .imgvol2 {
     margin-top: -30px;
     display: flex;
     align-items: center;
     position: relative;
     justify-content: center;
 }
-#section2a .imgvol2 img 
-{
+
+#section2a .imgvol2 img {
     width: 100%;
     display: flex;
     align-self: center;
 }
-#section2a .hovervol2
-{
+
+#section2a .hovervol2 {
     position: absolute;
     width: 95%;
     height: 100%;
     background-color: #040e47;
     opacity: 0.6;
 }
-#section2a .imgvol2:hover .hovervol2 
-{
+
+#section2a .imgvol2:hover .hovervol2 {
     display: block;
 }
-.lexique_entenoir 
-{
+
+.lexique_entenoir {
     font-weight: bold;
 }
-h2 
-{
+
+h2 {
     display: inline-block;
     padding-left: 10px;
     margin-bottom: 40px;
@@ -123,133 +123,139 @@ h2
     vertical-align: top;
     font-weight: bold;
 }
-.trait1a 
-{
+
+.trait1a {
     display: inline-block;
     width: 45px;
     height: 3px;
     background: #3b4654;
     border-radius: 50px;
 }
-#section3a 
-{
+
+#section3a {
     padding: 50px 0px 80px 50px;
 }
-#section3a .imgvol3
-{
+
+#section3a .imgvol3 {
     margin-top: -70px;
     display: flex;
     align-items: center;
     position: relative;
     justify-content: center;
 }
-#section3a .imgvol3 img 
-{
+
+#section3a .imgvol3 img {
     width: 100%;
     display: flex;
     align-self: center;
 }
-#section3a .hovervol3
-{
+
+#section3a .hovervol3 {
     position: absolute;
     width: 95%;
     height: 100%;
     background-color: #040e47;
     opacity: 0.6;
 }
-#section3a .imgvol3:hover .hovervol3
-{
+
+#section3a .imgvol3:hover .hovervol3 {
     display: block;
 }
-#section4a 
-{
+
+#section4a {
     padding: 50px 0px 80px 50px;
     background: #FAFAFD;
 }
-#section4a .imgvol4
-{
+
+#section4a .imgvol4 {
     margin-top: -70px;
     display: flex;
     align-items: center;
     position: relative;
     justify-content: center;
 }
-#section4a .imgvol4 img 
-{
+
+#section4a .imgvol4 img {
     width: 100%;
     display: flex;
     align-self: center;
 }
-#section4a .hovervol4
-{
+
+#section4a .hovervol4 {
     position: absolute;
     width: 95%;
     height: 100%;
     background-color: #040e47;
     opacity: 0.6;
 }
-#section4a .imgvol4:hover .hovervol4 
-{
+
+#section4a .imgvol4:hover .hovervol4 {
     display: block;
 }
-#section5a 
-{
+
+#section5a {
     padding: 50px 0px 80px 50px;
 }
-#section5a .imgvol5 
-{
+
+#section5a .imgvol5 {
     margin-top: -70px;
     display: flex;
     align-items: center;
     position: relative;
     justify-content: center;
 }
-#section5a .imgvol5 img 
-{
+
+#section5a .imgvol5 img {
     width: 100%;
     display: flex;
     align-self: center;
 }
-#section5a .hovervol5
-{
+
+#section5a .hovervol5 {
     position: absolute;
     width: 95%;
     height: 100%;
     background-color: #040e47;
     opacity: 0.6;
 }
-#section5a .imgvol5:hover .hovervol5 
-{
+
+#section5a .imgvol5:hover .hovervol5 {
     display: block;
 }
-#section6a 
-{
+
+#section6a {
     padding: 50px 0px 80px 50px;
     background: #FAFAFD;
 }
-#section6a .imgvol6 
-{
+
+#section6a .imgvol6 {
     margin-top: -100px;
     display: flex;
     align-items: center;
     position: relative;
     justify-content: center;
 }
-#section6a .imgvol6 img 
-{
+
+#section6a .imgvol6 img {
     width: 100%;
     display: flex;
     align-self: center;
 }
-#section6a .hovervol6
-{
+
+#section6a .hovervol6 {
     position: absolute;
     width: 95%;
     height: 100%;
     background-color: #040e47;
     opacity: 0.6;
 }
-#section6a .imgvol6:hover .hovervol6 
-{
+
+#section6a .imgvol6:hover .hovervol6 {
     display: block;
+}
+
+.client,
+.newsletter,
+.parlent {
+    margin: 10% 5% 10% 5%;
 }

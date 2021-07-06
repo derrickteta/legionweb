@@ -11,12 +11,10 @@
                     <span class="objet_pilot">Objectif de la phase</span> : Piloter votre stratégie avec les bonnes <br> données, les bons outils et les bonnes compétences.
                 </p>
             </div>
-            <p  class="liste_pilot">
+            <p class="liste_pilot">
                 CRM - Tableau de bord - Business Intelligence - Recrutement - <br> Marque employeur
             </p>
-            <a href="#" title="COMMENCEZ MAINTENANT">
-                <button type="button" class="btn btn-primary">Commencez maintenant</button>
-            </a>
+            <button type="button" (click)="scrol('discuterpilotage')" class="btn btn-primary">Commencez maintenant</button>
         </div>
         <div class="col-12 col-md-6 order-1 order-md-2 img_pilot">
             <img src="assets/image/imgpilotage.png" alt="imgpilotage.png" />
@@ -65,8 +63,8 @@
             </div>
             <p class="lexique_pilot">La donnée est le lien entre votre prospect et votre organisation.</p>
             <p>
-                Garder une trace de l'ensemble des interactions avec vos visiteurs, vos prospects et vos clients au sein d'un CRM. Vous pourrez ainsi mieux comprendre leurs besoins, identifier des signaux d'achat grâce à leur comportement
-                sur votre site, et engager la conversation au bon moment pour optimiser vos chances..
+                Garder une trace de l'ensemble des interactions avec vos visiteurs, vos prospects et vos clients au sein d'un CRM. Vous pourrez ainsi mieux comprendre leurs besoins, identifier des signaux d'achat grâce à leur comportement sur votre site, et engager la
+                conversation au bon moment pour optimiser vos chances..
             </p>
             <p class="lexique_pilot">Vos prospects et clients détestent avoir à se répéter.</p>
             <p>
@@ -98,8 +96,7 @@
                 Des difficultés à recruter les talents ? Besoin d'ajouter des compétences au sein de vos équipes ?
             </p>
             <p>
-                Beaucoup de recruteurs font le même constat : il devient de plus en plus difficile de recruter les talents. D'une part les candidats qualifiés se font rares et augmentent leurs exigences, d'autres parts les compétences deviennent
-                obsolètes plus rapidement.
+                Beaucoup de recruteurs font le même constat : il devient de plus en plus difficile de recruter les talents. D'une part les candidats qualifiés se font rares et augmentent leurs exigences, d'autres parts les compétences deviennent obsolètes plus rapidement.
             </p>
             <p class="lexique_pilot">Développer votre marque employeur</p>
             <p>
@@ -107,9 +104,33 @@
             </p>
             <p class="lexique_pilot">Formez les collaborateurs en continu</p>
             <p>
-                Tirez le meilleur des outils que vous adoptez et conservez l'autonomie de vos équipes grâce à la formation. Nos experts transmettent les bonnes pratiques et les tips qui vous permettent d'utiliser vos outils au maximum de
-                leurs capacités.
+                Tirez le meilleur des outils que vous adoptez et conservez l'autonomie de vos équipes grâce à la formation. Nos experts transmettent les bonnes pratiques et les tips qui vous permettent d'utiliser vos outils au maximum de leurs capacités.
             </p>
         </div>
     </div>
+</div>
+<div class="client">
+
+    <div style="display:flex">
+        <div class="trait1">
+        </div>
+        <h2>Nos clients</h2>
+    </div>
+    <br>
+    <app-client></app-client>
+</div>
+<div class="parlent">
+    <app-parlentdenous></app-parlentdenous>
+</div>
+<div class="newsletter">
+
+    <div style="display:flex">
+        <div class="trait1">
+        </div>
+        <h2>Recevez votre newsletter personnalisée</h2>
+    </div>
+    <app-newsletter></app-newsletter>
+</div>
+<div class="discuter" id="discuterpilotage">
+    <app-discuter></app-discuter>
 </div>

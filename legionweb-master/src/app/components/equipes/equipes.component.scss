@@ -1,28 +1,27 @@
-    #sect1 
-    {
+    #sect1 {
         background: #F5F6FC;
         padding: 4%;
     }
     
-    #sect1 .trait_text 
-    {
+    #sect1 .trait_text {
         margin-top: 50px;
     }
-    #sect1 .text_equi 
-    {
+    
+    #sect1 .text_equi {
         padding-top: 50px;
     }
-    #sect1 .text_digi 
-    {
+    
+    #sect1 .text_digi {
         display: inline-block;
         vertical-align: top;
         max-width: 450px;
         line-height: 30px;
     }
-    #sect1 .team_img 
-    {
+    
+    #sect1 .team_img {
         right: -130px;
     }
+    
     .trait_equi {
         display: inline-block;
         width: 45px;
@@ -87,12 +86,12 @@
         width: 25px;
         height: 25px;
     }
-    .row .img_wi img 
-    {
+    
+    .row .img_wi img {
         height: 84%;
     }
-    .row .fonction 
-    {
+    
+    .row .fonction {
         display: none;
         position: absolute;
         width: 91.2%;
@@ -106,17 +105,16 @@
         top: 329px;
         padding-top: 25px;
     }
-    .row .col-md-3 
-    {
+    
+    .row .col-md-3 {
         position: relative;
     }
-    #sect2 .col-md-3:hover .fonction 
-    {
+    
+    #sect2 .col-md-3:hover .fonction {
         display: block;
     }
     
-    .row .fonction1 
-    {
+    .row .fonction1 {
         display: none;
         position: absolute;
         width: 91.2%;
@@ -133,4 +131,10 @@
     
     #sect2 .col-md-3:hover .fonction1 {
         display: block;
+    }
+    
+    .client,
+    .newsletter,
+    .parlent {
+        margin: 10% 5% 10% 5%;
     }

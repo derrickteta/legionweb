@@ -1,95 +1,97 @@
-    .container
-    {
-		max-width: 1200px;
+    .container {
+        max-width: 1200px;
         padding: 0 15px;
         margin: 0 auto;
         font-size: initial !important;
     }
-    #section1b
-    {
+    
+    #section1b {
         padding: 120px 0px 50px 100px;
         background: #F5F6FC;
     }
-    #section1b .img_ento img
-    {
+    
+    #section1b .img_ento img {
         width: 500px;
         margin-top: -90px;
         display: flex;
         justify-content: start;
     }
-    #section1b .img_ento
-    {
+    
+    #section1b .img_ento {
         display: flex;
         align-items: center;
         justify-content: center;
         right: -20px;
     }
-    #section1b .text_ento h1
-    {
-        font-family: 'LatoBlack',sans-serif !important;
-        font-size: 40px !important; 
+    
+    #section1b .text_ento h1 {
+        font-family: 'LatoBlack', sans-serif !important;
+        font-size: 40px !important;
         color: #040e47;
         margin-bottom: 30px;
         font-weight: bold;
     }
-    #section1b .text_ento
-    {
+    
+    #section1b .text_ento {
         margin-top: -40px;
     }
-    .trait2
-    {
+    
+    .trait2 {
         display: inline-block;
         width: 45px;
         height: 3px;
         background: #3b4654;
         border-radius: 50px;
     }
-    .text_trait
-    {
+    
+    .text_trait {
         display: inline-block;
         vertical-align: top;
         margin-left: 30px;
         line-height: 30px;
     }
-    .objet
-    {
+    
+    .objet {
         font-weight: bold;
         color: #3b4654;
         font-size: 18px;
     }
-    .paraobjet
-    {
+    
+    .paraobjet {
         color: #3b4654;
         font-size: 18px;
         line-height: 35px;
     }
-    #section2b, #section2b .row:last-of-type 
-    {
+    
+    #section2b,
+    #section2b .row:last-of-type {
         background: #FAFAFD;
     }
-    .setting_sect
-    {
+    
+    .setting_sect {
         padding: 50px 0;
     }
-    #section2b .text_intro 
-    {
+    
+    #section2b .text_intro {
         max-width: 650px;
         margin-bottom: 100px;
     }
-    h2.titre
-    {
+    
+    h2.titre {
         padding-left: 55px;
         margin-bottom: 40px;
         font-weight: bold;
     }
-    h2, h2 span {
+    
+    h2,
+    h2 span {
         color: #040e47;
-        font-family: 'LatoBlack',sans-serif !important;
+        font-family: 'LatoBlack', sans-serif !important;
         line-height: 36px;
         position: relative;
     }
-    h2.titre:before 
-    {
+    
+    h2.titre:before {
         content: "";
         position: absolute;
         left: 0px;
@@ -99,21 +101,21 @@
         top: 20px;
         border-radius: 50px;
     }
-    #section2b .text_intro 
-    {
+    
+    #section2b .text_intro {
         max-width: 650px;
         margin-bottom: 100px;
     }
-    #section2b .lexique_ento 
-    {
+    
+    #section2b .lexique_ento {
         font-weight: bold;
     }
-    #section2b .content_sect
-    {
+    
+    #section2b .content_sect {
         position: relative;
     }
-    #section2b .content_sect:before 
-    {
+    
+    #section2b .content_sect:before {
         content: '';
         position: absolute;
         background-size: 77%;
@@ -124,46 +126,53 @@
         width: 2px;
         animation: translateY 2s linear infinite;
     }
-    #section2b .row.right 
-    {
+    
+    #section2b .row.right {
         flex-direction: row-reverse;
     }
-    #section2b .row 
-    {
+    
+    #section2b .row {
         position: relative;
         padding-bottom: 135px;
     }
-    #section2b .row.right .col_sect 
-    {
+    
+    #section2b .row.right .col_sect {
         padding-left: 85px;
     }
-    #section2b .row.right .icon 
-    {
+    
+    #section2b .row.right .icon {
         position: absolute;
         left: -66px;
         z-index: 9;
     }
-    h3, h3 span 
-    {
-        font-family: 'LatoBlack',sans-serif !important;
+    
+    h3,
+    h3 span {
+        font-family: 'LatoBlack', sans-serif !important;
         font-weight: bold;
     }
-    #section2b .row 
-    {
+    
+    #section2b .row {
         position: relative;
         padding-bottom: 135px;
     }
-    #section2b .row.left .col_sect 
-    {
+    
+    #section2b .row.left .col_sect {
         padding-right: 85px;
     }
-    #section2b .row.left .icon 
-    {
+    
+    #section2b .row.left .icon {
         position: absolute;
         right: -66px;
         z-index: 9;
     }
-    #section2b .row.left .text 
-    {
+    
+    #section2b .row.left .text {
         text-align: right;
+    }
+    
+    .client,
+    .newsletter,
+    .parlent {
+        margin: 10% 5% 10% 5%;
     }
