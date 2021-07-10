@@ -13,10 +13,10 @@
                 <p class="paraobjet"> Persona - Storytelling - Cycle de vie client - Process internes - Objectifs - SMART </p>
             </div>
             <a href="#" title="COMMENCEZ MAINTENANT">
-                <button type="button" class="btn btn-primary">Commencez maintenant</button>
+                <button type="button" (click)="scrol('discuterplan')" class="btn btn-primary">Commencez maintenant</button>
             </a>
             <div class="d-sm-none">
-               <br><br>
+                <br><br>
             </div>
         </div>
         <div class="col-md-6 col-sm-12 order-1 order-md-2 imgvol1">
@@ -129,7 +129,7 @@
         <div class="col-md-6 col-sm-12 order-1 order-md-1 imgvol6">
             <img src="assets/image/existant.png" alt="existant.png" />
             <div class="hovervol6"></div>
-        </div>      
+        </div>
         <div class="col-md-6 col-sm-12 order-2 order-md-2">
             <div class="d-sm-none">
                 <br><br>
@@ -146,4 +146,29 @@
             </p>
         </div>
     </div>
+</div>
+<div class="client">
+
+    <div style="display:flex">
+        <div class="trait1">
+        </div>
+        <h2>Nos clients</h2>
+    </div>
+    <br>
+    <app-client></app-client>
+</div>
+<div class="parlent">
+    <app-parlentdenous></app-parlentdenous>
+</div>
+<div class="newsletter">
+
+    <div style="display:flex">
+        <div class="trait1">
+        </div>
+        <h2>Recevez votre newsletter personnalisée</h2>
+    </div>
+    <app-newsletter></app-newsletter>
+</div>
+<div class="discuter" id="discuterplan">
+    <app-discuter></app-discuter>
 </div>
