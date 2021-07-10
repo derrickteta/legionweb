@@ -14,14 +14,14 @@
         width: 500px;
         margin-top: -90px;
         display: flex;
-        justify-content: start;
+        justify-content: flex-start;
     }
     
     #section1b .img_ento {
         display: flex;
         align-items: center;
         justify-content: center;
-        right: -20px;
+        right: 20px;
     }
     
     #section1b .text_ento h1 {
@@ -171,8 +171,8 @@
         text-align: right;
     }
     
-    .client,
-    .newsletter,
-    .parlent {
-        margin: 10% 5% 10% 5%;
+    @media screen and (max-width: 767px) {
+        #section2b .content_sect:before {
+            display: none;
+        }
     }

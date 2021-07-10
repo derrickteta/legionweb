@@ -24,7 +24,7 @@ actif:"oui",
  // public souscription$ = new Subject<Souscription[]>();
 /*
   getSouscription() {
-    this.http.get('http://localhost:3000/api/souscription').subscribe(
+    this.http.get('https://legion-web.com/api/souscription').subscribe(
       (souscription: Souscription[]) => {
         if (souscription) {
           this.souscription = souscription;
@@ -43,7 +43,7 @@ actif:"oui",
 
   getSouscriptionById(id: string) {
     return new Promise((resolve, reject) => {
-      this.http.get('http://localhost:3000/api/souscription/' + id).subscribe(
+      this.http.get('https://legion-web.com/api/souscription/' + id).subscribe(
         (response) => {
           resolve(response);
         },
@@ -56,7 +56,7 @@ actif:"oui",
 
   createNewSouscription(souscription: Souscription) {
     return new Promise((resolve, reject) => {
-      this.http.post('http://localhost:3000/api/souscription/create', souscription).subscribe(
+      this.http.post('https://legion-web.com/api/souscription/create', souscription).subscribe(
         (response) => {
           resolve(response);
         },
@@ -69,7 +69,7 @@ actif:"oui",
 
   modifySouscription(id: string, souscription: Souscription) {
     return new Promise((resolve, reject) => {
-      this.http.put('http://localhost:3000/api/souscription/' + id, souscription).subscribe(
+      this.http.put('https://legion-web.com/api/souscription/' + id, souscription).subscribe(
         (response) => {
           resolve(response);
         },
@@ -83,7 +83,7 @@ actif:"oui",
 
   deleteSouscription(id: string) {
     return new Promise((resolve, reject) => {
-      this.http.delete('http://localhost:3000/api/souscription/' + id).subscribe(
+      this.http.delete('https://legion-web.com/api/souscription/' + id).subscribe(
         (response) => {
           resolve(response);
         },

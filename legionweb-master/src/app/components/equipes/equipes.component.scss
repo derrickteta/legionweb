@@ -133,8 +133,41 @@
         display: block;
     }
     
-    .client,
-    .newsletter,
-    .parlent {
-        margin: 10% 5% 10% 5%;
+    @media screen and (max-width: 767px) {
+        #sect2 .row .col-md-3 .fonction {
+            position: absolute;
+            width: 95%;
+            height: 15%;
+            text-align: center;
+            font-size: 25px;
+            font-weight: bold;
+            color: white;
+            background-color: #040e47;
+            opacity: 0.9;
+            top: 665px;
+            padding-top: 50px;
+        }
+        .row .img_wi img {
+            height: 96%;
+        }
+        #sect2 .row .col-md-3 .fonction1 {
+            position: absolute;
+            width: 96%;
+            height: 15%;
+            text-align: center;
+            font-size: 25px;
+            font-weight: bold;
+            color: white;
+            background-color: #040e47;
+            opacity: 0.9;
+            top: 682px;
+            padding-top: 50px;
+        }
+        /*écrit par derrick**/
+        .firstimg {
+            display: flex;
+            align-self: center;
+            height: 300px;
+            width: 200px;
+        }
     }

@@ -43,7 +43,7 @@
 
 .fa-bars {
     color: #F7C270;
-    font-size: 30px;
+    font-size: 50px;
 }
 
 .deroulerservice {
@@ -89,7 +89,7 @@
     //left: -100px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
     .dropdown:hover .dropdown-menu {
         display: block;
         margin-top: 0; // remove the gap so it doesn't close

@@ -1,5 +1,5 @@
 <!-------banner section-------->
-<div id="banner" class="container-fluid">
+<div id="banner" class="container-fluid d-none d-sm-block">
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-8 container-fluid">
@@ -17,9 +17,7 @@
 
                     </p>
                 </div>
-
-                <button type="button" (click)="scrol('discuter')" style="margin-left:5%;" class="btn btn-primary"> Commencez maintenant</button>
-
+                <button type="button" (click)="scrol('discuter')" style="margin-left:5%;" class="commencer btn btn-primary"> Commencez maintenant</button>
             </div>
             <div class="col-md-4 container d-none d-md-block" text-center>
                 <img src="assets/image/bann4.png" class="img-fluid img-responsive imgbanner" />
@@ -27,23 +25,46 @@
         </div>
     </div>
 </div>
-<!--<img src="assets/image/" class="bottom-img"/>-->
+<div class="d-sm-none">
+    <div id="bannerphone" class="container-fluid containerbannerphone ">
+        <svg class="loader " xmlns="http://www.w3.org/2000/svg " viewBox="0 0 370 370">
+                <g id="UrTavla">
+                    <circle fill="#CAA64D " cx="170 " cy="170 " r="175 " stroke="#101564"/>
+                    <circle fill="white " cx="170 " cy="170 " r="170 " stroke="white"/>
+                    <circle fill="#E8C379 " cx="170 " cy="170 " r="165 " stroke="black"/>
+                    <text x="45% " y="30% " font-size="30 " text-anchor="middle " stroke="#101564 " stroke-width="2px " dy="1em ">AMELIOREZ VOS</text>
+                    <text x="45% " y="45% " font-size="30 " text-anchor="middle " stroke="#101564 " stroke-width="2px " dy="1em "> PERFORMANCES</text>
+                    <text x="45% " y="60% " font-size="30 " text-anchor="middle " stroke="#101564 " stroke-width="2px " dy="1em ">DIGITALES</text>
+                </g>
+            </svg>
+        <div style="display:flex;">
+            <div class="trait1">
+            </div>
+            <p style="width:90%; text-align:center; font-weight: bold;">Nous fournissons des solutions numériques pour la croissance des entreprises
+
+            </p>
+        </div>
+        <button type="button" (click)="scrol('discuter')" style="margin-left:5%; height:70px;" class="btn btn-primary"> Commencez maintenant</button>
+
+    </div>
+
+
+</div>
+
+<!--<img src="assets/image/ " class="bottom-img "/>-->
 <!------Services Section------------->
 <div id="services">
-    <div class="container-fluid text-center">
-        <div class="d-sm-none">
-            <br><br><br><br>
-        </div>
-        <h1 class="title">Méthode</h1>
-        <p class="col-md-6 afterservices">
+    <div class="container-fluid text-center ">
+        <h1 class="title ">Méthode</h1>
+        <p class="col-md-6 afterservices ">
             Notre méthode repose sur 4 éléments indispensables que les entreprises qui génèrent de la croissance forte et durable doivent maitriser.
         </p>
 
         <div class="row ">
-            <div (click)="redirect('service/plandevol')" class=" col-md-3 col-sm-6 contservice">
-                <div class="colservices">
-                    <div class="services">
-                        <img src="assets/image/imgplanvol.png">
+            <div (click)="redirect( 'service/plandevol') " class=" col-md-3 col-sm-6 contservice ">
+                <div class="colservices ">
+                    <div class="services ">
+                        <img src="assets/image/imgplanvol.png ">
                         <h4>Strategy</h4>
                         <p>
                             Personna- Storytelling - Customer lifecycle - Internal processes -SMART goals
@@ -51,10 +72,10 @@
                     </div>
                 </div>
             </div>
-            <div (click)="redirect('service/entonnoir')" class=" col-md-3 col-sm-6 contservice">
-                <div class="colservices">
-                    <div class="services">
-                        <img src="assets/image/imgentonnoir.png">
+            <div (click)="redirect( 'service/entonnoir') " class=" col-md-3 col-sm-6 contservice ">
+                <div class="colservices ">
+                    <div class="services ">
+                        <img src="assets/image/imgentonnoir.png ">
                         <h4>Conversion Funnel</h4>
                         <p>
                             Inbound Marketing- Sites Web - Landing pages - Marketing Automation - Sales Enablement
@@ -64,10 +85,10 @@
             </div>
 
 
-            <div (click)="redirect('service/acquisition')" class="col-md-3 col-sm-6 contservice">
-                <div class="colservices">
-                    <div class="services">
-                        <img src="assets/image/imgacquisition.png">
+            <div (click)="redirect( 'service/acquisition') " class="col-md-3 col-sm-6 contservice ">
+                <div class="colservices ">
+                    <div class="services ">
+                        <img src="assets/image/imgacquisition.png ">
                         <h4>Lead Acquisition</h4>
                         <p>
                             SEO - SEA - Content Marketing - Social Media & Ads - Mailing Growth hacking
@@ -75,10 +96,10 @@
                     </div>
                 </div>
             </div>
-            <div (click)="redirect('service/pilotage')" class="col-md-3 col-sm-6 contservice">
-                <div class="colservices">
-                    <div class="services">
-                        <img src="assets/image/imgpilotage.png">
+            <div (click)="redirect( 'service/pilotage') " class="col-md-3 col-sm-6 contservice ">
+                <div class="colservices ">
+                    <div class="services ">
+                        <img src="assets/image/imgpilotage.png ">
                         <h4>Piloting</h4>
                         <p>
                             CRM - Dashboard -Business Intelligence - Recruitement - Employer brand
@@ -89,33 +110,39 @@
 
 
         </div>
-        <p class=" col-6 afterservices">
+        <p class=" d-none d-sm-block col-6 afterservices " style="text-align: justify;">
             Nous aidons les entreprises à améliorer leur visibilité par le digital à générer des vues et des opportunités d'affaires.
         </p>
-        <button type="button" (click)="scrol('discuter')" class="btn btn-primary"> On peut vous aider ?</button>
+        <p class="d-sm-none col-12 afterservices " style="text-align: justify;">
+            Nous aidons les entreprises à améliorer leur visibilité par le digital à générer des vues et des opportunités d'affaires.
+        </p>
+        <button type="button " (click)="scrol( 'discuter') " class="btn btn-primary "> On peut vous aider ?</button>
     </div>
-    <div class="client">
+    <div class="client ">
 
-        <div style="display:flex">
-            <div class="trait1">
+        <div style="display:flex ">
+            <div class="trait1 ">
             </div>
             <h2>Nos clients</h2>
         </div>
         <br>
         <app-client></app-client>
     </div>
-    <div class="parlent">
+    <div class="parlent ">
         <app-parlentdenous></app-parlentdenous>
     </div>
-    <div class="newsletter">
-
-        <div style="display:flex">
-            <div class="trait1">
+    <div class="mobile newsletter ">
+        <div class="d-sm-none">
+            <br>
+        </div>
+        <div style="display:flex ">
+            <div class="trait1 ">
             </div>
             <h2>Recevez votre newsletter personnalisée</h2>
         </div>
         <app-newsletter></app-newsletter>
     </div>
-    <div class="discuter" id="discuter">
+    <div class="mobile discuter " id="discuter ">
         <app-discuter></app-discuter>
     </div>
+</div>

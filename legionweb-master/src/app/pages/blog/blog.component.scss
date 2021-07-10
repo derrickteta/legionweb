@@ -1,5 +1,14 @@
     /*---------Banner Section---------*/
     
+    @media (min-width: 768px) {
+        .firstart {
+            flex: 2;
+            border-right: solid 1px #D8A24A;
+            padding-right: 2%;
+            max-height: 20%;
+        }
+    }
+    
     #banner {
         color: #f2f2f2;
         background-color: #0c0456;
@@ -20,12 +29,24 @@
     }
     /*contenu du blog*/
     
-    .contenublog {
-        //border-top: solid 1px #D8A24A;
-        background-image: linear-gradient(to bottom, #F9F7F3, #FAFAFD);
-        color: #0c0456;
-        //margin: 0 6% 4% 2%;
-        margin: 4% 6% 9% 6%;
+    @media (min-width: 768px) {
+        .contenublog {
+            //border-top: solid 1px #D8A24A;
+            background-image: linear-gradient(to bottom, #F9F7F3, #FAFAFD);
+            color: #0c0456;
+            //margin: 0 6% 4% 2%;
+            margin: 4% 6% 9% 6%;
+        }
+    }
+    
+    @media (max-width: 767px) {
+        .contenublog {
+            //border-top: solid 1px #D8A24A;
+            background-image: linear-gradient(to bottom, #F9F7F3, #FAFAFD);
+            color: #0c0456;
+            margin: 0;
+            //margin: 4% 6% 9% 6%;
+        }
     }
     
     //articles
@@ -43,11 +64,24 @@
         text-align: left;
     }
     
-    .listeart {
-        display: flex;
-        flex-direction: column;
-        flex: 1;
-        padding: 0 1% 0 1%
+    @media (min-width: 768px) {
+        .listeart {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            padding: 0 1% 0 1%
+        }
+    }
+    
+    @media (max-width: 767px) {
+        .listeart {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            //flex: 1;
+            padding: 0;
+        }
     }
     
     .artli {
@@ -69,10 +103,6 @@
         display: flex;
         flex-direction: column;
         align-self: center;
-        flex: 2;
-        border-right: solid 1px #D8A24A;
-        padding-right: 2%;
-        max-height: 20%;
     }
     
     .firstart .img-resp {
@@ -89,6 +119,27 @@
         align-self: center;
         text-align: center;
     }
+    
+    @media (max-width: 767px) {
+        .firstart .img-resp {
+            display: flex;
+            width: 100%;
+            height: 200px;
+            //filter: brightness(80%);
+        }
+        .service-img {
+            display: flex;
+            width: 100%;
+            height: 200px;
+        }
+        .firstart h3,
+        p {
+            display: flex;
+            width: 100%;
+            align-self: center;
+            //text-align: center;
+        }
+    }
     /* styling search bar */
     
     .search input[type=text] {
@@ -99,12 +150,26 @@
         border: solid 1px #0c0456;
     }
     
-    .search {
-        display: flex;
-        align-self: center;
-        position: relative;
-        margin-left: 18%;
-        //background-color: #F5F6FC;
+    @media (min-width: 768px) {
+        .search {
+            display: flex;
+            align-self: center;
+            position: relative;
+            margin-left: 18%;
+            //background-color: #F5F6FC;
+        }
+    }
+    
+    @media (max-width: 767px) {
+        .search {
+            display: flex;
+            align-self: center;
+            position: relative;
+            width: 80%;
+            margin: auto;
+            //margin-left: 18%;
+            //background-color: #F5F6FC;
+        }
     }
     
     .search button {
@@ -161,11 +226,6 @@
         //height: 50px;
     }
     
-    .arttexte {
-        margin-left: 10%;
-        padding-top: 0;
-    }
-    
     .article h3 {
         display: block;
         padding-top: 0;
@@ -182,6 +242,17 @@
         width: 100%;
         margin-left: 1vh;
         text-align: justify;
+    }
+    
+    @media (max-width: 767px) {
+        .article p {
+            display: block;
+            padding-top: 0;
+            font-size: 1em;
+            width: 100%;
+            //margin-left: 1vh;
+            text-align: justify;
+        }
     }
     
     #hr1 {

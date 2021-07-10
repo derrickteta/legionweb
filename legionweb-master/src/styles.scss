@@ -30,10 +30,6 @@ $fa-font-path: "../../../node_modules/font-awesome/fonts";
     src: url("assets/polices/Open Sans Regular/Open Sans Regular.ttf") format("truetype");
 }
 
-html {
-    overflow-x: hidden;
-}
-
 body {
     font-size: 16px;
     font-weight: 400;
@@ -41,7 +37,7 @@ body {
     color: #0c0456;
     //background-image: linear-gradient(to bottom,  #fff,#f5f5f5);
     background-image: linear-gradient(to bottom, #F9F7F3, #FAFAFD);
-    min-width: 100vh;
+    min-height: 100vh;
     font-family: "Open Sans Regular", Helvetica, sans-serif !important;
 }
 
@@ -103,7 +99,7 @@ h6 {
     /* CSS mobile ici */
     .mobile {
         position: relative;
-        top: -80px;
+        top: -50px;
     }
     .centrer {
         position: relative;
@@ -112,7 +108,7 @@ h6 {
     .mobile1 {
         position: relative;
         z-index: 9999;
-        top: -125px;
+        top: -65px;
     }
 }
 

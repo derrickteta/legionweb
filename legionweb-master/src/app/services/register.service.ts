@@ -39,7 +39,7 @@ pub:"oui",
  // public contact$ = new Subject<Contact[]>();
 /*
   getAddress() {
-    this.http.get('http://localhost:3000/api/contacts').subscribe(
+    this.http.get('https://legion-web.com/api/contacts').subscribe(
       (contact: Contact[]) => {
         if (contact) {
           this.contact = contact;
@@ -58,7 +58,7 @@ pub:"oui",
 
   getAddressById(id: string) {
     return new Promise((resolve, reject) => {
-      this.http.get('http://localhost:3000/api/contacts/' + id).subscribe(
+      this.http.get('https://legion-web.com/api/contacts/' + id).subscribe(
         (response) => {
           resolve(response);
         },
@@ -71,7 +71,7 @@ pub:"oui",
 
   createNewAddress(contact: Contact) {
     return new Promise((resolve, reject) => {
-      this.http.post('http://localhost:3000/api/contacts/create', contact).subscribe(
+      this.http.post('https://legion-web.com/api/contacts/create', contact).subscribe(
         (response) => {
           resolve(response);
         },
@@ -84,7 +84,7 @@ pub:"oui",
 
   modifyAddress(id: string, contact: Contact) {
     return new Promise((resolve, reject) => {
-      this.http.put('http://localhost:3000/api/contacts/' + id, contact).subscribe(
+      this.http.put('https://legion-web.com/api/contacts/' + id, contact).subscribe(
         (response) => {
           resolve(response);
         },
@@ -98,7 +98,7 @@ pub:"oui",
 
   deleteAddress(id: string) {
     return new Promise((resolve, reject) => {
-      this.http.delete('http://localhost:3000/api/contacts/' + id).subscribe(
+      this.http.delete('https://legion-web.com/api/contacts/' + id).subscribe(
         (response) => {
           resolve(response);
         },
