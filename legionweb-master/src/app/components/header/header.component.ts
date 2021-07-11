@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Observable } from 'rxjs';
+/*import { Subject } from 'rxjs';*/
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
@@ -7,6 +7,11 @@ import { Observable } from 'rxjs';
 })
 export class HeaderComponent implements OnInit {
   public aria:boolean | undefined;
+  /*tailleecranSubject=new Subject<number>();
+  emittailleecranSubject(){
+     this.tailleecranSubject.next(screen.width);
+  }
+  */
   constructor() { }
   
   ngOnInit(): void {
