@@ -259,3 +259,15 @@ h2 {
 .parlent {
     margin: 10% 5% 10% 5%;
 }
+
+@media screen and (max-width: 767px) 
+{
+    .imgvol1
+    {
+        right: 0;
+    }
+    .imgvol1 img
+    {
+        width: 300px;
+    }
+}

@@ -39,26 +39,27 @@
         padding-top: 100px;
     }
     
-    #sect2 .div_lw {
+    #sect2 .div_lw 
+    {
         margin-left: 100px;
     }
-    
-    #sect2 .trait_h2 {
+    #sect2 .trait_h2 
+    {
         display: inline-block;
         width: 45px;
         height: 3px;
         background: #3b4654;
         margin-right: 10px;
     }
-    
-    #sect2 h2 {
+    #sect2 h2 
+    {
         font-family: 'LatoBlack', sans-serif !important;
         display: inline-block;
         vertical-align: top;
         margin-bottom: 60px;
     }
-    
-    .row .col-md-3 img {
+    .row .col-md-3 img 
+    {
         width: 100%;
     }
     
@@ -102,7 +103,7 @@
         color: white;
         background-color: #040e47;
         opacity: 0.9;
-        top: 329px;
+        top: 320px;
         padding-top: 25px;
     }
     
@@ -125,7 +126,7 @@
         color: white;
         background-color: #040e47;
         opacity: 0.9;
-        top: 338px;
+        top: 331px;
         padding-top: 25px;
     }
     
@@ -133,10 +134,12 @@
         display: block;
     }
     
-    @media screen and (max-width: 767px) {
-        #sect2 .row .col-md-3 .fonction {
+    @media screen and (max-width: 767px) 
+    {
+        #sect2 .row .col-md-3 .fonction 
+        {
             position: absolute;
-            width: 95%;
+            width: 91%;
             height: 15%;
             text-align: center;
             font-size: 25px;
@@ -144,15 +147,15 @@
             color: white;
             background-color: #040e47;
             opacity: 0.9;
-            top: 665px;
-            padding-top: 50px;
+            top: 268px;
+            padding-top: 17px;
         }
         .row .img_wi img {
             height: 96%;
         }
         #sect2 .row .col-md-3 .fonction1 {
             position: absolute;
-            width: 96%;
+            width: 91%;
             height: 15%;
             text-align: center;
             font-size: 25px;
@@ -160,14 +163,31 @@
             color: white;
             background-color: #040e47;
             opacity: 0.9;
-            top: 682px;
-            padding-top: 50px;
+            top: 275px;
+            padding-top: 18px;
         }
-        /*écrit par derrick**/
-        .firstimg {
-            display: flex;
-            align-self: center;
-            height: 300px;
-            width: 200px;
+        #sect1 .team_img
+        {
+            right: 18px;
+        }
+        #sect1 .team_img img
+        {
+            width: 300px;
+        }
+        #sect1 h1
+        {
+            font-size: 20px;
+            margin-top: -100px;
+        }
+        #sect2 .trait_h2 
+        {
+            display: inline-block;
+            width: 30px;
+            height: 3px;
+            background: #3b4654;
+        }
+        #sect2 .div_lw 
+        {
+            margin-left: 0;
         }
     }

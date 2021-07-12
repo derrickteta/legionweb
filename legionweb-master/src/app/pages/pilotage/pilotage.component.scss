@@ -10,19 +10,18 @@
     background: #F5F6FC;
 }
 
-#section1d .pilot {
+#section1d .pilot 
+{
     margin-top: -30px;
 }
-
-.img_pilot {
+.img_pilot 
+{
     margin-top: -80px;
     right: -30px;
 }
-
 .img_pilot img {
     width: 470px;
 }
-
 .pilot h1 {
     font-family: 'LatoBlack', sans-serif !important;
     font-size: 40px !important;
@@ -83,7 +82,7 @@
 #section2d .hoverimgpilot1 {
     position: absolute;
     width: 95%;
-    height: 94%;
+    height: 86%;
     background-color: #040e47;
     opacity: 0.6;
 }
@@ -135,7 +134,7 @@ h2 {
 #section3d .hoverimgpilot2 {
     position: absolute;
     width: 95%;
-    height: 94%;
+    height: 86%;
     background-color: #040e47;
     opacity: 0.6;
 }
@@ -165,7 +164,7 @@ h2 {
 #section4d .hoverimgpilot3 {
     position: absolute;
     width: 95%;
-    height: 74%;
+    height: 72%;
     background-color: #040e47;
     opacity: 0.6;
 }
@@ -190,3 +189,28 @@ h2 {
 .parlent {
     background-color: #FAFAFD;
 }*/
+
+
+@media screen and (max-width: 767px) 
+{
+    .img_pilot
+    {
+        right: 0;
+    }
+    .img_pilot img
+    {
+        width: 300px;
+    }
+    #section1d
+    {
+        padding-left: 0;
+    }
+    h2 
+    {
+        font-size: 20px;
+    }
+    .text_desc
+    {
+        max-width: 200px;
+    }
+}
