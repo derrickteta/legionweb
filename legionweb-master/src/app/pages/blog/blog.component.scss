@@ -43,7 +43,7 @@
         color: #D8A24A;
         border-top: solid 1px #D8A24A;
         padding: 10% 0 10% 0;
-        width: 100%;
+        width: 95%;
     }
     
     .artli a {
@@ -70,29 +70,6 @@
         align-self: center;
         text-align: center;
     }
-    /* styling search bar */
-    
-    .search input[type=text] {
-        //background-color: #F5F6FC;
-        color: #0c0456;
-        width: 85%;
-        height: 60px;
-        border: solid 1px #0c0456;
-    }
-    
-    .search button {
-        background: transparent;
-        color: #0c0456;
-        position: absolute;
-        bottom: 35px;
-        right: 1px;
-        //padding: 5px 10px;
-        //margin-right: 16px;
-        font-size: 6px;
-        border: none;
-        cursor: pointer;
-    }
-    /*fin barre de recherche*/
     
     .listeart h3 {
         display: block;
@@ -169,6 +146,41 @@
     .parlent {
         margin: 10% 5% 10% 5%;
     }
+    /* styling search bar */
+    
+    .search {
+        display: flex;
+        align-self: center;
+        width: 87%;
+        margin: auto;
+        position: relative;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    .search input[type=text] {
+        background-color: #F5F6FC;
+        color: #0c0456;
+        width: 250px;
+        flex: 3;
+        height: 60px;
+        border: solid 1px #0c0456;
+    }
+    
+    .search button {
+        background: transparent;
+        position: absolute;
+        display: flex;
+        align-self: flex-start;
+        flex: 1;
+        width: 65%;
+        bottom: 18px;
+        right: 1px;
+        border: black 1px solid;
+        border: none;
+        cursor: pointer;
+    }
+    /*fin barre de recherche*/
     
     @media (min-width: 768px) {
         .firstart {
@@ -197,25 +209,6 @@
             position: relative;
             left: 20px;
             padding: 3% 20px 3% 0;
-        }
-        .search {
-            display: flex;
-            align-self: center;
-            position: relative;
-            margin-left: 10%;
-            //background-color: #F5F6FC;
-        }
-        .search .fa {
-            background: transparent;
-            color: #0c0456;
-            position: absolute;
-            bottom: 5px;
-            right: 15px;
-            //padding: 5px 10px;
-            //margin-left: 5px;
-            font-size: 12px;
-            border: none;
-            cursor: pointer;
         }
         .listeart {
             display: flex;
@@ -249,27 +242,6 @@
             width: 100%;
             //margin-left: 1vh;
             text-align: justify;
-        }
-        .search {
-            display: flex;
-            align-self: center;
-            position: relative;
-            width: 80%;
-            margin: auto;
-            //margin-left: 18%;
-            //background-color: #F5F6FC;
-        }
-        .search .fa {
-            background: transparent;
-            color: #0c0456;
-            position: absolute;
-            bottom: 5px;
-            right: 1px;
-            //padding: 5px 10px;
-            //margin-left: 5px;
-            font-size: 12px;
-            border: none;
-            cursor: pointer;
         }
         .contenublog {
             //border-top: solid 1px #D8A24A;
@@ -311,7 +283,43 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            margin-right: 5%;
             //flex: 1;
             padding: 0;
+        }
+    }
+    
+    @media (max-width: 360px) {
+        .search .fa {
+            background: transparent;
+            color: #0c0456;
+            position: relative;
+            left: 95px;
+        }
+    }
+    
+    @media (min-width: 361px) {
+        .search .fa {
+            background: transparent;
+            color: #0c0456;
+            position: relative;
+            left: 95px;
+        }
+    }
+    
+    @media (min-width: 992px) {
+        .search input[type=text] {
+            background-color: #F5F6FC;
+            color: #0c0456;
+            width: 165%;
+            flex: 3;
+            height: 60px;
+            border: solid 1px #0c0456;
+        }
+        .search .fa {
+            background: transparent;
+            color: #0c0456;
+            position: relative;
+            right: 5px;
         }
     }
