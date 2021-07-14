@@ -14,8 +14,8 @@
                 <div *ngIf="vision">
                     <form (ngSubmit)="onSubmit(f)" #f="ngForm" class="was-validated">
                         <div class="form-group">
-                            <input type="email" name="email" id="email" class="form-control" ngModel required>
-                            <label for="email">Votre adresse email*</label>
+                            <input type="email" name="emailvision" id="emailvision" class="form-control" ngModel required>
+                            <label for="emailvision">Votre adresse email*</label>
                             <div style="margin:0;" class="valid-feedback">Valid.</div>
                             <div style="margin:0;" class="invalid-feedback">veuillez remplir ce champ.</div>
                         </div>
@@ -25,8 +25,8 @@
                                 confidentialité.</a>
                         </p>
                         <div class="row">
-                            <mat-spinner style="widht:50%; margin:auto;" *ngIf="loading"></mat-spinner>
-                            <button class="btn btn-primary" *ngIf="!loading" id="vision" (click)="affecter_vision()" type="submit" [disabled]="f.invalid">
+                            <mat-spinner style="widht:50%; margin:auto;" *ngIf="loadingvision"></mat-spinner>
+                            <button class="btn btn-primary" *ngIf="!loadingvision" id="vision" (click)="affecter_vision()" type="submit" [disabled]="f.invalid">
                                     Soumettre
                             </button>
 
@@ -34,9 +34,9 @@
                         <br>
                     </form>
                 </div>
-                <div style="width:60%; margin:auto;" *ngIf="feedbackvision" id="feedback">
-                    <p *ngIf="success===2" style="color:green;font-style:italic;font-weight:bold;">Abonnement VISION effectué avec succès</p>
-                    <p *ngIf="success===3" style="color:red;font-style:italic;font-weight:bold;">Echec d'Abonnement veuillez réessayer</p>
+                <div style="width:60%; margin:auto;" *ngIf="feedbackvision" id="feedbackvision">
+                    <p *ngIf="successvision===2" style="color:green;font-style:italic;font-weight:bold;">Abonnement VISION effectué avec succès</p>
+                    <p *ngIf="successvision===3" style="color:red;font-style:italic;font-weight:bold;">Echec d'Abonnement veuillez réessayer</p>
                 </div>
                 <button type="button" *ngIf="!vision" (click)="afficher_vision()" class="btn btn-primary"> S'ABONNER</button>
 
@@ -56,8 +56,8 @@
                 <div *ngIf="tips">
                     <form (ngSubmit)="onSubmit(f)" #f="ngForm" class="was-validated">
                         <div class="form-group">
-                            <input type="email" name="email" id="email" class="form-control" ngModel required>
-                            <label for="email">Votre adresse email*</label>
+                            <input type="email" name="emailtips" id="emailtips" class="form-control" ngModel required>
+                            <label for="emailtips">Votre adresse email*</label>
                             <div style="margin:0;" class="valid-feedback">Valid.</div>
                             <div style="margin:0;" class="invalid-feedback">veuillez remplir ce champ.</div>
                         </div>
@@ -67,17 +67,17 @@
                                 confidentialité.</a>
                         </p>
                         <div class="row">
-                            <mat-spinner style="widht:50%; margin:auto;" *ngIf="loading"></mat-spinner>
-                            <button class="btn btn-primary" *ngIf="!loading" (click)="affecter_tips()" type="submit" [disabled]="f.invalid">
+                            <mat-spinner style="widht:50%; margin:auto;" *ngIf="loadingtips"></mat-spinner>
+                            <button class="btn btn-primary" *ngIf="!loadingtips" (click)="affecter_tips()" type="submit" [disabled]="f.invalid">
                                     Soumettre
                             </button>
                         </div>
                         <br>
                     </form>
                 </div>
-                <div style="width:60%; margin:auto;" *ngIf="feedbacktips" id="feedback">
-                    <p *ngIf="success===2" style="color:green;font-style:italic;font-weight:bold;">Abonnement TIPS effectué avec succès</p>
-                    <p *ngIf="success===3" style="color:red;font-style:italic;font-weight:bold;">Echec d'Abonnement veuillez réessayer</p>
+                <div style="width:60%; margin:auto;" *ngIf="feedbacktips" id="feedbacktips">
+                    <p *ngIf="successtips===2" style="color:green;font-style:italic;font-weight:bold;">Abonnement TIPS effectué avec succès</p>
+                    <p *ngIf="successtips===3" style="color:red;font-style:italic;font-weight:bold;">Echec d'Abonnement veuillez réessayer </p>
                 </div>
                 <button type="button" *ngIf="!tips" (click)="afficher_tips()" class="btn btn-primary"> S'ABONNER</button>
 
@@ -95,8 +95,8 @@
                 <div *ngIf="strategie">
                     <form (ngSubmit)="onSubmit(f)" #f="ngForm" class="was-validated">
                         <div class="form-group">
-                            <input type="email" name="email" id="email" class="form-control" ngModel required>
-                            <label for="email">Votre adresse email*</label>
+                            <input type="email" name="emailstrategie" id="emailstrategie" class="form-control" ngModel required>
+                            <label for="emailstrategie">Votre adresse email*</label>
                             <div style="margin:0;" class="valid-feedback">Valid.</div>
                             <div style="margin:0;" class="invalid-feedback">veuillez remplir ce champ.</div>
                         </div>
@@ -106,20 +106,21 @@
                                 confidentialité.</a>
                         </p>
                         <div class="row">
-                            <mat-spinner style="widht:50%; margin:auto;" *ngIf="loading"></mat-spinner>
-                            <button class="btn btn-primary" *ngIf="!loading" (click)="affecter_strategie()" type="submit" [disabled]="f.invalid">
+                            <mat-spinner style="widht:50%; margin:auto;" *ngIf="loadingstrategie"></mat-spinner>
+                            <button class="btn btn-primary" *ngIf="!loadingstrategie" (click)="affecter_strategie()" type="submit" [disabled]="f.invalid">
                                     Soumettre
                             </button>
                         </div>
                         <br>
                     </form>
                 </div>
-                <div style="width:60%; margin:auto;" *ngIf="feedbackstrategie" id="feedback">
-                    <p *ngIf="success===2" style="color:green;font-style:italic;font-weight:bold;">Abonnement STRATEGIE effectué avec succès</p>
-                    <p *ngIf="success===3" style="color:red;font-style:italic;font-weight:bold;">Echec d'Abonnement veuillez réessayer</p>
+                <div style="width:60%; margin:auto;" *ngIf="feedbackstrategie" id="feedbackstrategie">
+                    <p *ngIf="successstrategie===2" style="color:rgb(149, 228, 149);font-style:italic;font-weight:bold;">Abonnement STRATEGIE effectué avec succès</p>
+                    <p *ngIf="successstrategie===3" style="color:red;font-style:italic;font-weight:bold;">Echec d'Abonnement veuillez réessayer</p>
                 </div>
                 <button type="button" *ngIf="!strategie" (click)="afficher_strategie()" class="btn btn-primary"> S'ABONNER</button>
             </div>
+
         </div>
 
     </div>

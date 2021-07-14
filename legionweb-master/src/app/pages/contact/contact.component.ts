@@ -46,13 +46,14 @@ onSubmit(form:NgForm) {
   ).catch(
     (error) => {
       this.errorMessage = error.message;
+      this.loading=false;
       this.feedback=true;
       this.success=3;
     }
   );
   setTimeout(() => {
     this.feedback=false;
-  },5000);
+  },8000);
 }
 
 
