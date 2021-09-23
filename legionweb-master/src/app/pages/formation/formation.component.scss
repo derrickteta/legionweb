@@ -1,0 +1,100 @@
+#section1f
+{
+    padding: 150px 0px 150px 0px;
+    background: #0c0456;
+}
+.forma
+{
+    color: white;
+    text-align: center;
+}
+#section2f
+{
+    background-color: #dbe3ea; 
+    padding: 40px 0px 0px 0px;
+}
+#section2f .row
+{
+    justify-content: center;
+}
+#section2f .col_sect
+{
+    margin-bottom: 50px;
+}
+#section2f .content_sectf 
+{
+    max-width: 400px;
+    background: #fff;
+    box-shadow: 0px 3px 6px #dbe3ea;
+    padding: 37px 23px 30px 23px;
+    position: relative;
+    margin: 0 auto;
+    border-radius: 50px 0px;
+}
+#section2f .imgf
+{
+    text-align: center;
+}
+#section2f .imgf img
+{
+    width: 100px;
+}
+#section2f .textf
+{
+    text-align: center;
+}
+#section2f .text_quest
+{
+    font-weight: bold;
+}
+#section2f .text_opo
+{
+    text-align: left;
+}
+#section3f
+{
+    background-color: #FFF7F7;
+    padding: 80px 0px 80px 0px;
+}
+#section3f .imgformation
+{
+    padding-bottom: 20px;
+}
+#section3f .lexi_forma
+{
+    max-width: 455px;
+}
+#section3f .title_form
+{
+    text-align: center;
+}
+#section3f .col-md-6 .all_form
+{
+    background: white;
+    padding: 50px 30px 50px 30px;
+    box-shadow: 0px 3px 6px 2px #dbe3ea;
+}
+#section3f .all_form label
+{
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 992px) 
+{
+    #section3f .imgformation
+    {
+        display: none;
+    }
+}
+@media screen and (max-width: 767px) 
+{
+    #section2f .col-sect3
+    {
+        margin-top: 50px;
+    }
+    #section3f .imgformation
+    {
+        display: none;
+    }
+}

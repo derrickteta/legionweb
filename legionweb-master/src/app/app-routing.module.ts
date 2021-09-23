@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AccueilComponent } from './pages/accueil/accueil.component';
 import { EquipeComponent } from './pages/equipe/equipe.component';
 import { ContactComponent } from './pages/contact/contact.component';
+import { FormationComponent } from './pages/formation/formation.component'
 import { ClientsComponent } from './pages/clients/clients.component';
 import { BlogComponent } from './pages/blog/blog.component';
 import { PlandevolComponent } from './pages/plandevol/plandevol.component';
@@ -17,6 +18,9 @@ const routes: Routes = [
   },
   {
     path:"home", component: AccueilComponent
+  },
+  {
+    path:"formation" , component: FormationComponent
   },
   {
     path:"contact" , component: ContactComponent

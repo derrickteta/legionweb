@@ -32,6 +32,7 @@ import { RegisterService } from './services/register.service';
 import { RenderarticlesComponent } from './pages/renderarticles/renderarticles.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FormationComponent } from './pages/formation/formation.component';
 
 
 
@@ -61,6 +62,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     NewsletterComponent,
     RenderarticlesComponent,
     DashboardComponent,
+    FormationComponent,
   ],
   imports: [
     BrowserModule,
