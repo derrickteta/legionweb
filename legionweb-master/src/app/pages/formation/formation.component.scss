@@ -43,6 +43,10 @@
 {
     text-align: center;
 }
+#section2f .mot_clé
+{
+    font-weight: bold;
+}
 #section2f .text_quest
 {
     font-weight: bold;
@@ -53,7 +57,7 @@
 }
 #section3f
 {
-    background-color: #FFF7F7;
+    background-color: #D8A24A;
     padding: 80px 0px 80px 0px;
 }
 #section3f .imgformation
@@ -63,6 +67,7 @@
 #section3f .lexi_forma
 {
     max-width: 455px;
+    color: white;
 }
 #section3f .title_form
 {
@@ -84,7 +89,11 @@
 {
     #section3f .imgformation
     {
-        display: none;
+        text-align: center;
+    }
+    #section3f .imgformation img
+    {
+        width: 290px;
     }
 }
 @media screen and (max-width: 767px) 
@@ -95,6 +104,10 @@
     }
     #section3f .imgformation
     {
-        display: none;
+        text-align: center;
+    }
+    #section3f .imgformation img
+    {
+        width: 290px;
     }
 }
