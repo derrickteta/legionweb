@@ -11,7 +11,7 @@ export class SouscriptionService {
   
   private souscription: Souscription[] = [
     {
-type:"Derrick",
+type:"Derrick",                                                                                                                                                                                                                                                                                                           
 email:"derrickteta1@gmail.com",
 actif:"oui",
     },
@@ -56,12 +56,12 @@ actif:"oui",
 
   createNewSouscription(souscription: Souscription) {
     return new Promise((resolve, reject) => {
-      this.http.post('https://legion-web.com/api/souscription/create', souscription).subscribe(
+      this.http.post('https://legion-web.com/api/souscription/create', souscription, {responseType: 'text'}).subscribe(
         (response) => {
           resolve(response);
         },
         (error) => {
-          reject(error);
+          reject(error);                                                                                                                                                                                                                                                            
         }
       );
     });
