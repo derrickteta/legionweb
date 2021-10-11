@@ -6,7 +6,7 @@ import { Souscription } from '../models/Souscription.models';
   providedIn: 'root'
 })
 export class SouscriptionService {
-
+ 
   constructor(private http: HttpClient) { }
   
   private souscription: Souscription[] = [
@@ -21,10 +21,12 @@ actif:"oui",
       actif:"oui",
     },
   ];
+  //lien="https://legion-web.com";
+  lien="http://localhost:3000"
  // public souscription$ = new Subject<Souscription[]>();
 /*
   getSouscription() {
-    this.http.get('https://legion-web.com/api/souscription').subscribe(
+    this.http.get(this.lien+'/api/souscription').subscribe(
       (souscription: Souscription[]) => {
         if (souscription) {
           this.souscription = souscription;
@@ -43,7 +45,7 @@ actif:"oui",
 
   getSouscriptionById(id: string) {
     return new Promise((resolve, reject) => {
-      this.http.get('https://legion-web.com/api/souscription/' + id).subscribe(
+      this.http.get(this.lien+'api/souscription/' + id).subscribe(
         (response) => {
           resolve(response);
         },
@@ -56,7 +58,7 @@ actif:"oui",
 
   createNewSouscription(souscription: Souscription) {
     return new Promise((resolve, reject) => {
-      this.http.post('https://legion-web.com/api/souscription/create', souscription, {responseType: 'text'}).subscribe(
+      this.http.post(this.lien+'/api/souscription/create', souscription, {responseType: 'text'}).subscribe(
         (response) => {
           resolve(response);
         },
@@ -69,7 +71,7 @@ actif:"oui",
 
   modifySouscription(id: string, souscription: Souscription) {
     return new Promise((resolve, reject) => {
-      this.http.put('https://legion-web.com/api/souscription/' + id, souscription).subscribe(
+      this.http.put(this.lien+'/api/souscription/' + id, souscription).subscribe(
         (response) => {
           resolve(response);
         },
@@ -83,7 +85,7 @@ actif:"oui",
 
   deleteSouscription(id: string) {
     return new Promise((resolve, reject) => {
-      this.http.delete('https://legion-web.com/api/souscription/' + id).subscribe(
+      this.http.delete(this.lien+'/api/souscription/' + id).subscribe(
         (response) => {
           resolve(response);
         },
