@@ -13,12 +13,12 @@ export class RegisterService {
   private contact: Contact[] = [
     {
 prenom:"Derrick",
-nom:"TETA",
-email:"derrickteta1@gmail.com",
-phone:693998524,
-entreprise:"brainCenter",
+nom:"TETA",                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+email:"derrickteta1@gmail.com",                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+phone:693998524,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+entreprise:"brainCenter",                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
 secteuractivite:"MUti secteur",
-urlsite:"test.com",
+urlsite:"test.com",                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
 interet:"tout le plaisir de collaborer",
 message:"je suis venu pour m'enregistrer arrive",
 pub:"oui",
@@ -36,6 +36,8 @@ pub:"oui",
       pub:"oui",
     },
   ];
+  lien ="https://legion-web.com"
+  //lien= "http://localhost:3000"
  // public contact$ = new Subject<Contact[]>();
 /*
   getAddress() {
@@ -58,7 +60,7 @@ pub:"oui",
 
   getAddressById(id: string) {
     return new Promise((resolve, reject) => {
-      this.http.get('https://legion-web.com/api/contacts/' + id).subscribe(
+      this.http.get(this.lien+'/api/contacts/' + id).subscribe(
         (response) => {
           resolve(response);
         },
@@ -71,7 +73,7 @@ pub:"oui",
 
   createNewAddress(contact: Contact) {
     return new Promise((resolve, reject) => {
-      this.http.post('https://legion-web.com/api/contacts/create', contact).subscribe(
+      this.http.post(this.lien+'/api/contacts/create', contact,  {responseType: 'text'}).subscribe(
         (response) => {
           resolve(response);
         },
@@ -84,7 +86,7 @@ pub:"oui",
 
   modifyAddress(id: string, contact: Contact) {
     return new Promise((resolve, reject) => {
-      this.http.put('https://legion-web.com/api/contacts/' + id, contact).subscribe(
+      this.http.put(this.lien+'api/contacts/' + id, contact).subscribe(
         (response) => {
           resolve(response);
         },
@@ -98,7 +100,7 @@ pub:"oui",
 
   deleteAddress(id: string) {
     return new Promise((resolve, reject) => {
-      this.http.delete('https://legion-web.com/api/contacts/' + id).subscribe(
+      this.http.delete(this.lien+'/api/contacts/' + id).subscribe(
         (response) => {
           resolve(response);
         },
