@@ -11,6 +11,7 @@ import { EntonnoirComponent } from './pages/entonnoir/entonnoir.component';
 import { AcquisitionComponent } from './pages/acquisition/acquisition.component';
 import { PilotageComponent } from './pages/pilotage/pilotage.component';
 import { DiscuterComponent } from './components/discuter/discuter.component';
+import { InboundmarketingComponent } from './pages/inboundmarketing/inboundmarketing.component';
 
 const routes: Routes = [
   {
@@ -54,6 +55,9 @@ const routes: Routes = [
   },
   { 
     path: 'home/discuter', component:DiscuterComponent
+  },
+  { 
+    path: 'inboundmarketing', component:InboundmarketingComponent
   }
 
 

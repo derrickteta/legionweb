@@ -33,6 +33,11 @@ import { RenderarticlesComponent } from './pages/renderarticles/renderarticles.c
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormationComponent } from './pages/formation/formation.component';
+import { InboundrecruitingComponent } from './pages/inboundrecruiting/inboundrecruiting.component';
+import { SalesComponent } from './pages/sales/sales.component';
+import { InboundmarketingComponent } from './pages/inboundmarketing/inboundmarketing.component';
+import { CreationdesiteComponent } from './pages/creationdesite/creationdesite.component';
+import { RessourceComponent } from './pages/ressource/ressource.component';
 
 
 
@@ -63,6 +68,11 @@ import { FormationComponent } from './pages/formation/formation.component';
     RenderarticlesComponent,
     DashboardComponent,
     FormationComponent,
+    InboundrecruitingComponent,
+    SalesComponent,
+    InboundmarketingComponent,
+    CreationdesiteComponent,
+    RessourceComponent,
   ],
   imports: [
     BrowserModule,
