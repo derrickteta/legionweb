@@ -38,6 +38,12 @@ import { SalesComponent } from './pages/sales/sales.component';
 import { InboundmarketingComponent } from './pages/inboundmarketing/inboundmarketing.component';
 import { CreationdesiteComponent } from './pages/creationdesite/creationdesite.component';
 import { RessourceComponent } from './pages/ressource/ressource.component';
+import { SeoComponent } from './pages/seo/seo.component';
+import { SocialmediaComponent } from './pages/socialmedia/socialmedia.component';
+import { TransformationComponent } from './pages/transformation/transformation.component';
+import { ReferencementnaturelComponent } from './pages/referencementnaturel/referencementnaturel.component';
+import { ProductComponent } from './pages/product/product.component';
+import { IndicateurComponent } from './pages/indicateur/indicateur.component';
 
 
 
@@ -73,6 +79,12 @@ import { RessourceComponent } from './pages/ressource/ressource.component';
     InboundmarketingComponent,
     CreationdesiteComponent,
     RessourceComponent,
+    SeoComponent,
+    SocialmediaComponent,
+    TransformationComponent,
+    ReferencementnaturelComponent,
+    ProductComponent,
+    IndicateurComponent,
   ],
   imports: [
     BrowserModule,

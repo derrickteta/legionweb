@@ -1,7 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Contact } from '../models/Contact.models';
 import { HttpClient } from '@angular/common/http';
-import { Subject } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -36,8 +35,10 @@ pub:"oui",
       pub:"oui",
     },
   ];
-  lien ="https://legion-web.com"
+  public lien ="http://legion-web.com:3000"
   //lien= "http://localhost:3000"
+  
+ 
  // public contact$ = new Subject<Contact[]>();
 /*
   getAddress() {
@@ -73,7 +74,7 @@ pub:"oui",
 
   createNewAddress(contact: Contact) {
     return new Promise((resolve, reject) => {
-      this.http.post(this.lien+'/api/contacts/create', contact,  {responseType: 'text'}).subscribe(
+      this.http.post(this.lien+'/api/contacts/create', contact/*,  {responseType: 'text'}*/).subscribe(
         (response) => {
           resolve(response);
         },

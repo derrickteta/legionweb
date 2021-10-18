@@ -12,6 +12,12 @@ import { AcquisitionComponent } from './pages/acquisition/acquisition.component'
 import { PilotageComponent } from './pages/pilotage/pilotage.component';
 import { DiscuterComponent } from './components/discuter/discuter.component';
 import { InboundmarketingComponent } from './pages/inboundmarketing/inboundmarketing.component';
+import { InboundrecruitingComponent } from './pages/inboundrecruiting/inboundrecruiting.component';
+import { SeoComponent } from './pages/seo/seo.component';
+import { SocialmediaComponent } from './pages/socialmedia/socialmedia.component';
+import { TransformationComponent } from './pages/transformation/transformation.component';
+import { IndicateurComponent } from './pages/indicateur/indicateur.component';
+import { ProductComponent } from './pages/product/product.component';
 
 const routes: Routes = [
   {
@@ -48,18 +54,38 @@ const routes: Routes = [
     path:"blog", component:BlogComponent
   },
   { 
+    path: "home/discuter", component:DiscuterComponent
+  },
+  { 
+    path: "inboundmarketing", component:InboundmarketingComponent
+  },
+  { 
+    path: "inboundrecruiting", component:InboundrecruitingComponent
+  },
+  { 
+    path: "seo", component: SeoComponent
+  },
+  { 
+    path: "socialmedia", component:SocialmediaComponent
+  },
+  { 
+    path: "transformation", component:TransformationComponent
+  },
+  { 
+    path: "indicateurs", component:IndicateurComponent
+  },
+  { 
+    path: "inboundmarketing", component:InboundmarketingComponent
+  },
+  { 
+    path: "product", component:ProductComponent
+  },
+  { 
     path: '',   redirectTo: '/first-component', pathMatch: 'full' 
   },
   { 
     path: '**', component:AccueilComponent
   },
-  { 
-    path: 'home/discuter', component:DiscuterComponent
-  },
-  { 
-    path: 'inboundmarketing', component:InboundmarketingComponent
-  }
-
 
 ];
 

@@ -29,6 +29,23 @@ $fa-font-path: "../../../node_modules/font-awesome/fonts";
     font-family: "Open Sans Regular";
     src: url("assets/polices/Open Sans Regular/Open Sans Regular.ttf") format("truetype");
 }
+@font-face {
+    font-family: "SourceSansPro-Regular";
+    src: url("assets/fonts/SourceSansPro-Regular/SourceSansPro-Regular.eot?iefix") format("embedded-opentype"),  
+    url("assets/fonts/SourceSansPro-Regular/SourceSansPro-Regular.woff") format("woff"), 
+    url("assets/fonts/SourceSansPro-Regular/SourceSansPro-Regular.ttf")  format("truetype"), 
+    url("assets/fonts/SourceSansPro-Regular/SourceSansPro-Regular.svg#SourceSansPro-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "SourceSansPro-Bold";
+    src: url("assets/fonts/source-sans-pro/SourceSansPro-Bold.ttf") format("truetype"), 
+    url("assets/fonts/source-sans-pro/SourceSansPro-Regular.ttf") format("truetype");
+    //url("assets/fonts/source-sans-pro/SourceSansPro-Regular.svg#SourceSansPro-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
 
 body {
     font-size: 16px;

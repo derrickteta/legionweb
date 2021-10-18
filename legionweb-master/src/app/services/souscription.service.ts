@@ -21,8 +21,8 @@ actif:"oui",
       actif:"oui",
     },
   ];
-  //lien="https://legion-web.com";
-  lien="http://localhost:3000"
+  lien="http://legion-web.com:3000";
+  //lien="http://localhost:3000"
  // public souscription$ = new Subject<Souscription[]>();
 /*
   getSouscription() {
@@ -57,8 +57,9 @@ actif:"oui",
   }
 
   createNewSouscription(souscription: Souscription) {
+    console.log(this.lien);
     return new Promise((resolve, reject) => {
-      this.http.post(this.lien+'/api/souscription/create', souscription, {responseType: 'text'}).subscribe(
+      this.http.post(this.lien+'/api/souscription/create', souscription/*, {responseType: 'text'}*/).subscribe(
         (response) => {
           resolve(response);
         },
