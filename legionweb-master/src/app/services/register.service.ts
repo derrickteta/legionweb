@@ -35,7 +35,7 @@ pub:"oui",
       pub:"oui",
     },
   ];
-  public lien ="http://legion-web.com:3000"
+  public lien ="http://legion-web.com"
   //lien= "http://localhost:3000"
   
  

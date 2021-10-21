@@ -21,7 +21,7 @@ actif:"oui",
       actif:"oui",
     },
   ];
-  lien="http://legion-web.com:3000";
+  lien="http://legion-web.com";
   //lien="http://localhost:3000"
  // public souscription$ = new Subject<Souscription[]>();
 /*
