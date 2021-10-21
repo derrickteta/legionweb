@@ -18,6 +18,8 @@ import { SocialmediaComponent } from './pages/socialmedia/socialmedia.component'
 import { TransformationComponent } from './pages/transformation/transformation.component';
 import { IndicateurComponent } from './pages/indicateur/indicateur.component';
 import { ProductComponent } from './pages/product/product.component';
+import { ProspectionComponent } from './pages/prospection/prospection.component';
+import { ReferencementnaturelComponent } from './pages/referencementnaturel/referencementnaturel.component';
 
 const routes: Routes = [
   {
@@ -69,6 +71,9 @@ const routes: Routes = [
     path: "socialmedia", component:SocialmediaComponent
   },
   { 
+    path: "referencementnaturel", component: ReferencementnaturelComponent
+  },
+  { 
     path: "transformation", component:TransformationComponent
   },
   { 
@@ -79,6 +84,9 @@ const routes: Routes = [
   },
   { 
     path: "product", component:ProductComponent
+  },
+  { 
+    path: "prospection", component:ProspectionComponent
   },
   { 
     path: '',   redirectTo: '/first-component', pathMatch: 'full' 

@@ -20,7 +20,7 @@
     }
     /*contenu du blog*/
     
-    //articles
+    //articlesu
     .avantart {
         display: flex;
         justify-content: space-between;
@@ -49,7 +49,8 @@
     .artli a {
         color: #0c0456;
     }
-    
+
+
     .firstart {
         display: flex;
         flex-direction: column;
@@ -179,6 +180,12 @@
         border: black 1px solid;
         border: none;
         cursor: pointer;
+    }
+    .article h3 {
+        color: #0c0456;
+    }
+    .article h3:hover {
+        text-decoration: underline;
     }
     /*fin barre de recherche*/
     

@@ -13,8 +13,8 @@
     padding: 0 15px;
     margin: 0 auto;
 }
-/******************************************transformation digital****************************************/
-.section1_transformation
+/*****************************************Prospection digitale****************************************/
+.section1_prospection
 {
     background: url(../../../assets/image/imgcontact.png) no-repeat; 
     background-size: 100%;
@@ -25,7 +25,7 @@ h1,h2,h3
       font-weight: bold;
       color: #040e47;
 }
-.section2_transformation
+.section2_prospection
 {
     max-width: 70%;
     background: #fff;
@@ -36,7 +36,7 @@ h1,h2,h3
     margin-bottom: 100px;
     color: #3b4654;
 }
-.btn-title6
+.btn-title8
 {
     background-image: linear-gradient(to right,#233688,#5e86db);
     color: #fff;
@@ -44,24 +44,24 @@ h1,h2,h3
     padding: 11px 20px 11px 44px;
     margin: -320px 0px 0px -130px;
 }
-.btn-title6:hover
+.btn-title8:hover
 {
     color: #fff;
 }
-.section2_transformation .cont_article6 .lien6
+.section2_prospection .cont_article8 .lien8
 {
     margin: -105px 0px 50px -80px;
 }
-.section2_transformation .cont_article6 .lien6 a
+.section2_prospection .cont_article8 .lien8 a
 {
     text-decoration: none;
     color: #D8A24A;
 }
-.section2_transformation .cont_article6 .lien6 a:hover
+.section2_prospection .cont_article8 .lien8 a:hover
 {
     color: #dbe3ea;
 }
-.section2_transformation .cont_article6 h1
+.section2_prospection .cont_article8 h1
 {
     color: #040e47;
     font-size: 50px;
@@ -69,52 +69,52 @@ h1,h2,h3
     font-weight: bold;
     text-align: center;
 }
-.section2_transformation .cont_article6 h2
+.section2_prospection .cont_article8 h2
 {
     text-align: center;
 }
-.section2_transformation .cont_article6 .desc_ceo6
+.section2_prospection .cont_article8 .desc_ceo8
 {
     margin: 80px 0px 50px 0px;
 }
-.section2_transformation .cont_article6 .img_ceo6 img
+.section2_prospection .cont_article8 .img_ceo8 img
 {
     height: 50px;
     width: 50px;
     border-radius: 50%;
 }
-.section2_transformation .cont_article6 .img_ceo6
+.section2_prospection .cont_article8 .img_ceo8
 {
     display: inline-block;
 }
-.section2_transformation .cont_article6 .nom_ceo6
+.section2_prospection .cont_article8 .nom_ceo8
 {
     display: inline-block;
     color: #233688;
     margin-left: 10px;
     align-self: center;
 }
-.section2_transformation .cont_article6 .text_art6
+.section2_prospection .cont_article8 .text_art8
 {
-    display: inline-block;
+    text-align: justify;
 }
 /*************************************************Responsive********************************************/
     @media screen and(max-width: 992px)
     {
-        .section2_transformation h1
+        .section2_prospection h1
         {
             padding-top: 50px;
         }
-        .section2_transformation
+        .section2_prospection
         {
             padding: inherit;
             padding-bottom: 50px;
         }
-        .section2_transformation .lien6
+        .section2_prospection .lien8
         {
             margin: inherit !important;
         }
-        .btn-title6
+        .btn-title8
         {
             margin: -130px 0px 0px -25px;
         }
@@ -122,21 +122,21 @@ h1,h2,h3
 
     @media screen and(max-width: 767px)
     {
-        .section2_transformation
+        .section2_prospection
         {
             padding: inherit;
             max-width: 70%;
             padding-bottom: 50px;
         }
-        .section2_transformation .lien6
+        .section2_prospection .lien8
         {
             margin: -105px 0px 50px 30px !important;
         }
-        .btn-title6
+        .btn-title8
         {
             margin: -250px 0px 0px -25px;
         }
-        .section2_transformation h1
+        .section2_prospection h1
         {
             max-width: inherit;
             padding: inherit;
@@ -145,16 +145,16 @@ h1,h2,h3
             font-size: 30px !important;
             line-height: 30px !important;
         }
-        .section2_transformation .cont_article6 h2 
+        .section2_prospection .cont_article8 h2 
         {
             padding-bottom: 40px;
             font-size: 25px;
         }
-        .section2_transformation .desc_ceo6
+        .section2_prospection .desc_ceo8
         {
             margin: inherit !important;
         }
-        .section2_transformation .cont_article6 .nom_ceo6
+        .section2_prospection .cont_article8 .nom_ceo8
         {
             display: inline-block;
             margin-left: 70px;

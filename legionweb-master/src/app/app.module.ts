@@ -44,6 +44,7 @@ import { TransformationComponent } from './pages/transformation/transformation.c
 import { ReferencementnaturelComponent } from './pages/referencementnaturel/referencementnaturel.component';
 import { ProductComponent } from './pages/product/product.component';
 import { IndicateurComponent } from './pages/indicateur/indicateur.component';
+import { ProspectionComponent } from './pages/prospection/prospection.component';
 
 
 
@@ -85,6 +86,7 @@ import { IndicateurComponent } from './pages/indicateur/indicateur.component';
     ReferencementnaturelComponent,
     ProductComponent,
     IndicateurComponent,
+    ProspectionComponent,
   ],
   imports: [
     BrowserModule,
