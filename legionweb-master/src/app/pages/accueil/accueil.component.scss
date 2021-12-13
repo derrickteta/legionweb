@@ -54,6 +54,13 @@
     padding: 10% 0 0 10%;
 }
 
+.btn_accueil1 {
+    padding: 1.5% 2% 1.5% 2%;
+}
+.btn_accueil2 {
+    padding: 1% 2% 1% 2%;
+}
+
 
 /*---------Services---------*/
 
@@ -91,6 +98,145 @@ h1 {
     background-color: white;
     //margin: 2% 15px 0 0;
     padding: 0;
+}
+/***************************************** Livre Blanc***********************************************/
+.all_livre
+{
+    background: #f6f5fb;
+    padding: 60px 0px 40px 0px;
+}
+.livre_blanc .traitl_h2
+{
+    display: inline-block;
+    width: 45px;
+    height: 2px;
+    background: #040e47;
+    margin-right: 15px;
+}
+.livre_blanc h2
+{
+    font-weight: bold;
+    padding-bottom: 40px;
+    display: inline-block;
+    vertical-align: top;
+    color: #040e47;
+    font-family: 'LatoBlack',sans-serif;
+}
+.livre_blanc .guide
+{
+    color: #040e47;
+    font-family: 'LatoRegular',sans-serif !important;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.livre_blanc .suite_guide
+{
+    margin-bottom: 50px;
+}
+.img_livre
+{
+    padding-left: 15%;
+    margin-top: -30px;
+}
+.img_livre img
+{
+    width: 330px;
+}
+/**************************************************outils************************************************/
+.sect_outils
+{
+    background: white;
+    padding: 70px 0px 70px 0px;
+}
+.sect_outils .trait_outils
+{
+    display: inline-block;
+    width: 45px;
+    height: 2px;
+    background: #040e47;
+}
+.sect_outils h2
+{
+    font-weight: bold;
+    padding-bottom: 40px;
+    display: inline-block;
+    vertical-align: top;
+    color: #040e47;
+    font-family: 'LatoBlack',sans-serif;
+    margin-top: -30px;
+    margin-left: 60px;
+}
+.cagid
+{
+    padding-top: 45px;
+}
+.partner
+{
+    padding-left: 80px;
+}
+/***********************************************3 articles clés****************************************/
+.trois_articles 
+{
+    background-image: linear-gradient(to bottom, #F9F7F3, #FAFAFD);
+    color: #0c0456;
+    margin: 4% 6% 9% 6%;
+}
+.trois_articles .trait_retour
+{
+    display: inline-block;
+    width: 45px;
+    height: 2px;
+    background: #040e47;
+    margin-right: 15px;
+}
+.trois_articles h2
+{
+    font-weight: bold;
+    padding-bottom: 40px;
+    display: inline-block;
+    vertical-align: top;
+    color: #040e47;
+    font-family: 'LatoBlack',sans-serif;
+}
+.article {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px #D8A24A;
+    padding: 3% 0 3% 0;
+}
+.art3 {
+    border: none;
+}
+
+.articleimg {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.service-img {
+    display: flex;
+    align-self: center;
+    width: 257px;
+    //height: 50px;
+}
+.article h3 {
+    color: #0c0456;
+    font-size: 1.3em;
+}
+.article h3:hover {
+    text-decoration: underline;
+}
+h6 {
+    display: flex;
+    align-self: center;
+    font-size: 80%;
+    margin-left: 3%;
+}
+
+.auteurart {
+    display: flex;
+    margin-top: 5%;
 }
 
 @media (max-width: 767px) {
@@ -188,6 +334,11 @@ h1 {
 .newsletter,
 .parlent {
     margin: 10% 5% 10% 5%;
+}
+
+.cerified 
+{
+    padding-left: 60px;
 }
 
 

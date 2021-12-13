@@ -17,7 +17,7 @@
 
                     </p>
                 </div>
-                <button type="button" (click)="scrol('discuterho')" style="margin-left:5%;" class="commencer btn btn-primary"> Commencez maintenant</button>
+                <button type="button" (click)="scrol('discuterho')" style="margin-left:5%;" class="commencer btn btn-primary btn_accueil1"> Commencez maintenant</button>
             </div>
             <div class="col-md-4 container d-none d-md-block" text-center>
                 <img src="assets/image/bann4.png" class="img-fluid img-responsive imgbanner" />
@@ -116,7 +116,7 @@
         <p class="d-sm-none col-12 afterservices " style="text-align: justify;">
             Nous aidons les entreprises à améliorer leur visibilité par le digital à générer des vues et des opportunités d'affaires.
         </p>
-        <button type="button " (click)="scrol( 'discuterho') " class="btn btn-primary "> On peut vous aider ?</button>
+        <button type="button " (click)="scrol( 'discuterho') " class="btn btn-primary btn_accueil2"> On peut vous aider ?</button>
     </div>
     <div class="client ">
 
@@ -131,6 +131,134 @@
     <div class="parlent ">
         <app-parlentdenous></app-parlentdenous>
     </div>
+    <div class="all_livre">
+        <div class="container">
+            <div class="row livre_blanc">
+                <div class="col-12 col-md-6 order-2 order-md-1 text_livre">
+                    <div class="traitl_h2"></div>
+                    <h2>Livre Blanc<br>How to Reach Escape Velocity</h2>
+                    <p class="guide">Un guide pour aider votre entreprise à passer un cap et appliquer la méthode Escape Velocity dès maintenant.</p>
+                    <p class="suite_guide">
+                        Pour chacun des 4 éléments de la méthode REV, ce livre blanc délivre une roadmap,
+                        des bonnes pratiques applicables rapidement et des outils pour gagner du temps.
+                    </p>
+                    <div>
+                        <button type="button" class="centrer mobile btn btn-primary ">Télécharger maintenant</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 order-2 order-md-1 img_livre">
+                    <img src="assets/image/imglivre_blanc.jpg"/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sect_outils">
+        <div class="container">
+            <div class="trait_outils"></div>
+            <h2>Les outils pour accélérer votre génération de trafic, de leads et de nouveaux clients</h2>
+            <div class="row">
+                <div class="col-12 col-sm-4 cagid">
+                    <img src="assets/image/logocagid.png"/>
+                </div>
+                <div class="col-12 col-sm-4 partner">
+                    <img src="assets/image/logo-certif-google.png"/>
+                </div>
+                <div class="col-12 col-sm-4 cerified">
+                    <img src="assets/image/logo-certif-Drift-certified.png"/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="trois_articles">
+        <div class="trait_retour"></div>
+        <h2>Nos derniers retours d’expériences</h2>
+        <div class="container-fluid">
+            <div class="row article">
+                <div class="col-12 col-sm-6 order-1 order-sm-1">
+                    <div class="d-sm-none ">
+                        <br><br>
+                    </div>
+                    <a [routerLink]="['/seo']"><img src="assets/image/seo.png" class="service-img "></a>
+                </div>
+                <div class="col-12 col-sm-6 order-2 order-sm-2 arttexte">
+                    <div class="d-sm-none ">
+                        <br>
+                    </div>
+                    <a [routerLink]="['/seo']"><h3>SEO (Search Engine Optimization) : De quoi s’agit-il ?</h3></a>
+                    <p>
+                        <br> Optimiser son référencement naturel est primordial pour être visible sur le web. Vous aurez beau avoir plus beau site du monde, sans référencement, vous serez noyé parmi les 2,2 millions de requêtes effectuées sur Google. Ainsi,
+                        propulser votre site sur la première page de Google peut s’avérer la clé pour attirer des prospects de qualité à visiter votre site. En cela, le SEO est un élément décisif pour nous chez LegionWeb et que nous décryptons au cours de
+                        ce petit guide.
+                        <a [routerLink]="['/seo']">suite...</a>
+                    </p>
+                    <div class="d-none d-sm-block">
+                        <!--<button class="btn-primary">lire la suite ...</button>-->
+                    </div>
+                    <div class="auteurart">
+                        <img src="assets/image/imgclaude1.jpeg" class=" articleimg  img-circle">
+                        <h6>Claude AYISSI CEO et Fondateur chez LegionWeb</h6>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row article">
+                <div class="col-12 col-sm-6 order-1 order-sm-1">
+                    <div class="d-sm-none ">
+                        <br><br>
+                    </div>
+                    <a [routerLink]="['/transformation']"><img src="assets/image/transformation.jpeg" class="service-img "></a>
+                </div>
+                <div class="col-12 col-sm-6 order-2 order-sm-2 arttexte">
+                    <div class="d-sm-none ">
+                        <br>
+                    </div>
+                    <a [routerLink]="['/transformation']"><h3>La transformation digitale : De quoi s’agit-il ?</h3></a>
+                    <p>
+                        <br> Depuis peu le sujet de la transformation numérique est l'une des principales préoccupations des entreprises. Il ne se passe pas une journée ou presque sans que ce terme ne soit mentionné ou utilisé dans un article de presse ou
+                        par un blog. Par exemple si vous tapez le mots transformation digitale sur le site des Échos, vous verrez que le nombre d'articles traitant de ce sujet est tout simplement vertigineux.
+                        <a [routerLink]="['/transformation']">suite...</a>
+                    </p>
+                    <div class="d-none d-sm-block">
+                        <!--<button class="btn-primary">lire la suite ...</button>-->
+                    </div>
+                    <div class="auteurart">
+                        <img src="assets/image/imgclaude1.jpeg" class=" articleimg  img-circle">
+                        <h6>Claude AYISSI CEO et Fondateur chez LegionWeb</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row article art3">
+                <div class="col-12 col-sm-6 order-1 order-sm-1">
+                    <div class="d-sm-none ">
+                        <br><br>
+                    </div>
+                    <a [routerLink]="['/socialmedia']"><img src="assets/image/strategie.jpg" class="service-img "></a>
+                </div>
+                <div class=" col-12 col-sm-6 order-2 order-sm-2 arttexte">
+                    <div class="d-sm-none ">
+                        <br>
+                    </div>
+                    <a [routerLink]="['/socialmedia']"><h3>Pourquoi avoir une stratégie social media pour votre entreprise ?</h3></a>
+                    <p>
+                        <br>De nos jours, l'usage des réseaux sociaux est idéal pour la communication de votre entreprise. Ces supports permettent d'être au plus proche des candidats, et comportent de ce fait de nombreux avantages pour optimiser l'image d'une
+                        société. Votre marque employeur se doit d'être visible par le plus de gens possible. C'est dans ce but que l'inbound recruiting mixe l'approche inbound marketing et les besoins RH.
+                        <a [routerLink]="['/socialmedia']">suite...</a><br>
+                    </p>
+                    <div class="d-none d-sm-block">
+                        <!--<button class="btn-primary">lire la suite ...</button>-->
+                    </div>
+                    <div class="auteurart">
+                        <img src="assets/image/imgclaude1.jpeg" class=" articleimg  img-circle">
+                        <h6>Claude AYISSI CEO et Fondateur chez LegionWeb</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="mobile newsletter ">
         <div class="d-sm-none">
             <br>
